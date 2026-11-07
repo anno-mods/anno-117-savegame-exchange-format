@@ -1,0 +1,327 @@
+test,ref,name,product,n,group,algorithm,error,measured_shares
+A,44,Handmirrors Uxo - Cin,Handmirrors,3,pure sinks,weight_amount,0.234,0.32 0.46 0.23
+A,44,Handmirrors Uxo - Cin,Handmirrors,3,pure sinks,weight_50,0.234,0.32 0.46 0.23
+A,44,Handmirrors Uxo - Cin,Handmirrors,3,pure sinks,slots_only,0.234,0.32 0.46 0.23
+A,44,Handmirrors Uxo - Cin,Handmirrors,3,pure sinks,equal,0.123,0.32 0.46 0.23
+A,44,Handmirrors Uxo - Cin,Handmirrors,3,pure sinks,cascade,0.185,0.32 0.46 0.23
+A,48,Statuettes Nil - Syc,Statuettes,5,circuit with relay,weight_amount,0.455,0.52 0.43 0.04 0.00 0.00
+A,48,Statuettes Nil - Syc,Statuettes,5,circuit with relay,weight_50,0.455,0.52 0.43 0.04 0.00 0.00
+A,48,Statuettes Nil - Syc,Statuettes,5,circuit with relay,slots_only,0.555,0.52 0.43 0.04 0.00 0.00
+A,48,Statuettes Nil - Syc,Statuettes,5,circuit with relay,equal,0.555,0.52 0.43 0.04 0.00 0.00
+A,48,Statuettes Nil - Syc,Statuettes,5,circuit with relay,cascade,0.478,0.52 0.43 0.04 0.00 0.00
+A,64,Amphorae Arg - Jul,Amphorae,2,pure sinks,weight_amount,0.000,1.00 0.00
+A,64,Amphorae Arg - Jul,Amphorae,2,pure sinks,weight_50,0.000,1.00 0.00
+A,64,Amphorae Arg - Jul,Amphorae,2,pure sinks,slots_only,0.500,1.00 0.00
+A,64,Amphorae Arg - Jul,Amphorae,2,pure sinks,equal,0.500,1.00 0.00
+A,64,Amphorae Arg - Jul,Amphorae,2,pure sinks,cascade,0.000,1.00 0.00
+A,68,Chariots Uxo - Cin,Chariots,3,pure sinks,weight_amount,0.236,0.51 0.42 0.07
+A,68,Chariots Uxo - Cin,Chariots,3,pure sinks,weight_50,0.236,0.51 0.42 0.07
+A,68,Chariots Uxo - Cin,Chariots,3,pure sinks,slots_only,0.470,0.51 0.42 0.07
+A,68,Chariots Uxo - Cin,Chariots,3,pure sinks,equal,0.265,0.51 0.42 0.07
+A,68,Chariots Uxo - Cin,Chariots,3,pure sinks,cascade,0.132,0.51 0.42 0.07
+A,69,Bird Tongues in Aspic Cra - Cin,Bird Tongues in Aspic,3,pure sinks,weight_amount,0.184,0.45 0.40 0.15
+A,69,Bird Tongues in Aspic Cra - Cin,Bird Tongues in Aspic,3,pure sinks,weight_50,0.184,0.45 0.40 0.15
+A,69,Bird Tongues in Aspic Cra - Cin,Bird Tongues in Aspic,3,pure sinks,slots_only,0.434,0.45 0.40 0.15
+A,69,Bird Tongues in Aspic Cra - Cin,Bird Tongues in Aspic,3,pure sinks,equal,0.184,0.45 0.40 0.15
+A,69,Bird Tongues in Aspic Cra - Cin,Bird Tongues in Aspic,3,pure sinks,cascade,0.136,0.45 0.40 0.15
+A,71,Clan Shields Cud - Can,Beer,4,circuit with relay,weight_amount,0.429,0.12 0.00 0.16 0.71
+A,71,Clan Shields Cud - Can,Beer,4,circuit with relay,weight_50,0.429,0.12 0.00 0.16 0.71
+A,71,Clan Shields Cud - Can,Beer,4,circuit with relay,slots_only,0.464,0.12 0.00 0.16 0.71
+A,71,Clan Shields Cud - Can,Beer,4,circuit with relay,equal,0.464,0.12 0.00 0.16 0.71
+A,71,Clan Shields Cud - Can,Beer,4,circuit with relay,cascade,0.875,0.12 0.00 0.16 0.71
+A,71,Clan Shields Cud - Can,Trousers,4,circuit with relay,weight_amount,0.456,0.00 0.09 0.76 0.15
+A,71,Clan Shields Cud - Can,Trousers,4,circuit with relay,weight_50,0.456,0.00 0.09 0.76 0.15
+A,71,Clan Shields Cud - Can,Trousers,4,circuit with relay,slots_only,0.513,0.00 0.09 0.76 0.15
+A,71,Clan Shields Cud - Can,Trousers,4,circuit with relay,equal,0.513,0.00 0.09 0.76 0.15
+A,71,Clan Shields Cud - Can,Trousers,4,circuit with relay,cascade,1.000,0.00 0.09 0.76 0.15
+A,71,Clan Shields Cud - Can,Drinking Horns,4,circuit with relay,weight_amount,0.564,0.00 0.10 0.87 0.03
+A,71,Clan Shields Cud - Can,Drinking Horns,4,circuit with relay,weight_50,0.564,0.00 0.10 0.87 0.03
+A,71,Clan Shields Cud - Can,Drinking Horns,4,circuit with relay,slots_only,0.621,0.00 0.10 0.87 0.03
+A,71,Clan Shields Cud - Can,Drinking Horns,4,circuit with relay,equal,0.621,0.00 0.10 0.87 0.03
+A,71,Clan Shields Cud - Can,Drinking Horns,4,circuit with relay,cascade,1.000,0.00 0.10 0.87 0.03
+A,75,Beer Can - Jul,Beer,3,pure sinks,weight_amount,0.308,0.54 0.26 0.19
+A,75,Beer Can - Jul,Beer,3,pure sinks,weight_50,0.308,0.54 0.26 0.19
+A,75,Beer Can - Jul,Beer,3,pure sinks,slots_only,0.308,0.54 0.26 0.19
+A,75,Beer Can - Jul,Beer,3,pure sinks,equal,0.210,0.54 0.26 0.19
+A,75,Beer Can - Jul,Beer,3,pure sinks,cascade,0.194,0.54 0.26 0.19
+A,76,Fine Glass Nil - Syc,Fine Glass,5,circuit with relay,weight_amount,0.175,0.67 0.33 0.00 0.00 0.00
+A,76,Fine Glass Nil - Syc,Fine Glass,5,circuit with relay,weight_50,0.175,0.67 0.33 0.00 0.00 0.00
+A,76,Fine Glass Nil - Syc,Fine Glass,5,circuit with relay,slots_only,0.600,0.67 0.33 0.00 0.00 0.00
+A,76,Fine Glass Nil - Syc,Fine Glass,5,circuit with relay,equal,0.600,0.67 0.33 0.00 0.00 0.00
+A,76,Fine Glass Nil - Syc,Fine Glass,5,circuit with relay,cascade,0.325,0.67 0.33 0.00 0.00 0.00
+A,78,Garum Nus - Uxo,Garum,5,circuit with relay,weight_amount,0.201,0.60 0.25 0.15 0.00 0.00
+A,78,Garum Nus - Uxo,Garum,5,circuit with relay,weight_50,0.201,0.60 0.25 0.15 0.00 0.00
+A,78,Garum Nus - Uxo,Garum,5,circuit with relay,slots_only,0.450,0.60 0.25 0.15 0.00 0.00
+A,78,Garum Nus - Uxo,Garum,5,circuit with relay,equal,0.450,0.60 0.25 0.15 0.00 0.00
+A,78,Garum Nus - Uxo,Garum,5,circuit with relay,cascade,0.399,0.60 0.25 0.15 0.00 0.00
+A,80,Brooches Can - Jul,Brooches,3,pure sinks,weight_amount,0.247,0.48 0.35 0.17
+A,80,Brooches Can - Jul,Brooches,3,pure sinks,weight_50,0.247,0.48 0.35 0.17
+A,80,Brooches Can - Jul,Brooches,3,pure sinks,slots_only,0.247,0.48 0.35 0.17
+A,80,Brooches Can - Jul,Brooches,3,pure sinks,equal,0.161,0.48 0.35 0.17
+A,80,Brooches Can - Jul,Brooches,3,pure sinks,cascade,0.173,0.48 0.35 0.17
+A,82,Cheese Uxo - Jul,Cheese,2,pure sinks,weight_amount,0.344,0.83 0.17
+A,82,Cheese Uxo - Jul,Cheese,2,pure sinks,weight_50,0.344,0.83 0.17
+A,82,Cheese Uxo - Jul,Cheese,2,pure sinks,slots_only,0.415,0.83 0.17
+A,82,Cheese Uxo - Jul,Cheese,2,pure sinks,equal,0.332,0.83 0.17
+A,82,Cheese Uxo - Jul,Cheese,2,pure sinks,cascade,0.118,0.83 0.17
+A,85,Tunics Cud - Uxo,Eels,4,circuit with relay,weight_amount,0.607,0.00 0.89 0.11 0.00
+A,85,Tunics Cud - Uxo,Eels,4,circuit with relay,weight_50,0.607,0.00 0.89 0.11 0.00
+A,85,Tunics Cud - Uxo,Eels,4,circuit with relay,slots_only,0.639,0.00 0.89 0.11 0.00
+A,85,Tunics Cud - Uxo,Eels,4,circuit with relay,equal,0.639,0.00 0.89 0.11 0.00
+A,85,Tunics Cud - Uxo,Eels,4,circuit with relay,cascade,1.000,0.00 0.89 0.11 0.00
+A,85,Tunics Cud - Uxo,Tunics,4,circuit with relay,weight_amount,0.447,0.69 0.08 0.23 0.00
+A,85,Tunics Cud - Uxo,Tunics,4,circuit with relay,weight_50,0.447,0.69 0.08 0.23 0.00
+A,85,Tunics Cud - Uxo,Tunics,4,circuit with relay,slots_only,0.439,0.69 0.08 0.23 0.00
+A,85,Tunics Cud - Uxo,Tunics,4,circuit with relay,equal,0.439,0.69 0.08 0.23 0.00
+A,85,Tunics Cud - Uxo,Tunics,4,circuit with relay,cascade,0.311,0.69 0.08 0.23 0.00
+A,85,Tunics Cud - Uxo,Reed Shoes,4,circuit with relay,weight_amount,0.110,0.14 0.31 0.31 0.24
+A,85,Tunics Cud - Uxo,Reed Shoes,4,circuit with relay,weight_50,0.110,0.14 0.31 0.31 0.24
+A,85,Tunics Cud - Uxo,Reed Shoes,4,circuit with relay,slots_only,0.122,0.14 0.31 0.31 0.24
+A,85,Tunics Cud - Uxo,Reed Shoes,4,circuit with relay,equal,0.122,0.14 0.31 0.31 0.24
+A,85,Tunics Cud - Uxo,Reed Shoes,4,circuit with relay,cascade,0.860,0.14 0.31 0.31 0.24
+A,85,Tunics Cud - Uxo,Sausages,4,circuit with relay,weight_amount,0.306,0.00 0.44 0.40 0.16
+A,85,Tunics Cud - Uxo,Sausages,4,circuit with relay,weight_50,0.306,0.00 0.44 0.40 0.16
+A,85,Tunics Cud - Uxo,Sausages,4,circuit with relay,slots_only,0.337,0.00 0.44 0.40 0.16
+A,85,Tunics Cud - Uxo,Sausages,4,circuit with relay,equal,0.337,0.00 0.44 0.40 0.16
+A,85,Tunics Cud - Uxo,Sausages,4,circuit with relay,cascade,1.000,0.00 0.44 0.40 0.16
+A,85,Tunics Cud - Uxo,Amphorae,4,circuit with relay,weight_amount,0.219,0.32 0.29 0.00 0.39
+A,85,Tunics Cud - Uxo,Amphorae,4,circuit with relay,weight_50,0.219,0.32 0.29 0.00 0.39
+A,85,Tunics Cud - Uxo,Amphorae,4,circuit with relay,slots_only,0.250,0.32 0.29 0.00 0.39
+A,85,Tunics Cud - Uxo,Amphorae,4,circuit with relay,equal,0.250,0.32 0.29 0.00 0.39
+A,85,Tunics Cud - Uxo,Amphorae,4,circuit with relay,cascade,0.681,0.32 0.29 0.00 0.39
+A,87,Roast Beef Cud - Jul,Roast Beef,3,circuit with relay,weight_amount,0.023,0.64 0.36 0.00
+A,87,Roast Beef Cud - Jul,Roast Beef,3,circuit with relay,weight_50,0.023,0.64 0.36 0.00
+A,87,Roast Beef Cud - Jul,Roast Beef,3,circuit with relay,slots_only,0.333,0.64 0.36 0.00
+A,87,Roast Beef Cud - Jul,Roast Beef,3,circuit with relay,equal,0.333,0.64 0.36 0.00
+A,87,Roast Beef Cud - Jul,Roast Beef,3,circuit with relay,cascade,0.357,0.64 0.36 0.00
+A,90,Clan Shields Cud - Cin,Clan Shields,3,circuit with relay,weight_amount,0.000,0.00 0.00 1.00
+A,90,Clan Shields Cud - Cin,Clan Shields,3,circuit with relay,weight_50,0.000,0.00 0.00 1.00
+A,90,Clan Shields Cud - Cin,Clan Shields,3,circuit with relay,slots_only,0.667,0.00 0.00 1.00
+A,90,Clan Shields Cud - Cin,Clan Shields,3,circuit with relay,equal,0.667,0.00 0.00 1.00
+A,90,Clan Shields Cud - Cin,Clan Shields,3,circuit with relay,cascade,1.000,0.00 0.00 1.00
+A,92,Cloaks Cud - Jul,Cloaks,3,pure sinks,weight_amount,0.341,0.54 0.33 0.13
+A,92,Cloaks Cud - Jul,Cloaks,3,pure sinks,weight_50,0.341,0.54 0.33 0.13
+A,92,Cloaks Cud - Jul,Cloaks,3,pure sinks,slots_only,0.413,0.54 0.33 0.13
+A,92,Cloaks Cud - Jul,Cloaks,3,pure sinks,equal,0.208,0.54 0.33 0.13
+A,92,Cloaks Cud - Jul,Cloaks,3,pure sinks,cascade,0.049,0.54 0.33 0.13
+A,95,Weapons Whi - Cin,Weapons,2,circuit with relay,weight_amount,0.000,1.00 0.00
+A,95,Weapons Whi - Cin,Weapons,2,circuit with relay,weight_50,0.000,1.00 0.00
+A,95,Weapons Whi - Cin,Weapons,2,circuit with relay,slots_only,0.500,1.00 0.00
+A,95,Weapons Whi - Cin,Weapons,2,circuit with relay,equal,0.500,1.00 0.00
+A,95,Weapons Whi - Cin,Weapons,2,circuit with relay,cascade,0.000,1.00 0.00
+A,96,Apotropaic Talismans Sta - Uxo,Apotropaic Talismans,5,circuit with relay,weight_amount,0.357,0.00 0.30 0.05 0.16 0.49
+A,96,Apotropaic Talismans Sta - Uxo,Apotropaic Talismans,5,circuit with relay,weight_50,0.357,0.00 0.30 0.05 0.16 0.49
+A,96,Apotropaic Talismans Sta - Uxo,Apotropaic Talismans,5,circuit with relay,slots_only,0.386,0.00 0.30 0.05 0.16 0.49
+A,96,Apotropaic Talismans Sta - Uxo,Apotropaic Talismans,5,circuit with relay,equal,0.386,0.00 0.30 0.05 0.16 0.49
+A,96,Apotropaic Talismans Sta - Uxo,Apotropaic Talismans,5,circuit with relay,cascade,1.000,0.00 0.30 0.05 0.16 0.49
+A,103,Garum Nus - Cin,Garum,2,pure sinks,weight_amount,0.000,1.00 0.00
+A,103,Garum Nus - Cin,Garum,2,pure sinks,weight_50,0.000,1.00 0.00
+A,103,Garum Nus - Cin,Garum,2,pure sinks,slots_only,0.500,1.00 0.00
+A,103,Garum Nus - Cin,Garum,2,pure sinks,equal,0.500,1.00 0.00
+A,103,Garum Nus - Cin,Garum,2,pure sinks,cascade,0.000,1.00 0.00
+A,104,Togas Cin - Uxo,Togas,2,pure sinks,weight_amount,0.364,0.70 0.30
+A,104,Togas Cin - Uxo,Togas,2,pure sinks,weight_50,0.298,0.70 0.30
+A,104,Togas Cin - Uxo,Togas,2,pure sinks,slots_only,0.364,0.70 0.30
+A,104,Togas Cin - Uxo,Togas,2,pure sinks,equal,0.198,0.70 0.30
+A,104,Togas Cin - Uxo,Togas,2,pure sinks,cascade,0.198,0.70 0.30
+A,110,Sandals Aet - Cin,Sandals,2,pure sinks,weight_amount,0.331,0.66 0.34
+A,110,Sandals Aet - Cin,Sandals,2,pure sinks,weight_50,0.331,0.66 0.34
+A,110,Sandals Aet - Cin,Sandals,2,pure sinks,slots_only,0.331,0.66 0.34
+A,110,Sandals Aet - Cin,Sandals,2,pure sinks,equal,0.164,0.66 0.34
+A,110,Sandals Aet - Cin,Sandals,2,pure sinks,cascade,0.164,0.66 0.34
+A,113,Sandals Nil - Syc,Sandals,5,circuit with relay,weight_amount,0.125,0.00 0.31 0.23 0.00 0.46
+A,113,Sandals Nil - Syc,Sandals,5,circuit with relay,weight_50,0.125,0.00 0.31 0.23 0.00 0.46
+A,113,Sandals Nil - Syc,Sandals,5,circuit with relay,slots_only,0.400,0.00 0.31 0.23 0.00 0.46
+A,113,Sandals Nil - Syc,Sandals,5,circuit with relay,equal,0.400,0.00 0.31 0.23 0.00 0.46
+A,113,Sandals Nil - Syc,Sandals,5,circuit with relay,cascade,1.000,0.00 0.31 0.23 0.00 0.46
+A,131,Cheese Nil - Syc,Cheese,5,circuit with relay,weight_amount,0.116,0.00 0.37 0.26 0.00 0.37
+A,131,Cheese Nil - Syc,Cheese,5,circuit with relay,weight_50,0.116,0.00 0.37 0.26 0.00 0.37
+A,131,Cheese Nil - Syc,Cheese,5,circuit with relay,slots_only,0.400,0.00 0.37 0.26 0.00 0.37
+A,131,Cheese Nil - Syc,Cheese,5,circuit with relay,equal,0.400,0.00 0.37 0.26 0.00 0.37
+A,131,Cheese Nil - Syc,Cheese,5,circuit with relay,cascade,1.000,0.00 0.37 0.26 0.00 0.37
+A,136,Wesekh Collars Lis - Nil,Wesekh Collars,5,circuit with relay,weight_amount,0.286,0.36 0.00 0.22 0.42 0.00
+A,136,Wesekh Collars Lis - Nil,Wesekh Collars,5,circuit with relay,weight_50,0.286,0.36 0.00 0.22 0.42 0.00
+A,136,Wesekh Collars Lis - Nil,Wesekh Collars,5,circuit with relay,slots_only,0.400,0.36 0.00 0.22 0.42 0.00
+A,136,Wesekh Collars Lis - Nil,Wesekh Collars,5,circuit with relay,equal,0.400,0.36 0.00 0.22 0.42 0.00
+A,136,Wesekh Collars Lis - Nil,Wesekh Collars,5,circuit with relay,cascade,0.637,0.36 0.00 0.22 0.42 0.00
+A,143,Cin - Nus,Kayk,3,circuit with relay,weight_amount,0.455,0.00 1.00 0.00
+A,143,Cin - Nus,Kayk,3,circuit with relay,weight_50,0.455,0.00 1.00 0.00
+A,143,Cin - Nus,Kayk,3,circuit with relay,slots_only,0.667,0.00 1.00 0.00
+A,143,Cin - Nus,Kayk,3,circuit with relay,equal,0.667,0.00 1.00 0.00
+A,143,Cin - Nus,Kayk,3,circuit with relay,cascade,1.000,0.00 1.00 0.00
+A,143,Cin - Nus,Milk of Poppea,3,circuit with relay,weight_amount,0.545,0.00 0.00 1.00
+A,143,Cin - Nus,Milk of Poppea,3,circuit with relay,weight_50,0.545,0.00 0.00 1.00
+A,143,Cin - Nus,Milk of Poppea,3,circuit with relay,slots_only,0.667,0.00 0.00 1.00
+A,143,Cin - Nus,Milk of Poppea,3,circuit with relay,equal,0.667,0.00 0.00 1.00
+A,143,Cin - Nus,Milk of Poppea,3,circuit with relay,cascade,1.000,0.00 0.00 1.00
+A,144,Rare Meat Platters Nil - Uxo,Rare Meat Platters,2,pure sinks,weight_amount,0.122,0.28 0.72
+A,144,Rare Meat Platters Nil - Uxo,Rare Meat Platters,2,pure sinks,weight_50,0.122,0.28 0.72
+A,144,Rare Meat Platters Nil - Uxo,Rare Meat Platters,2,pure sinks,slots_only,0.222,0.28 0.72
+A,144,Rare Meat Platters Nil - Uxo,Rare Meat Platters,2,pure sinks,equal,0.222,0.28 0.72
+A,144,Rare Meat Platters Nil - Uxo,Rare Meat Platters,2,pure sinks,cascade,0.222,0.28 0.72
+A,146,Porridge Sta - Nil,Porridge,5,circuit with relay,weight_amount,0.500,0.53 0.00 0.00 0.47 0.00
+A,146,Porridge Sta - Nil,Porridge,5,circuit with relay,weight_50,0.500,0.53 0.00 0.00 0.47 0.00
+A,146,Porridge Sta - Nil,Porridge,5,circuit with relay,slots_only,0.600,0.53 0.00 0.00 0.47 0.00
+A,146,Porridge Sta - Nil,Porridge,5,circuit with relay,equal,0.600,0.53 0.00 0.00 0.47 0.00
+A,146,Porridge Sta - Nil,Porridge,5,circuit with relay,cascade,0.473,0.53 0.00 0.00 0.47 0.00
+A,147,Bread Sta - Nil,Bread,5,circuit with relay,weight_amount,0.097,0.24 0.00 0.34 0.00 0.43
+A,147,Bread Sta - Nil,Bread,5,circuit with relay,weight_50,0.097,0.24 0.00 0.34 0.00 0.43
+A,147,Bread Sta - Nil,Bread,5,circuit with relay,slots_only,0.400,0.24 0.00 0.34 0.00 0.43
+A,147,Bread Sta - Nil,Bread,5,circuit with relay,equal,0.400,0.24 0.00 0.34 0.00 0.43
+A,147,Bread Sta - Nil,Bread,5,circuit with relay,cascade,0.763,0.24 0.00 0.34 0.00 0.43
+A,148,Kollurion Lis - Uxo,Kollurion,5,circuit with relay,weight_amount,0.172,0.25 0.00 0.09 0.25 0.42
+A,148,Kollurion Lis - Uxo,Kollurion,5,circuit with relay,weight_50,0.172,0.25 0.00 0.09 0.25 0.42
+A,148,Kollurion Lis - Uxo,Kollurion,5,circuit with relay,slots_only,0.312,0.25 0.00 0.09 0.25 0.42
+A,148,Kollurion Lis - Uxo,Kollurion,5,circuit with relay,equal,0.312,0.25 0.00 0.09 0.25 0.42
+A,148,Kollurion Lis - Uxo,Kollurion,5,circuit with relay,cascade,0.755,0.25 0.00 0.09 0.25 0.42
+A,151,Dates Fal - Syc,Dates,4,circuit with relay,weight_amount,0.100,0.34 0.25 0.28 0.14
+A,151,Dates Fal - Syc,Dates,4,circuit with relay,weight_50,0.100,0.34 0.25 0.28 0.14
+A,151,Dates Fal - Syc,Dates,4,circuit with relay,slots_only,0.116,0.34 0.25 0.28 0.14
+A,151,Dates Fal - Syc,Dates,4,circuit with relay,equal,0.116,0.34 0.25 0.28 0.14
+A,151,Dates Fal - Syc,Dates,4,circuit with relay,cascade,0.664,0.34 0.25 0.28 0.14
+A,154,Mud Bricks Syc - Sta,Mud Bricks,3,pure sinks,weight_amount,0.000,0.00 1.00 0.00
+A,154,Mud Bricks Syc - Sta,Mud Bricks,3,pure sinks,weight_50,0.000,0.00 1.00 0.00
+A,154,Mud Bricks Syc - Sta,Mud Bricks,3,pure sinks,slots_only,0.700,0.00 1.00 0.00
+A,154,Mud Bricks Syc - Sta,Mud Bricks,3,pure sinks,equal,0.667,0.00 1.00 0.00
+A,154,Mud Bricks Syc - Sta,Mud Bricks,3,pure sinks,cascade,0.400,0.00 1.00 0.00
+A,156,Tiles Syc - Sta,Tiles,3,pure sinks,weight_amount,0.181,0.58 0.42 0.00
+A,156,Tiles Syc - Sta,Tiles,3,pure sinks,weight_50,0.181,0.58 0.42 0.00
+A,156,Tiles Syc - Sta,Tiles,3,pure sinks,slots_only,0.500,0.58 0.42 0.00
+A,156,Tiles Syc - Sta,Tiles,3,pure sinks,equal,0.333,0.58 0.42 0.00
+A,156,Tiles Syc - Sta,Tiles,3,pure sinks,cascade,0.181,0.58 0.42 0.00
+A,157,Concrete Nil - Lis,Concrete,3,pure sinks,weight_amount,0.047,0.38 0.62 0.00
+A,157,Concrete Nil - Lis,Concrete,3,pure sinks,weight_50,0.047,0.38 0.62 0.00
+A,157,Concrete Nil - Lis,Concrete,3,pure sinks,slots_only,0.500,0.38 0.62 0.00
+A,157,Concrete Nil - Lis,Concrete,3,pure sinks,equal,0.333,0.38 0.62 0.00
+A,157,Concrete Nil - Lis,Concrete,3,pure sinks,cascade,0.218,0.38 0.62 0.00
+A,160,Stuffed Goose Nil - Syc,Stuffed Goose,5,circuit with relay,weight_amount,0.190,0.31 0.38 0.19 0.08 0.03
+A,160,Stuffed Goose Nil - Syc,Stuffed Goose,5,circuit with relay,weight_50,0.190,0.31 0.38 0.19 0.08 0.03
+A,160,Stuffed Goose Nil - Syc,Stuffed Goose,5,circuit with relay,slots_only,0.290,0.31 0.38 0.19 0.08 0.03
+A,160,Stuffed Goose Nil - Syc,Stuffed Goose,5,circuit with relay,equal,0.290,0.31 0.38 0.19 0.08 0.03
+A,160,Stuffed Goose Nil - Syc,Stuffed Goose,5,circuit with relay,cascade,0.686,0.31 0.38 0.19 0.08 0.03
+A,163,Brooches Nil - Syc,Brooches,4,circuit with relay,weight_amount,0.140,0.00 0.30 0.22 0.47
+A,163,Brooches Nil - Syc,Brooches,4,circuit with relay,weight_50,0.140,0.00 0.30 0.22 0.47
+A,163,Brooches Nil - Syc,Brooches,4,circuit with relay,slots_only,0.275,0.00 0.30 0.22 0.47
+A,163,Brooches Nil - Syc,Brooches,4,circuit with relay,equal,0.275,0.00 0.30 0.22 0.47
+A,163,Brooches Nil - Syc,Brooches,4,circuit with relay,cascade,1.000,0.00 0.30 0.22 0.47
+A,164,Beer Nil - Syc,Beer,5,circuit with relay,weight_amount,0.313,0.52 0.33 0.04 0.00 0.11
+A,164,Beer Nil - Syc,Beer,5,circuit with relay,weight_50,0.313,0.52 0.33 0.04 0.00 0.11
+A,164,Beer Nil - Syc,Beer,5,circuit with relay,slots_only,0.452,0.52 0.33 0.04 0.00 0.11
+A,164,Beer Nil - Syc,Beer,5,circuit with relay,equal,0.452,0.52 0.33 0.04 0.00 0.11
+A,164,Beer Nil - Syc,Beer,5,circuit with relay,cascade,0.481,0.52 0.33 0.04 0.00 0.11
+A,166,Kollurion Lis - Syc,Kollurion,4,circuit with relay,weight_amount,0.479,0.10 0.00 0.71 0.19
+A,166,Kollurion Lis - Syc,Kollurion,4,circuit with relay,weight_50,0.479,0.10 0.00 0.71 0.19
+A,166,Kollurion Lis - Syc,Kollurion,4,circuit with relay,slots_only,0.460,0.10 0.00 0.71 0.19
+A,166,Kollurion Lis - Syc,Kollurion,4,circuit with relay,equal,0.460,0.10 0.00 0.71 0.19
+A,166,Kollurion Lis - Syc,Kollurion,4,circuit with relay,cascade,0.901,0.10 0.00 0.71 0.19
+A,167,Cloaks Nil - Syc,Cloaks,5,circuit with relay,weight_amount,0.174,0.67 0.33 0.00 0.00 0.00
+A,167,Cloaks Nil - Syc,Cloaks,5,circuit with relay,weight_50,0.174,0.67 0.33 0.00 0.00 0.00
+A,167,Cloaks Nil - Syc,Cloaks,5,circuit with relay,slots_only,0.600,0.67 0.33 0.00 0.00 0.00
+A,167,Cloaks Nil - Syc,Cloaks,5,circuit with relay,equal,0.600,0.67 0.33 0.00 0.00 0.00
+A,167,Cloaks Nil - Syc,Cloaks,5,circuit with relay,cascade,0.326,0.67 0.33 0.00 0.00 0.00
+A,169,Handmirrors Nil - Syc,Handmirrors,5,circuit with relay,weight_amount,0.181,0.68 0.32 0.00 0.00 0.00
+A,169,Handmirrors Nil - Syc,Handmirrors,5,circuit with relay,weight_50,0.181,0.68 0.32 0.00 0.00 0.00
+A,169,Handmirrors Nil - Syc,Handmirrors,5,circuit with relay,slots_only,0.600,0.68 0.32 0.00 0.00 0.00
+A,169,Handmirrors Nil - Syc,Handmirrors,5,circuit with relay,equal,0.600,0.68 0.32 0.00 0.00 0.00
+A,169,Handmirrors Nil - Syc,Handmirrors,5,circuit with relay,cascade,0.319,0.68 0.32 0.00 0.00 0.00
+A,171,Milk of Poppea Nil - Jul,Milk of Poppea,2,pure sinks,weight_amount,0.000,1.00 0.00
+A,171,Milk of Poppea Nil - Jul,Milk of Poppea,2,pure sinks,weight_50,0.000,1.00 0.00
+A,171,Milk of Poppea Nil - Jul,Milk of Poppea,2,pure sinks,slots_only,0.500,1.00 0.00
+A,171,Milk of Poppea Nil - Jul,Milk of Poppea,2,pure sinks,equal,0.500,1.00 0.00
+A,171,Milk of Poppea Nil - Jul,Milk of Poppea,2,pure sinks,cascade,0.000,1.00 0.00
+A,176,Shentis Lis - Syc,Shentis,4,circuit with relay,weight_amount,0.182,0.09 0.28 0.40 0.22
+A,176,Shentis Lis - Syc,Shentis,4,circuit with relay,weight_50,0.182,0.09 0.28 0.40 0.22
+A,176,Shentis Lis - Syc,Shentis,4,circuit with relay,slots_only,0.182,0.09 0.28 0.40 0.22
+A,176,Shentis Lis - Syc,Shentis,4,circuit with relay,equal,0.182,0.09 0.28 0.40 0.22
+A,176,Shentis Lis - Syc,Shentis,4,circuit with relay,cascade,0.907,0.09 0.28 0.40 0.22
+A,185,Sistrums Lis - Syc,Sistrums,3,circuit with relay,weight_amount,0.121,0.00 0.38 0.62
+A,185,Sistrums Lis - Syc,Sistrums,3,circuit with relay,weight_50,0.121,0.00 0.38 0.62
+A,185,Sistrums Lis - Syc,Sistrums,3,circuit with relay,slots_only,0.333,0.00 0.38 0.62
+A,185,Sistrums Lis - Syc,Sistrums,3,circuit with relay,equal,0.333,0.00 0.38 0.62
+A,185,Sistrums Lis - Syc,Sistrums,3,circuit with relay,cascade,1.000,0.00 0.38 0.62
+A,186,Wine Sta - Uxo,Wine,3,pure sinks,weight_amount,0.000,0.50 0.50 0.00
+A,186,Wine Sta - Uxo,Wine,3,pure sinks,weight_50,0.000,0.50 0.50 0.00
+A,186,Wine Sta - Uxo,Wine,3,pure sinks,slots_only,0.500,0.50 0.50 0.00
+A,186,Wine Sta - Uxo,Wine,3,pure sinks,equal,0.333,0.50 0.50 0.00
+A,186,Wine Sta - Uxo,Wine,3,pure sinks,cascade,0.429,0.50 0.50 0.00
+A,187,Soap Lis - Syc,Soap,4,circuit with relay,weight_amount,0.140,0.16 0.36 0.00 0.48
+A,187,Soap Lis - Syc,Soap,4,circuit with relay,weight_50,0.140,0.16 0.36 0.00 0.48
+A,187,Soap Lis - Syc,Soap,4,circuit with relay,slots_only,0.340,0.16 0.36 0.00 0.48
+A,187,Soap Lis - Syc,Soap,4,circuit with relay,equal,0.340,0.16 0.36 0.00 0.48
+A,187,Soap Lis - Syc,Soap,4,circuit with relay,cascade,0.840,0.16 0.36 0.00 0.48
+A,188,Ivory Caskets Lis - Syc,Ivory Caskets,4,circuit with relay,weight_amount,0.074,0.36 0.35 0.30 0.00
+A,188,Ivory Caskets Lis - Syc,Ivory Caskets,4,circuit with relay,weight_50,0.074,0.36 0.35 0.30 0.00
+A,188,Ivory Caskets Lis - Syc,Ivory Caskets,4,circuit with relay,slots_only,0.250,0.36 0.35 0.30 0.00
+A,188,Ivory Caskets Lis - Syc,Ivory Caskets,4,circuit with relay,equal,0.250,0.36 0.35 0.30 0.00
+A,188,Ivory Caskets Lis - Syc,Ivory Caskets,4,circuit with relay,cascade,0.645,0.36 0.35 0.30 0.00
+A,194,Wine Sta - Nil,Wine,4,circuit with relay,weight_amount,0.181,0.50 0.32 0.17 0.00
+A,194,Wine Sta - Nil,Wine,4,circuit with relay,weight_50,0.181,0.50 0.32 0.17 0.00
+A,194,Wine Sta - Nil,Wine,4,circuit with relay,slots_only,0.328,0.50 0.32 0.17 0.00
+A,194,Wine Sta - Nil,Wine,4,circuit with relay,equal,0.328,0.50 0.32 0.17 0.00
+A,194,Wine Sta - Nil,Wine,4,circuit with relay,cascade,0.495,0.50 0.32 0.17 0.00
+B,island 8451 routes 9+179,2 suppliers,Tin Ore,2,supplier split,weight_amount,0.045,0.49 0.51
+B,island 8451 routes 9+179,2 suppliers,Tin Ore,2,supplier split,equal,0.007,0.49 0.51
+B,island 8451 routes 9+179,2 suppliers,Tin Ore,2,supplier split,calc_largest,0.064,0.49 0.51
+B,island 8451 routes 9+179,2 suppliers,Tin Ore,2,supplier split,calc_smallest,0.178,0.49 0.51
+B,island 8451 routes 9+179,2 suppliers,Tin Ore,2,supplier split,calc_best_default,0.064,0.49 0.51
+B,island 8513 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,weight_amount,0.000,1.00 0.00
+B,island 8513 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,equal,0.500,1.00 0.00
+B,island 8513 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,calc_largest,0.000,1.00 0.00
+B,island 8513 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,calc_smallest,0.000,1.00 0.00
+B,island 8513 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,calc_best_default,0.000,1.00 0.00
+B,island 8515 routes 104+186,2 suppliers,Wine,2,supplier split,weight_amount,0.275,0.82 0.18
+B,island 8515 routes 104+186,2 suppliers,Wine,2,supplier split,equal,0.322,0.82 0.18
+B,island 8515 routes 104+186,2 suppliers,Wine,2,supplier split,calc_largest,0.502,0.82 0.18
+B,island 8515 routes 104+186,2 suppliers,Wine,2,supplier split,calc_smallest,0.000,0.82 0.18
+B,island 8515 routes 104+186,2 suppliers,Wine,2,supplier split,calc_best_default,0.000,0.82 0.18
+B,island 8897 routes 97+181,2 suppliers,Wine,2,supplier split,weight_amount,0.173,0.71 0.29
+B,island 8897 routes 97+181,2 suppliers,Wine,2,supplier split,equal,0.215,0.71 0.29
+B,island 8897 routes 97+181,2 suppliers,Wine,2,supplier split,calc_largest,0.331,0.71 0.29
+B,island 8897 routes 97+181,2 suppliers,Wine,2,supplier split,calc_smallest,0.015,0.71 0.29
+B,island 8897 routes 97+181,2 suppliers,Wine,2,supplier split,calc_best_default,0.015,0.71 0.29
+B,island 8897 routes 75+175,2 suppliers,Beer,2,supplier split,weight_amount,0.286,0.25 0.75
+B,island 8897 routes 75+175,2 suppliers,Beer,2,supplier split,equal,0.253,0.25 0.75
+B,island 8897 routes 75+175,2 suppliers,Beer,2,supplier split,calc_largest,0.000,0.25 0.75
+B,island 8897 routes 75+175,2 suppliers,Beer,2,supplier split,calc_smallest,0.613,0.25 0.75
+B,island 8897 routes 75+175,2 suppliers,Beer,2,supplier split,calc_best_default,0.000,0.25 0.75
+B,island 8897 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,weight_amount,0.235,0.00 1.00
+B,island 8897 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,equal,0.500,0.00 1.00
+B,island 8897 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,calc_largest,0.320,0.00 1.00
+B,island 8897 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,calc_smallest,0.000,0.00 1.00
+B,island 8897 routes 143+171,2 suppliers,Milk of Poppea,2,supplier split,calc_best_default,0.000,0.00 1.00
+B,island 10177 routes 49+70,2 suppliers,Sturgeon,2,supplier split,weight_amount,0.241,0.56 0.44
+B,island 10177 routes 49+70,2 suppliers,Sturgeon,2,supplier split,equal,0.064,0.56 0.44
+B,island 10177 routes 49+70,2 suppliers,Sturgeon,2,supplier split,calc_largest,0.000,0.56 0.44
+B,island 10177 routes 49+70,2 suppliers,Sturgeon,2,supplier split,calc_smallest,0.564,0.56 0.44
+B,island 10177 routes 49+70,2 suppliers,Sturgeon,2,supplier split,calc_best_default,0.000,0.56 0.44
+B,island 10177 routes 45+52+195,2 suppliers,Wine,2,supplier split,weight_amount,0.298,0.93 0.07
+B,island 10177 routes 45+52+195,2 suppliers,Wine,2,supplier split,equal,0.430,0.93 0.07
+B,island 10177 routes 45+52+195,2 suppliers,Wine,2,supplier split,calc_largest,0.473,0.93 0.07
+B,island 10177 routes 45+52+195,2 suppliers,Wine,2,supplier split,calc_smallest,0.004,0.93 0.07
+B,island 10177 routes 45+52+195,2 suppliers,Wine,2,supplier split,calc_best_default,0.004,0.93 0.07
+B,island 10177 routes 45+103,2 suppliers,Garum,2,supplier split,weight_amount,0.000,1.00 0.00
+B,island 10177 routes 45+103,2 suppliers,Garum,2,supplier split,equal,0.500,1.00 0.00
+B,island 10177 routes 45+103,2 suppliers,Garum,2,supplier split,calc_largest,0.000,1.00 0.00
+B,island 10177 routes 45+103,2 suppliers,Garum,2,supplier split,calc_smallest,0.000,1.00 0.00
+B,island 10177 routes 45+103,2 suppliers,Garum,2,supplier split,calc_best_default,0.000,1.00 0.00
+B,island 10177 routes 75+172,2 suppliers,Beer,2,supplier split,weight_amount,0.027,0.36 0.64
+B,island 10177 routes 75+172,2 suppliers,Beer,2,supplier split,equal,0.140,0.36 0.64
+B,island 10177 routes 75+172,2 suppliers,Beer,2,supplier split,calc_largest,0.043,0.36 0.64
+B,island 10177 routes 75+172,2 suppliers,Beer,2,supplier split,calc_smallest,0.000,0.36 0.64
+B,island 10177 routes 75+172,2 suppliers,Beer,2,supplier split,calc_best_default,0.000,0.36 0.64
+B,island 10177 routes 45+49+50+70,4 suppliers,Obsidian,4,supplier split,weight_amount,0.118,0.34 0.08 0.15 0.43
+B,island 10177 routes 45+49+50+70,4 suppliers,Obsidian,4,supplier split,equal,0.269,0.34 0.08 0.15 0.43
+B,island 10177 routes 45+49+50+70,4 suppliers,Obsidian,4,supplier split,calc_largest,0.436,0.34 0.08 0.15 0.43
+B,island 10177 routes 45+49+50+70,4 suppliers,Obsidian,4,supplier split,calc_smallest,0.255,0.34 0.08 0.15 0.43
+B,island 10177 routes 45+49+50+70,4 suppliers,Obsidian,4,supplier split,calc_best_default,0.255,0.34 0.08 0.15 0.43
+B,island 26308 routes 48+93,2 suppliers,Statuettes,2,supplier split,weight_amount,0.866,1.00 0.00
+B,island 26308 routes 48+93,2 suppliers,Statuettes,2,supplier split,equal,0.500,1.00 0.00
+B,island 26308 routes 48+93,2 suppliers,Statuettes,2,supplier split,calc_largest,0.000,1.00 0.00
+B,island 26308 routes 48+93,2 suppliers,Statuettes,2,supplier split,calc_smallest,1.000,1.00 0.00
+B,island 26308 routes 48+93,2 suppliers,Statuettes,2,supplier split,calc_best_default,0.000,1.00 0.00
+C,66,Coal Arg - Can,Coal,2,loaders,weight_amount,0.050,0.50 0.50
+C,66,Coal Arg - Can,Coal,2,loaders,equal,0.005,0.50 0.50
+C,66,Coal Arg - Can,Coal,2,loaders,first_loader,0.495,0.50 0.50
+C,71,Clan Shields Cud - Can,Cheese,2,loaders,weight_amount,0.295,0.90 0.10
+C,71,Clan Shields Cud - Can,Cheese,2,loaders,equal,0.395,0.90 0.10
+C,71,Clan Shields Cud - Can,Cheese,2,loaders,first_loader,0.395,0.90 0.10

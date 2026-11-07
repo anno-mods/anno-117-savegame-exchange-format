@@ -1,0 +1,158 @@
+route,name,owner,area,product,mode,amount
+45,Porridge Jul - Cin,41,10177,Olive Oil,load,1
+51,Roast Beef Cud - Uxo,41,8451,Roast Beef,load,5
+51,Roast Beef Cud - Uxo,41,8451,Cloaks,load,10
+51,Roast Beef Cud - Uxo,41,9603,Roast Beef,unload,5
+53,Wine Uxo - Arg,41,9603,Wigs,load,10
+53,Wine Uxo - Arg,41,8515,Wigs,unload,10
+79,Coal Mud - Cro,31104,26820,Hemp,load,13
+79,Coal Mud - Cro,31104,26820,Olives,load,2
+79,Coal Mud - Cro,31104,26820,Olive Oil,unload,None
+79,Coal Mud - Cro,31104,26820,Porridge,load,14
+79,Coal Mud - Cro,31104,26820,Iron Ore,unload,5
+79,Coal Mud - Cro,31104,26820,Timber,load,5
+79,Coal Mud - Cro,31104,26820,Bread,unload,None
+79,Coal Mud - Cro,31104,26820,Flour,load,2
+79,Coal Mud - Cro,31104,26820,Tunics,load,3
+79,Coal Mud - Cro,31104,26820,Coal,load,2
+79,Coal Mud - Cro,31104,51332,Hemp,unload,13
+79,Coal Mud - Cro,31104,51332,Olives,unload,2
+79,Coal Mud - Cro,31104,51332,Olive Oil,load,None
+79,Coal Mud - Cro,31104,51332,Porridge,unload,14
+79,Coal Mud - Cro,31104,51332,Iron Ore,load,5
+79,Coal Mud - Cro,31104,51332,Timber,unload,5
+79,Coal Mud - Cro,31104,51332,Bread,load,None
+79,Coal Mud - Cro,31104,51332,Flour,unload,2
+79,Coal Mud - Cro,31104,51332,Tunics,unload,3
+79,Coal Mud - Cro,31104,51332,Coal,unload,2
+81,Silver Cud - Cra,41,9603,Handmirrors,load,1
+104,Togas Cin - Uxo,41,8515,Togas,unload,25
+104,Togas Cin - Uxo,41,8515,Wine,unload,25
+135,Mud Bricks Cro - Sto,31104,51332,Hemp,unload,5
+135,Mud Bricks Cro - Sto,31104,51332,Mud Bricks,load,38
+135,Mud Bricks Cro - Sto,31104,42756,Hemp,load,5
+135,Mud Bricks Cro - Sto,31104,42756,Mud Bricks,unload,38
+153,Timber Ble - Rad,31104,9731,Tunics,load,29
+153,Timber Ble - Rad,31104,9731,Cockles,load,27
+153,Timber Ble - Rad,31104,9731,Herbs,load,13
+153,Timber Ble - Rad,31104,9731,Flour,load,13
+153,Timber Ble - Rad,31104,9731,Mud,unload,13
+153,Timber Ble - Rad,31104,9731,Sausages,load,9
+153,Timber Ble - Rad,31104,9731,Amphorae,load,9
+153,Timber Ble - Rad,31104,9731,Iron,unload,9
+153,Timber Ble - Rad,31104,9731,Bread,load,7
+153,Timber Ble - Rad,31104,9731,Silver,unload,6
+153,Timber Ble - Rad,31104,9283,Tunics,unload,29
+153,Timber Ble - Rad,31104,9283,Cockles,unload,27
+153,Timber Ble - Rad,31104,9283,Herbs,unload,13
+153,Timber Ble - Rad,31104,9283,Flour,unload,13
+153,Timber Ble - Rad,31104,9283,Mud,load,13
+153,Timber Ble - Rad,31104,9283,Sausages,unload,9
+153,Timber Ble - Rad,31104,9283,Amphorae,unload,9
+153,Timber Ble - Rad,31104,9283,Iron,load,9
+153,Timber Ble - Rad,31104,9283,Bread,unload,7
+153,Timber Ble - Rad,31104,9283,Silver,load,6
+174,Timber Ble - Exs,31104,9347,Cockles,load,31
+174,Timber Ble - Exs,31104,9347,Silver,load,13
+174,Timber Ble - Exs,31104,9347,Amphorae,load,6
+174,Timber Ble - Exs,31104,9347,Flour,load,25
+174,Timber Ble - Exs,31104,9347,Coal,load,51
+174,Timber Ble - Exs,31104,9347,Tunics,load,9
+174,Timber Ble - Exs,31104,9347,Silver Ore,unload,76
+174,Timber Ble - Exs,31104,9347,Mud,unload,59
+174,Timber Ble - Exs,31104,9347,Iron Ore,unload,3
+174,Timber Ble - Exs,31104,9859,Cockles,unload,31
+174,Timber Ble - Exs,31104,9859,Silver,unload,13
+174,Timber Ble - Exs,31104,9859,Amphorae,unload,6
+174,Timber Ble - Exs,31104,9283,Flour,unload,25
+174,Timber Ble - Exs,31104,9283,Coal,unload,51
+174,Timber Ble - Exs,31104,9283,Tunics,unload,9
+174,Timber Ble - Exs,31104,9283,Wheat,unload,12
+174,Timber Ble - Exs,31104,9283,Silver Ore,load,76
+174,Timber Ble - Exs,31104,9283,Mud,load,59
+174,Timber Ble - Exs,31104,9283,Iron Ore,load,3
+174,Timber Ble - Exs,31104,9923,Wheat,load,12
+177,Wood Lus - Exs,31104,9859,Wood,load,97
+177,Wood Lus - Exs,31104,9859,Flour,unload,24
+177,Wood Lus - Exs,31104,9859,Rope,load,2
+177,Wood Lus - Exs,31104,9859,Herbs,unload,8
+177,Wood Lus - Exs,31104,9859,Tunics,unload,2
+177,Wood Lus - Exs,31104,9859,Rope,load,2
+177,Wood Lus - Exs,31104,9347,Wood,unload,97
+177,Wood Lus - Exs,31104,9347,Flour,load,24
+177,Wood Lus - Exs,31104,9347,Rope,unload,2
+177,Wood Lus - Exs,31104,9347,Pigs,unload,48
+177,Wood Lus - Exs,31104,9347,Cockles,load,16
+177,Wood Lus - Exs,31104,9923,Pigs,load,48
+177,Wood Lus - Exs,31104,9923,Cockles,unload,16
+177,Wood Lus - Exs,31104,9923,Herbs,load,8
+177,Wood Lus - Exs,31104,9923,Tunics,load,2
+177,Wood Lus - Exs,31104,9923,Rope,unload,2
+183,Timber Dda - Cae,31102,9475,Timber,load,56
+183,Timber Dda - Cae,31102,9475,Hemp,load,35
+183,Timber Dda - Cae,31102,9475,Reed Shoes,load,17
+183,Timber Dda - Cae,31102,9475,Mud,unload,14
+183,Timber Dda - Cae,31102,9475,Iron Ore,unload,14
+183,Timber Dda - Cae,31102,9475,Coal,load,7
+183,Timber Dda - Cae,31102,9475,Saltwash,load,7
+183,Timber Dda - Cae,31102,9475,Cheese,load,6
+183,Timber Dda - Cae,31102,9475,Eels,unload,None
+183,Timber Dda - Cae,31102,9219,Timber,unload,56
+183,Timber Dda - Cae,31102,9219,Hemp,unload,35
+183,Timber Dda - Cae,31102,9219,Reed Shoes,unload,17
+183,Timber Dda - Cae,31102,9219,Mud,load,14
+183,Timber Dda - Cae,31102,9219,Iron Ore,load,14
+183,Timber Dda - Cae,31102,9219,Coal,unload,7
+183,Timber Dda - Cae,31102,9219,Saltwash,unload,7
+183,Timber Dda - Cae,31102,9219,Cheese,unload,6
+183,Timber Dda - Cae,31102,9219,Eels,load,None
+183,Timber Dda - Cae,31102,9219,Saltwort,unload,28
+183,Timber Dda - Cae,31102,9411,Saltwort,load,28
+190,Timber Ble - Are,31104,9347,Brooches,load,19
+190,Timber Ble - Are,31104,9347,Sausages,load,20
+190,Timber Ble - Are,31104,9347,Cockles,load,4
+190,Timber Ble - Are,31104,9347,Bread,load,4
+190,Timber Ble - Are,31104,9347,Amphorae,load,45
+190,Timber Ble - Are,31104,9347,Tunics,load,39
+190,Timber Ble - Are,31104,9347,Hemp,load,39
+190,Timber Ble - Are,31104,9347,Mud,unload,19
+190,Timber Ble - Are,31104,9347,Iron Ore,unload,17
+190,Timber Ble - Are,31104,9283,Brooches,unload,19
+190,Timber Ble - Are,31104,9283,Sausages,unload,20
+190,Timber Ble - Are,31104,9283,Cockles,unload,4
+190,Timber Ble - Are,31104,9283,Bread,unload,4
+190,Timber Ble - Are,31104,9283,Amphorae,unload,45
+190,Timber Ble - Are,31104,9283,Tunics,unload,39
+190,Timber Ble - Are,31104,9283,Hemp,unload,39
+190,Timber Ble - Are,31104,9283,Mud,load,19
+190,Timber Ble - Are,31104,9283,Iron Ore,load,17
+190,Timber Ble - Are,31104,9283,Wheat,unload,27
+190,Timber Ble - Are,31104,9923,Wheat,load,27
+196,Timber Ble - Exs,31104,9923,Tunics,load,3
+196,Timber Ble - Exs,31104,9923,Wheat,load,2
+196,Timber Ble - Exs,31104,9283,Tunics,unload,3
+196,Timber Ble - Exs,31104,9283,Wheat,unload,2
+196,Timber Ble - Exs,31104,9283,Timber,unload,106
+196,Timber Ble - Exs,31104,9347,Timber,load,106
+197,Beavers Ann - Dda,31102,9539,Beavers,load,43
+197,Beavers Ann - Dda,31102,9539,Tin Ore,load,35
+197,Beavers Ann - Dda,31102,9539,Aurochs,load,17
+197,Beavers Ann - Dda,31102,9539,Cockles,unload,15
+197,Beavers Ann - Dda,31102,9539,Reed Shoes,load,2
+197,Beavers Ann - Dda,31102,9539,Drinking Horns,unload,1
+197,Beavers Ann - Dda,31102,9539,Aurochs,load,26
+197,Beavers Ann - Dda,31102,9539,Eels,load,9
+197,Beavers Ann - Dda,31102,9219,Beavers,unload,43
+197,Beavers Ann - Dda,31102,9219,Tin Ore,unload,35
+197,Beavers Ann - Dda,31102,9219,Aurochs,unload,17
+197,Beavers Ann - Dda,31102,9219,Cockles,load,15
+197,Beavers Ann - Dda,31102,9219,Reed Shoes,unload,2
+197,Beavers Ann - Dda,31102,9219,Reed Shoes,unload,1
+197,Beavers Ann - Dda,31102,9219,Cheese,unload,None
+197,Beavers Ann - Dda,31102,9411,Drinking Horns,load,1
+197,Beavers Ann - Dda,31102,9411,Aurochs,unload,26
+197,Beavers Ann - Dda,31102,9411,Reed Shoes,load,1
+197,Beavers Ann - Dda,31102,9411,Cheese,load,None
+197,Beavers Ann - Dda,31102,9475,Eels,unload,9
+198,Resin Mor - Ble,31104,9473,Resin,load,150
+198,Resin Mor - Ble,31104,9347,Resin,unload,150

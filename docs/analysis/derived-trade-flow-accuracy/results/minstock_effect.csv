@@ -1,0 +1,5 @@
+stop,minimum_stock,n,median_ratio,mean_ratio
+pure sink,level > 0,18,0.46,0.51
+pure sink,no level,105,0.30,0.43
+relay,level > 0,56,0.10,0.12
+relay,no level,65,0.07,0.09
