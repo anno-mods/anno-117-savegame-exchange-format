@@ -1,7 +1,7 @@
 {
   "output": "Marcia 69 updated.json",
   "summary": {
-    "changes": 901,
+    "changes": 928,
     "by_category": {
       "devotion": 16,
       "fertility": 147,
@@ -14,31 +14,32 @@
       "aqueduct": 12,
       "construction materials": 2,
       "discoveries": 1,
-      "tradeRoutes": 331
+      "tradeRoutes": 329,
+      "local producers": 29
     },
     "by_island": {
-      "Aeterna": 40,
-      "Cinis": 73,
-      "Juliana": 65,
-      "Nusquam": 67,
+      "Aeterna": 43,
+      "Cinis": 74,
+      "Juliana": 66,
+      "Nusquam": 69,
       "Tiberia": 22,
       "Valerium": 30,
       "Zycada": 24,
-      "Argantum": 42,
-      "Cantius": 45,
-      "Cragmore": 46,
-      "Cudslip": 41,
+      "Argantum": 46,
+      "Cantius": 47,
+      "Cragmore": 47,
+      "Cudslip": 44,
       "Traducta": 25,
-      "Uxoriosum": 40,
+      "Uxoriosum": 41,
       "Ysbadd": 26,
       "Anubis Rest Nome": 11,
       "Desert-Hawk Nome": 10,
-      "Falcon Cult Nome": 43,
-      "Listening Weasel Nome": 61,
-      "Nilopolis": 57,
+      "Falcon Cult Nome": 46,
+      "Listening Weasel Nome": 62,
+      "Nilopolis": 59,
       "Rain Caller Nome": 31,
       "Star-of-the-Nile Nome": 54,
-      "Sycamore-Root Nome": 47,
+      "Sycamore-Root Nome": 50,
       "(global)": 1
     },
     "by_island_and_category": {
@@ -49,6 +50,7 @@
         "buildingEffects": 7,
         "modules": 1,
         "needs": 16,
+        "local producers": 3,
         "tradeRoutes": 6
       },
       "Cinis": {
@@ -57,7 +59,8 @@
         "items": 7,
         "buildingEffects": 20,
         "needs": 23,
-        "tradeRoutes": 17
+        "tradeRoutes": 16,
+        "local producers": 2
       },
       "Juliana": {
         "buildings": 3,
@@ -66,7 +69,8 @@
         "buildingEffects": 9,
         "modules": 2,
         "needs": 18,
-        "tradeRoutes": 29
+        "tradeRoutes": 28,
+        "local producers": 2
       },
       "Nusquam": {
         "buildings": 4,
@@ -74,7 +78,8 @@
         "items": 3,
         "buildingEffects": 6,
         "needs": 11,
-        "tradeRoutes": 42
+        "tradeRoutes": 42,
+        "local producers": 2
       },
       "Tiberia": {
         "patron": 1,
@@ -96,6 +101,7 @@
         "fertility": 9,
         "items": 4,
         "needs": 13,
+        "local producers": 4,
         "tradeRoutes": 15
       },
       "Cantius": {
@@ -104,6 +110,7 @@
         "fertility": 9,
         "items": 3,
         "needs": 13,
+        "local producers": 2,
         "tradeRoutes": 16
       },
       "Cragmore": {
@@ -112,7 +119,8 @@
         "fertility": 9,
         "items": 3,
         "needs": 14,
-        "tradeRoutes": 18
+        "tradeRoutes": 18,
+        "local producers": 1
       },
       "Cudslip": {
         "buildings": 2,
@@ -121,6 +129,7 @@
         "items": 4,
         "aqueduct": 1,
         "needs": 14,
+        "local producers": 3,
         "tradeRoutes": 10
       },
       "Traducta": {
@@ -135,6 +144,7 @@
         "devotion": 1,
         "aqueduct": 1,
         "needs": 14,
+        "local producers": 1,
         "tradeRoutes": 23
       },
       "Ysbadd": {
@@ -160,6 +170,7 @@
         "buildingEffects": 5,
         "aqueduct": 4,
         "modules": 1,
+        "local producers": 3,
         "tradeRoutes": 21
       },
       "Listening Weasel Nome": {
@@ -170,7 +181,8 @@
         "buildingEffects": 15,
         "aqueduct": 2,
         "modules": 1,
-        "tradeRoutes": 29
+        "tradeRoutes": 29,
+        "local producers": 1
       },
       "Nilopolis": {
         "construction materials": 1,
@@ -180,7 +192,8 @@
         "buildingEffects": 18,
         "aqueduct": 2,
         "modules": 1,
-        "tradeRoutes": 24
+        "tradeRoutes": 24,
+        "local producers": 2
       },
       "Rain Caller Nome": {
         "fertility": 9,
@@ -201,6 +214,7 @@
         "devotion": 1,
         "fertility": 9,
         "buildingEffects": 3,
+        "local producers": 3,
         "tradeRoutes": 30
       },
       "(global)": {
@@ -209,8 +223,8 @@
     },
     "by_source": {
       "savegame": 344,
-      "derived by rule": 557,
-      "unchanged": 226
+      "derived by rule": 584,
+      "unchanged": 228
     },
     "state_counts_old_vs_new": {
       "item_slots_on": {
@@ -234,7 +248,7 @@
         "new": 11
       }
     },
-    "unchanged_rows": 226,
+    "unchanged_rows": 228,
     "effects_on_to_off": []
   },
   "trade": {
@@ -265,8 +279,8 @@
         "productGUID": 2144,
         "from": "Aeterna",
         "to": "Cinis",
-        "userSetAmount": 1.6526,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2154,
@@ -300,15 +314,8 @@
         "productGUID": 8561,
         "from": "Valerium",
         "to": "Cinis",
-        "userSetAmount": 0.0168,
-        "isDefaultSupplier": false
-      },
-      {
-        "productGUID": 31695,
-        "from": "Juliana",
-        "to": "Cinis",
-        "userSetAmount": 2.1989,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 31706,
@@ -363,22 +370,22 @@
         "productGUID": 2088,
         "from": "Nusquam",
         "to": "Aeterna",
-        "userSetAmount": 0.2021,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2136,
         "from": "Juliana",
         "to": "Aeterna",
-        "userSetAmount": 1.4653,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2142,
         "from": "Juliana",
         "to": "Aeterna",
-        "userSetAmount": 1.5916,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151691,
@@ -419,8 +426,8 @@
         "productGUID": 2136,
         "from": "Star-of-the-Nile Nome",
         "to": "Nilopolis",
-        "userSetAmount": 6.6679,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2137,
@@ -517,8 +524,8 @@
         "productGUID": 151693,
         "from": "Listening Weasel Nome",
         "to": "Nilopolis",
-        "userSetAmount": 8.5316,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151694,
@@ -573,8 +580,8 @@
         "productGUID": 2136,
         "from": "Star-of-the-Nile Nome",
         "to": "Sycamore-Root Nome",
-        "userSetAmount": 0.0178,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2137,
@@ -699,8 +706,8 @@
         "productGUID": 151680,
         "from": "Falcon Cult Nome",
         "to": "Sycamore-Root Nome",
-        "userSetAmount": 1.6381,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151689,
@@ -720,8 +727,8 @@
         "productGUID": 151693,
         "from": "Listening Weasel Nome",
         "to": "Sycamore-Root Nome",
-        "userSetAmount": 0.9982,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151694,
@@ -783,8 +790,8 @@
         "productGUID": 2136,
         "from": "Star-of-the-Nile Nome",
         "to": "Falcon Cult Nome",
-        "userSetAmount": 2.356,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2137,
@@ -895,8 +902,8 @@
         "productGUID": 151695,
         "from": "Listening Weasel Nome",
         "to": "Falcon Cult Nome",
-        "userSetAmount": 0.4413,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151696,
@@ -916,8 +923,8 @@
         "productGUID": 151699,
         "from": "Listening Weasel Nome",
         "to": "Falcon Cult Nome",
-        "userSetAmount": 8.4035,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151703,
@@ -930,8 +937,8 @@
         "productGUID": 2108,
         "from": "Cragmore",
         "to": "Cudslip",
-        "userSetAmount": 3.0135,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2139,
@@ -965,8 +972,8 @@
         "productGUID": 2159,
         "from": "Cragmore",
         "to": "Cudslip",
-        "userSetAmount": 0.5855,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 8405,
@@ -979,8 +986,8 @@
         "productGUID": 31700,
         "from": "Argantum",
         "to": "Cudslip",
-        "userSetAmount": 3.0135,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151694,
@@ -1119,8 +1126,8 @@
         "productGUID": 31698,
         "from": "Cinis",
         "to": "Listening Weasel Nome",
-        "userSetAmount": 5.23,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 31709,
@@ -1182,8 +1189,8 @@
         "productGUID": 151704,
         "from": "Sycamore-Root Nome",
         "to": "Listening Weasel Nome",
-        "userSetAmount": 1.1635,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151705,
@@ -1217,8 +1224,8 @@
         "productGUID": 2132,
         "from": "Aeterna",
         "to": "Juliana",
-        "userSetAmount": 8.5234,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2139,
@@ -1245,8 +1252,8 @@
         "productGUID": 2144,
         "from": "Aeterna",
         "to": "Juliana",
-        "userSetAmount": 2.5229,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2145,
@@ -1331,13 +1338,6 @@
         "to": "Juliana",
         "userSetAmount": 0,
         "isDefaultSupplier": true
-      },
-      {
-        "productGUID": 31700,
-        "from": "Argantum",
-        "to": "Juliana",
-        "userSetAmount": 3.1699,
-        "isDefaultSupplier": false
       },
       {
         "productGUID": 31706,
@@ -1455,8 +1455,8 @@
         "productGUID": 2156,
         "from": "Cantius",
         "to": "Cragmore",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2158,
@@ -1672,8 +1672,8 @@
         "productGUID": 151704,
         "from": "Sycamore-Root Nome",
         "to": "Rain Caller Nome",
-        "userSetAmount": 2.9087,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151705,
@@ -1959,8 +1959,8 @@
         "productGUID": 2146,
         "from": "Cinis",
         "to": "Nusquam",
-        "userSetAmount": 1.5612,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2147,
@@ -2085,8 +2085,8 @@
         "productGUID": 2178,
         "from": "Juliana",
         "to": "Nusquam",
-        "userSetAmount": 4.6516,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 8405,
@@ -2127,8 +2127,8 @@
         "productGUID": 145220,
         "from": "Cinis",
         "to": "Nusquam",
-        "userSetAmount": 1.9493,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 151680,
@@ -2183,8 +2183,8 @@
         "productGUID": 2108,
         "from": "Cragmore",
         "to": "Argantum",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2139,
@@ -2197,8 +2197,8 @@
         "productGUID": 2141,
         "from": "Cudslip",
         "to": "Argantum",
-        "userSetAmount": 0.2669,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2153,
@@ -2246,15 +2246,15 @@
         "productGUID": 8405,
         "from": "Cragmore",
         "to": "Argantum",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 31695,
         "from": "Cudslip",
         "to": "Argantum",
-        "userSetAmount": 0.7399,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 31706,
@@ -2288,8 +2288,8 @@
         "productGUID": 2103,
         "from": "Cragmore",
         "to": "Uxoriosum",
-        "userSetAmount": 1.1935,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2108,
@@ -2449,15 +2449,15 @@
         "productGUID": 2085,
         "from": "Cragmore",
         "to": "Cantius",
-        "userSetAmount": 2.4813,
+        "userSetAmount": 0,
         "isDefaultSupplier": false
       },
       {
         "productGUID": 2085,
         "from": "Argantum",
         "to": "Cantius",
-        "userSetAmount": 2.4813,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2108,
@@ -2470,8 +2470,8 @@
         "productGUID": 2137,
         "from": "Uxoriosum",
         "to": "Cantius",
-        "userSetAmount": 0.4172,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2139,
@@ -2484,8 +2484,8 @@
         "productGUID": 2141,
         "from": "Cudslip",
         "to": "Cantius",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false
+        "userSetAmount": 0,
+        "isDefaultSupplier": true
       },
       {
         "productGUID": 2153,
@@ -3045,8 +3045,12 @@
         "weights": {
           "Juliana": 1100.0
         },
-        "status": "not entered",
-        "user": []
+        "status": "differs",
+        "user": [
+          {
+            "defaultSupplier.type": "null"
+          }
+        ]
       },
       {
         "island": "Cinis",
@@ -6271,8 +6275,12 @@
         "weights": {
           "Argantum": 300.0
         },
-        "status": "not entered",
-        "user": []
+        "status": "differs",
+        "user": [
+          {
+            "defaultSupplier.type": "passive_trade"
+          }
+        ]
       },
       {
         "island": "Juliana",
@@ -9605,325 +9613,307 @@
         "productGUID": 2144,
         "from": "Aeterna",
         "to": "Cinis",
-        "userSetAmount": 1.6526,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 3190), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 8561,
         "from": "Valerium",
         "to": "Cinis",
-        "userSetAmount": 0.0168,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 8579), default supplier type factory kept"
-      },
-      {
-        "productGUID": 31695,
-        "from": "Juliana",
-        "to": "Cinis",
-        "userSetAmount": 2.1989,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 31752), default supplier type null kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2088,
         "from": "Nusquam",
         "to": "Aeterna",
-        "userSetAmount": 0.2021,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 2955), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2136,
         "from": "Juliana",
         "to": "Aeterna",
-        "userSetAmount": 1.4653,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 3171), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2142,
         "from": "Juliana",
         "to": "Aeterna",
-        "userSetAmount": 1.5916,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 3188), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2136,
         "from": "Star-of-the-Nile Nome",
         "to": "Nilopolis",
-        "userSetAmount": 6.6679,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 152375), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151693,
         "from": "Listening Weasel Nome",
         "to": "Nilopolis",
-        "userSetAmount": 8.5316,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 152647), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2136,
         "from": "Star-of-the-Nile Nome",
         "to": "Sycamore-Root Nome",
-        "userSetAmount": 0.0178,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 152375), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151680,
         "from": "Falcon Cult Nome",
         "to": "Sycamore-Root Nome",
-        "userSetAmount": 1.6381,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 152272), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151693,
         "from": "Listening Weasel Nome",
         "to": "Sycamore-Root Nome",
-        "userSetAmount": 0.9982,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 152647), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2136,
         "from": "Star-of-the-Nile Nome",
         "to": "Falcon Cult Nome",
-        "userSetAmount": 2.356,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 152375), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151695,
         "from": "Listening Weasel Nome",
         "to": "Falcon Cult Nome",
-        "userSetAmount": 0.4413,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 152648), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151699,
         "from": "Listening Weasel Nome",
         "to": "Falcon Cult Nome",
-        "userSetAmount": 8.4035,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 152730), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2108,
         "from": "Cragmore",
         "to": "Cudslip",
-        "userSetAmount": 3.0135,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 5299), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2159,
         "from": "Cragmore",
         "to": "Cudslip",
-        "userSetAmount": 0.5855,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 5609), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 31700,
         "from": "Argantum",
         "to": "Cudslip",
-        "userSetAmount": 3.0135,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 55962), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 31698,
         "from": "Cinis",
         "to": "Listening Weasel Nome",
-        "userSetAmount": 5.23,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 152358), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151704,
         "from": "Sycamore-Root Nome",
         "to": "Listening Weasel Nome",
-        "userSetAmount": 1.1635,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 152788), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2132,
         "from": "Aeterna",
         "to": "Juliana",
-        "userSetAmount": 8.5234,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 31756), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2144,
         "from": "Aeterna",
         "to": "Juliana",
-        "userSetAmount": 2.5229,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 3190), default supplier type factory kept"
-      },
-      {
-        "productGUID": 31700,
-        "from": "Argantum",
-        "to": "Juliana",
-        "userSetAmount": 3.1699,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "user default supplier type passive_trade kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2156,
         "from": "Cantius",
         "to": "Cragmore",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 5605), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 151704,
         "from": "Sycamore-Root Nome",
         "to": "Rain Caller Nome",
-        "userSetAmount": 2.9087,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 152788), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2146,
         "from": "Cinis",
         "to": "Nusquam",
-        "userSetAmount": 1.5612,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 3192), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2178,
         "from": "Juliana",
         "to": "Nusquam",
-        "userSetAmount": 4.6516,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 3129), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 145220,
         "from": "Cinis",
         "to": "Nusquam",
-        "userSetAmount": 1.9493,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 145229), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2108,
         "from": "Cragmore",
         "to": "Argantum",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 5299), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2141,
         "from": "Cudslip",
         "to": "Argantum",
-        "userSetAmount": 0.2669,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 5958), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 8405,
         "from": "Cragmore",
         "to": "Argantum",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 5959), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 31695,
         "from": "Cudslip",
         "to": "Argantum",
-        "userSetAmount": 0.7399,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 31761), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2103,
         "from": "Cragmore",
         "to": "Uxoriosum",
-        "userSetAmount": 1.1935,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 5849), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2085,
         "from": "Cragmore",
         "to": "Cantius",
-        "userSetAmount": 2.4813,
+        "userSetAmount": 0,
         "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 5977), default supplier type factory kept"
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2085,
         "from": "Argantum",
         "to": "Cantius",
-        "userSetAmount": 2.4813,
-        "isDefaultSupplier": false,
-        "basis": "measured from recorded visits",
-        "why": "local producer (factory 5977), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2137,
         "from": "Uxoriosum",
         "to": "Cantius",
-        "userSetAmount": 0.4172,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 5960), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       },
       {
         "productGUID": 2141,
         "from": "Cudslip",
         "to": "Cantius",
-        "userSetAmount": 3.444,
-        "isDefaultSupplier": false,
-        "basis": "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)",
-        "why": "local producer (factory 5958), default supplier type factory kept"
+        "userSetAmount": 0,
+        "isDefaultSupplier": true,
+        "basis": "R51: no amount; default import covers demand minus the fully utilized local production",
+        "why": "local producer"
       }
     ],
     "measured_only_added": [
@@ -9977,6 +9967,189 @@
         "isDefaultSupplier": true
       }
     ],
+    "local_kept": [
+      {
+        "island": "Cinis",
+        "productGUID": 31695,
+        "reason": "island default supplier type null kept (user choice)",
+        "local_factories": [
+          31752
+        ]
+      },
+      {
+        "island": "Juliana",
+        "productGUID": 31700,
+        "reason": "island default supplier type passive_trade kept (user choice)",
+        "local_factories": []
+      }
+    ],
+    "flags_set": [
+      {
+        "island": "Cinis",
+        "factory": 3190,
+        "product": 2144
+      },
+      {
+        "island": "Cinis",
+        "factory": 8579,
+        "product": 8561
+      },
+      {
+        "island": "Aeterna",
+        "factory": 2955,
+        "product": 2088
+      },
+      {
+        "island": "Aeterna",
+        "factory": 3171,
+        "product": 2136
+      },
+      {
+        "island": "Aeterna",
+        "factory": 3188,
+        "product": 2142
+      },
+      {
+        "island": "Nilopolis",
+        "factory": 152375,
+        "product": 2136
+      },
+      {
+        "island": "Nilopolis",
+        "factory": 152647,
+        "product": 151693
+      },
+      {
+        "island": "Sycamore-Root Nome",
+        "factory": 152375,
+        "product": 2136
+      },
+      {
+        "island": "Sycamore-Root Nome",
+        "factory": 152272,
+        "product": 151680
+      },
+      {
+        "island": "Sycamore-Root Nome",
+        "factory": 152647,
+        "product": 151693
+      },
+      {
+        "island": "Falcon Cult Nome",
+        "factory": 152375,
+        "product": 2136
+      },
+      {
+        "island": "Falcon Cult Nome",
+        "factory": 152648,
+        "product": 151695
+      },
+      {
+        "island": "Falcon Cult Nome",
+        "factory": 152730,
+        "product": 151699
+      },
+      {
+        "island": "Cudslip",
+        "factory": 5299,
+        "product": 2108
+      },
+      {
+        "island": "Cudslip",
+        "factory": 5609,
+        "product": 2159
+      },
+      {
+        "island": "Cudslip",
+        "factory": 55962,
+        "product": 31700
+      },
+      {
+        "island": "Listening Weasel Nome",
+        "factory": 152358,
+        "product": 31698
+      },
+      {
+        "island": "Listening Weasel Nome",
+        "factory": 152788,
+        "product": 151704
+      },
+      {
+        "island": "Juliana",
+        "factory": 31756,
+        "product": 2132
+      },
+      {
+        "island": "Juliana",
+        "factory": 3190,
+        "product": 2144
+      },
+      {
+        "island": "Cragmore",
+        "factory": 5605,
+        "product": 2156
+      },
+      {
+        "island": "Rain Caller Nome",
+        "factory": 152788,
+        "product": 151704
+      },
+      {
+        "island": "Nusquam",
+        "factory": 3192,
+        "product": 2146
+      },
+      {
+        "island": "Nusquam",
+        "factory": 3129,
+        "product": 2178
+      },
+      {
+        "island": "Nusquam",
+        "factory": 145229,
+        "product": 145220
+      },
+      {
+        "island": "Argantum",
+        "factory": 5299,
+        "product": 2108
+      },
+      {
+        "island": "Argantum",
+        "factory": 5958,
+        "product": 2141
+      },
+      {
+        "island": "Argantum",
+        "factory": 5959,
+        "product": 8405
+      },
+      {
+        "island": "Argantum",
+        "factory": 31761,
+        "product": 31695
+      },
+      {
+        "island": "Uxoriosum",
+        "factory": 5849,
+        "product": 2103
+      },
+      {
+        "island": "Cantius",
+        "factory": 5977,
+        "product": 2085
+      },
+      {
+        "island": "Cantius",
+        "factory": 5960,
+        "product": 2137
+      },
+      {
+        "island": "Cantius",
+        "factory": 5958,
+        "product": 2141
+      }
+    ],
     "needs_kept_off": {
       "need for a public building": {
         "Cinis": 1,
@@ -9988,14 +10161,14 @@
         "Nusquam": 1,
         "Cudslip": 1
       },
+      "good neither produced nor imported on the island": {
+        "Juliana": 3,
+        "Cudslip": 1
+      },
       "switched off by the user": {
-        "Juliana": 10,
+        "Juliana": 9,
         "Nusquam": 5,
         "Cudslip": 3
-      },
-      "good neither produced nor imported on the island": {
-        "Juliana": 2,
-        "Cudslip": 1
       },
       "level or need not part of the island's region (no effect)": {
         "Nusquam": 194,
@@ -15326,12 +15499,21 @@
     },
     {
       "island": "Cinis",
+      "key": "3190.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2144 itself (14 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cinis",
       "key": "tradeRoutes:2144:Aeterna>Cinis",
       "old": null,
-      "new": "{\"productGUID\": 2144, \"from\": \"Aeterna\", \"to\": \"Cinis\", \"userSetAmount\": 1.6526, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2144, \"from\": \"Aeterna\", \"to\": \"Cinis\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 3190), default supplier type factory kept; minimum 1.6526 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cinis",
@@ -15416,12 +15598,21 @@
     },
     {
       "island": "Cinis",
+      "key": "8579.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 8561 itself (24 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cinis",
       "key": "tradeRoutes:8561:Valerium>Cinis",
       "old": null,
-      "new": "{\"productGUID\": 8561, \"from\": \"Valerium\", \"to\": \"Cinis\", \"userSetAmount\": 0.0168, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 8561, \"from\": \"Valerium\", \"to\": \"Cinis\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 8579), default supplier type factory kept; minimum 0.0168 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cinis",
@@ -15434,12 +15625,12 @@
     },
     {
       "island": "Cinis",
-      "key": "tradeRoutes:31695:Juliana>Cinis",
-      "old": null,
-      "new": "{\"productGUID\": 31695, \"from\": \"Juliana\", \"to\": \"Cinis\", \"userSetAmount\": 2.1989, \"isDefaultSupplier\": false}",
-      "source": "derived by rule",
+      "key": "tradeRoutes:31695",
+      "old": "null",
+      "new": "[{\"productGUID\": 31695, \"from\": \"Juliana\", \"to\": \"Cinis\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}]",
+      "source": "unchanged",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 31752), default supplier type null kept; minimum 2.1989 t/min: measured from recorded visits"
+      "note": "island default supplier type null kept (user choice); derived import not applied"
     },
     {
       "island": "Cinis",
@@ -15524,21 +15715,39 @@
     },
     {
       "island": "Aeterna",
+      "key": "2955.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2088 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Aeterna",
       "key": "tradeRoutes:2088:Nusquam>Aeterna",
       "old": null,
-      "new": "{\"productGUID\": 2088, \"from\": \"Nusquam\", \"to\": \"Aeterna\", \"userSetAmount\": 0.2021, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2088, \"from\": \"Nusquam\", \"to\": \"Aeterna\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 2955), default supplier type factory kept; minimum 0.2021 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
+    },
+    {
+      "island": "Aeterna",
+      "key": "3171.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2136 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
     },
     {
       "island": "Aeterna",
       "key": "tradeRoutes:2136:Juliana>Aeterna",
       "old": null,
-      "new": "{\"productGUID\": 2136, \"from\": \"Juliana\", \"to\": \"Aeterna\", \"userSetAmount\": 1.4653, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2136, \"from\": \"Juliana\", \"to\": \"Aeterna\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 3171), default supplier type factory kept; minimum 1.4653 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Aeterna",
@@ -15569,12 +15778,21 @@
     },
     {
       "island": "Aeterna",
+      "key": "3188.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2142 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Aeterna",
       "key": "tradeRoutes:2142:Juliana>Aeterna",
       "old": null,
-      "new": "{\"productGUID\": 2142, \"from\": \"Juliana\", \"to\": \"Aeterna\", \"userSetAmount\": 1.5916, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2142, \"from\": \"Juliana\", \"to\": \"Aeterna\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 3188), default supplier type factory kept; minimum 1.5916 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Aeterna",
@@ -15632,12 +15850,21 @@
     },
     {
       "island": "Nilopolis",
+      "key": "152375.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2136 itself (4 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Nilopolis",
       "key": "tradeRoutes:2136:Star-of-the-Nile Nome>Nilopolis",
       "old": null,
-      "new": "{\"productGUID\": 2136, \"from\": \"Star-of-the-Nile Nome\", \"to\": \"Nilopolis\", \"userSetAmount\": 6.6679, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2136, \"from\": \"Star-of-the-Nile Nome\", \"to\": \"Nilopolis\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152375), default supplier type factory kept; minimum 6.6679 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Nilopolis",
@@ -15767,12 +15994,21 @@
     },
     {
       "island": "Nilopolis",
+      "key": "152647.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 151693 itself (4 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Nilopolis",
       "key": "tradeRoutes:151693:Listening Weasel Nome>Nilopolis",
       "old": null,
-      "new": "{\"productGUID\": 151693, \"from\": \"Listening Weasel Nome\", \"to\": \"Nilopolis\", \"userSetAmount\": 8.5316, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151693, \"from\": \"Listening Weasel Nome\", \"to\": \"Nilopolis\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152647), default supplier type factory kept; minimum 8.5316 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Nilopolis",
@@ -15839,12 +16075,21 @@
     },
     {
       "island": "Sycamore-Root Nome",
+      "key": "152375.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2136 itself (4 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Sycamore-Root Nome",
       "key": "tradeRoutes:2136:Star-of-the-Nile Nome>Sycamore-Root Nome",
       "old": null,
-      "new": "{\"productGUID\": 2136, \"from\": \"Star-of-the-Nile Nome\", \"to\": \"Sycamore-Root Nome\", \"userSetAmount\": 0.0178, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2136, \"from\": \"Star-of-the-Nile Nome\", \"to\": \"Sycamore-Root Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152375), default supplier type factory kept; minimum 0.0178 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Sycamore-Root Nome",
@@ -16001,12 +16246,21 @@
     },
     {
       "island": "Sycamore-Root Nome",
+      "key": "152272.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 151680 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Sycamore-Root Nome",
       "key": "tradeRoutes:151680:Falcon Cult Nome>Sycamore-Root Nome",
       "old": null,
-      "new": "{\"productGUID\": 151680, \"from\": \"Falcon Cult Nome\", \"to\": \"Sycamore-Root Nome\", \"userSetAmount\": 1.6381, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151680, \"from\": \"Falcon Cult Nome\", \"to\": \"Sycamore-Root Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152272), default supplier type factory kept; minimum 1.6381 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Sycamore-Root Nome",
@@ -16028,12 +16282,21 @@
     },
     {
       "island": "Sycamore-Root Nome",
+      "key": "152647.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 151693 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Sycamore-Root Nome",
       "key": "tradeRoutes:151693:Listening Weasel Nome>Sycamore-Root Nome",
       "old": null,
-      "new": "{\"productGUID\": 151693, \"from\": \"Listening Weasel Nome\", \"to\": \"Sycamore-Root Nome\", \"userSetAmount\": 0.9982, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151693, \"from\": \"Listening Weasel Nome\", \"to\": \"Sycamore-Root Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152647), default supplier type factory kept; minimum 0.9982 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Sycamore-Root Nome",
@@ -16109,12 +16372,21 @@
     },
     {
       "island": "Falcon Cult Nome",
+      "key": "152375.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2136 itself (3 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Falcon Cult Nome",
       "key": "tradeRoutes:2136:Star-of-the-Nile Nome>Falcon Cult Nome",
       "old": null,
-      "new": "{\"productGUID\": 2136, \"from\": \"Star-of-the-Nile Nome\", \"to\": \"Falcon Cult Nome\", \"userSetAmount\": 2.356, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2136, \"from\": \"Star-of-the-Nile Nome\", \"to\": \"Falcon Cult Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152375), default supplier type factory kept; minimum 2.356 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Falcon Cult Nome",
@@ -16271,12 +16543,21 @@
     },
     {
       "island": "Falcon Cult Nome",
+      "key": "152648.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 151695 itself (1 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Falcon Cult Nome",
       "key": "tradeRoutes:151695:Listening Weasel Nome>Falcon Cult Nome",
       "old": null,
-      "new": "{\"productGUID\": 151695, \"from\": \"Listening Weasel Nome\", \"to\": \"Falcon Cult Nome\", \"userSetAmount\": 0.4413, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151695, \"from\": \"Listening Weasel Nome\", \"to\": \"Falcon Cult Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152648), default supplier type factory kept; minimum 0.4413 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Falcon Cult Nome",
@@ -16298,12 +16579,21 @@
     },
     {
       "island": "Falcon Cult Nome",
+      "key": "152730.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 151699 itself (3 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Falcon Cult Nome",
       "key": "tradeRoutes:151699:Listening Weasel Nome>Falcon Cult Nome",
       "old": null,
-      "new": "{\"productGUID\": 151699, \"from\": \"Listening Weasel Nome\", \"to\": \"Falcon Cult Nome\", \"userSetAmount\": 8.4035, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151699, \"from\": \"Listening Weasel Nome\", \"to\": \"Falcon Cult Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152730), default supplier type factory kept; minimum 8.4035 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Falcon Cult Nome",
@@ -16334,12 +16624,21 @@
     },
     {
       "island": "Cudslip",
+      "key": "5299.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2108 itself (3 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cudslip",
       "key": "tradeRoutes:2108:Cragmore>Cudslip",
       "old": null,
-      "new": "{\"productGUID\": 2108, \"from\": \"Cragmore\", \"to\": \"Cudslip\", \"userSetAmount\": 3.0135, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2108, \"from\": \"Cragmore\", \"to\": \"Cudslip\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5299), default supplier type factory kept; minimum 3.0135 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cudslip",
@@ -16388,12 +16687,21 @@
     },
     {
       "island": "Cudslip",
+      "key": "5609.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2159 itself (4 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cudslip",
       "key": "tradeRoutes:2159:Cragmore>Cudslip",
       "old": null,
-      "new": "{\"productGUID\": 2159, \"from\": \"Cragmore\", \"to\": \"Cudslip\", \"userSetAmount\": 0.5855, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2159, \"from\": \"Cragmore\", \"to\": \"Cudslip\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5609), default supplier type factory kept; minimum 0.5855 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cudslip",
@@ -16406,12 +16714,21 @@
     },
     {
       "island": "Cudslip",
+      "key": "55962.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 31700 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cudslip",
       "key": "tradeRoutes:31700:Argantum>Cudslip",
       "old": null,
-      "new": "{\"productGUID\": 31700, \"from\": \"Argantum\", \"to\": \"Cudslip\", \"userSetAmount\": 3.0135, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 31700, \"from\": \"Argantum\", \"to\": \"Cudslip\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 55962), default supplier type factory kept; minimum 3.0135 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cudslip",
@@ -16595,12 +16912,21 @@
     },
     {
       "island": "Listening Weasel Nome",
+      "key": "152358.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 31698 itself (4 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Listening Weasel Nome",
       "key": "tradeRoutes:31698:Cinis>Listening Weasel Nome",
       "old": null,
-      "new": "{\"productGUID\": 31698, \"from\": \"Cinis\", \"to\": \"Listening Weasel Nome\", \"userSetAmount\": 5.23, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 31698, \"from\": \"Cinis\", \"to\": \"Listening Weasel Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152358), default supplier type factory kept; minimum 5.23 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Listening Weasel Nome",
@@ -16678,10 +17004,10 @@
       "island": "Listening Weasel Nome",
       "key": "tradeRoutes:151704:Sycamore-Root Nome>Listening Weasel Nome",
       "old": null,
-      "new": "{\"productGUID\": 151704, \"from\": \"Sycamore-Root Nome\", \"to\": \"Listening Weasel Nome\", \"userSetAmount\": 1.1635, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151704, \"from\": \"Sycamore-Root Nome\", \"to\": \"Listening Weasel Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152788), default supplier type factory kept; minimum 1.1635 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Listening Weasel Nome",
@@ -16730,12 +17056,21 @@
     },
     {
       "island": "Juliana",
+      "key": "31756.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2132 itself (6 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Juliana",
       "key": "tradeRoutes:2132:Aeterna>Juliana",
       "old": null,
-      "new": "{\"productGUID\": 2132, \"from\": \"Aeterna\", \"to\": \"Juliana\", \"userSetAmount\": 8.5234, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2132, \"from\": \"Aeterna\", \"to\": \"Juliana\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 31756), default supplier type factory kept; minimum 8.5234 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Juliana",
@@ -16766,12 +17101,21 @@
     },
     {
       "island": "Juliana",
+      "key": "3190.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2144 itself (4 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Juliana",
       "key": "tradeRoutes:2144:Aeterna>Juliana",
       "old": null,
-      "new": "{\"productGUID\": 2144, \"from\": \"Aeterna\", \"to\": \"Juliana\", \"userSetAmount\": 2.5229, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2144, \"from\": \"Aeterna\", \"to\": \"Juliana\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 3190), default supplier type factory kept; minimum 2.5229 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Juliana",
@@ -16892,12 +17236,12 @@
     },
     {
       "island": "Juliana",
-      "key": "tradeRoutes:31700:Argantum>Juliana",
-      "old": null,
-      "new": "{\"productGUID\": 31700, \"from\": \"Argantum\", \"to\": \"Juliana\", \"userSetAmount\": 3.1699, \"isDefaultSupplier\": false}",
-      "source": "derived by rule",
+      "key": "tradeRoutes:31700",
+      "old": "passive_trade",
+      "new": "[{\"productGUID\": 31700, \"from\": \"Argantum\", \"to\": \"Juliana\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}]",
+      "source": "unchanged",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; user default supplier type passive_trade kept; minimum 3.1699 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "island default supplier type passive_trade kept (user choice); derived import not applied"
     },
     {
       "island": "Juliana",
@@ -17045,12 +17389,21 @@
     },
     {
       "island": "Cragmore",
+      "key": "5605.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2156 itself (3 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cragmore",
       "key": "tradeRoutes:2156:Cantius>Cragmore",
       "old": null,
-      "new": "{\"productGUID\": 2156, \"from\": \"Cantius\", \"to\": \"Cragmore\", \"userSetAmount\": 3.444, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2156, \"from\": \"Cantius\", \"to\": \"Cragmore\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5605), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cragmore",
@@ -17326,10 +17679,10 @@
       "island": "Rain Caller Nome",
       "key": "tradeRoutes:151704:Sycamore-Root Nome>Rain Caller Nome",
       "old": null,
-      "new": "{\"productGUID\": 151704, \"from\": \"Sycamore-Root Nome\", \"to\": \"Rain Caller Nome\", \"userSetAmount\": 2.9087, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 151704, \"from\": \"Sycamore-Root Nome\", \"to\": \"Rain Caller Nome\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 152788), default supplier type factory kept; minimum 2.9087 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Rain Caller Nome",
@@ -17693,12 +18046,21 @@
     },
     {
       "island": "Nusquam",
+      "key": "3192.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2146 itself (2 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Nusquam",
       "key": "tradeRoutes:2146:Cinis>Nusquam",
       "old": null,
-      "new": "{\"productGUID\": 2146, \"from\": \"Cinis\", \"to\": \"Nusquam\", \"userSetAmount\": 1.5612, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2146, \"from\": \"Cinis\", \"to\": \"Nusquam\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 3192), default supplier type factory kept; minimum 1.5612 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Nusquam",
@@ -17857,10 +18219,10 @@
       "island": "Nusquam",
       "key": "tradeRoutes:2178:Juliana>Nusquam",
       "old": null,
-      "new": "{\"productGUID\": 2178, \"from\": \"Juliana\", \"to\": \"Nusquam\", \"userSetAmount\": 4.6516, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2178, \"from\": \"Juliana\", \"to\": \"Nusquam\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 3129), default supplier type factory kept; minimum 4.6516 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Nusquam",
@@ -17909,12 +18271,21 @@
     },
     {
       "island": "Nusquam",
+      "key": "145229.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 145220 itself (5 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Nusquam",
       "key": "tradeRoutes:145220:Cinis>Nusquam",
       "old": null,
-      "new": "{\"productGUID\": 145220, \"from\": \"Cinis\", \"to\": \"Nusquam\", \"userSetAmount\": 1.9493, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 145220, \"from\": \"Cinis\", \"to\": \"Nusquam\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 145229), default supplier type factory kept; minimum 1.9493 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Nusquam",
@@ -17990,12 +18361,21 @@
     },
     {
       "island": "Argantum",
+      "key": "5299.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2108 itself (1 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Argantum",
       "key": "tradeRoutes:2108:Cragmore>Argantum",
       "old": null,
-      "new": "{\"productGUID\": 2108, \"from\": \"Cragmore\", \"to\": \"Argantum\", \"userSetAmount\": 3.444, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2108, \"from\": \"Cragmore\", \"to\": \"Argantum\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5299), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Argantum",
@@ -18008,12 +18388,21 @@
     },
     {
       "island": "Argantum",
+      "key": "5958.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2141 itself (1 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Argantum",
       "key": "tradeRoutes:2141:Cudslip>Argantum",
       "old": null,
-      "new": "{\"productGUID\": 2141, \"from\": \"Cudslip\", \"to\": \"Argantum\", \"userSetAmount\": 0.2669, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2141, \"from\": \"Cudslip\", \"to\": \"Argantum\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5958), default supplier type factory kept; minimum 0.2669 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Argantum",
@@ -18071,21 +18460,39 @@
     },
     {
       "island": "Argantum",
+      "key": "5959.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 8405 itself (1 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Argantum",
       "key": "tradeRoutes:8405:Cragmore>Argantum",
       "old": null,
-      "new": "{\"productGUID\": 8405, \"from\": \"Cragmore\", \"to\": \"Argantum\", \"userSetAmount\": 3.444, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 8405, \"from\": \"Cragmore\", \"to\": \"Argantum\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5959), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
+    },
+    {
+      "island": "Argantum",
+      "key": "31761.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 31695 itself (3 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
     },
     {
       "island": "Argantum",
       "key": "tradeRoutes:31695:Cudslip>Argantum",
       "old": null,
-      "new": "{\"productGUID\": 31695, \"from\": \"Cudslip\", \"to\": \"Argantum\", \"userSetAmount\": 0.7399, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 31695, \"from\": \"Cudslip\", \"to\": \"Argantum\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 31761), default supplier type factory kept; minimum 0.7399 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Argantum",
@@ -18125,12 +18532,21 @@
     },
     {
       "island": "Uxoriosum",
+      "key": "5849.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2103 itself (6 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Uxoriosum",
       "key": "tradeRoutes:2103:Cragmore>Uxoriosum",
       "old": null,
-      "new": "{\"productGUID\": 2103, \"from\": \"Cragmore\", \"to\": \"Uxoriosum\", \"userSetAmount\": 1.1935, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2103, \"from\": \"Cragmore\", \"to\": \"Uxoriosum\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5849), default supplier type factory kept; minimum 1.1935 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Uxoriosum",
@@ -18341,21 +18757,30 @@
     },
     {
       "island": "Cantius",
+      "key": "5977.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2085 itself (3 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cantius",
       "key": "tradeRoutes:2085:Cragmore>Cantius",
       "old": null,
-      "new": "{\"productGUID\": 2085, \"from\": \"Cragmore\", \"to\": \"Cantius\", \"userSetAmount\": 2.4813, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2085, \"from\": \"Cragmore\", \"to\": \"Cantius\", \"userSetAmount\": 0, \"isDefaultSupplier\": false}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5977), default supplier type factory kept; minimum 2.4813 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; ordinary route, minimum 0; no minimum amount"
     },
     {
       "island": "Cantius",
       "key": "tradeRoutes:2085:Argantum>Cantius",
       "old": null,
-      "new": "{\"productGUID\": 2085, \"from\": \"Argantum\", \"to\": \"Cantius\", \"userSetAmount\": 2.4813, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2085, \"from\": \"Argantum\", \"to\": \"Cantius\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5977), default supplier type factory kept; minimum 2.4813 t/min: measured from recorded visits"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cantius",
@@ -18370,10 +18795,10 @@
       "island": "Cantius",
       "key": "tradeRoutes:2137:Uxoriosum>Cantius",
       "old": null,
-      "new": "{\"productGUID\": 2137, \"from\": \"Uxoriosum\", \"to\": \"Cantius\", \"userSetAmount\": 0.4172, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2137, \"from\": \"Uxoriosum\", \"to\": \"Cantius\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5960), default supplier type factory kept; minimum 0.4172 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cantius",
@@ -18386,12 +18811,21 @@
     },
     {
       "island": "Cantius",
+      "key": "5958.buildings.fullyUtilizeConstructed",
+      "old": null,
+      "new": "1",
+      "source": "derived by rule",
+      "category": "local producers",
+      "note": "R51: island produces product 2141 itself (1 built) and imports the rest; local producer fully utilized (key was absent; default 0)"
+    },
+    {
+      "island": "Cantius",
       "key": "tradeRoutes:2141:Cudslip>Cantius",
       "old": null,
-      "new": "{\"productGUID\": 2141, \"from\": \"Cudslip\", \"to\": \"Cantius\", \"userSetAmount\": 3.444, \"isDefaultSupplier\": false}",
+      "new": "{\"productGUID\": 2141, \"from\": \"Cudslip\", \"to\": \"Cantius\", \"userSetAmount\": 0, \"isDefaultSupplier\": true}",
       "source": "derived by rule",
       "category": "tradeRoutes",
-      "note": "R37 ordinary route; local producer (factory 5958), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+      "note": "R51 local-producer pair; default supplier (import of the remaining demand); no minimum amount"
     },
     {
       "island": "Cantius",
@@ -18508,7 +18942,7 @@
       "new": "0",
       "source": "unchanged",
       "category": "needs, kept off",
-      "note": "switched off by the user"
+      "note": "good neither produced nor imported on the island"
     },
     {
       "island": "Juliana",

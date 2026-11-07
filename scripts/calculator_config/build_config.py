@@ -447,7 +447,7 @@ old_by_pair = collections.defaultdict(list)
 for r in old_tr:
     old_by_pair[(r["to"], r["productGUID"])].append(r)
 
-trade = {"derived_pairs": 0, "added": [], "skipped": [], "agreement": [], "user_only_pairs": [], "ordinary_added": [], "measured_only_added": []}
+trade = {"derived_pairs": 0, "added": [], "skipped": [], "agreement": [], "user_only_pairs": [], "ordinary_added": [], "measured_only_added": [], "local_kept": [], "flags_set": []}
 for (rcv, product), sup in sorted(weights.items(), key=lambda kv: (kv[0][0], kv[0][1])):
     if int(rcv[1:]) not in key_to_name:
         continue
@@ -482,27 +482,42 @@ for (rcv, product), sup in sorted(weights.items(), key=lambda kv: (kv[0][0], kv[
     dtype = island_default(to, product)
     lp = local_producer(to, product)
     if lp is not None or dtype in ("passive_trade", "extra_good"):
-        # the island keeps its own default supplier; every route is ordinary with a minimum amount above 0
-        why = ("local producer (factory %d), default supplier type %s kept" % (lp, dtype)) if lp is not None else ("user default supplier type %s kept" % dtype)
+        locals_ = sorted(g for g in producers.get(product, ()) if island_info[to]["area"]["counts"].get(g))
+        # R51: the island's own default supplier choice stays; a non-factory default (null, passive trade, extra good) is a user choice
+        if dtype != "factory" or not locals_:
+            reason = "island default supplier type %s kept (user choice)" % dtype
+            trade["agreement"].append(dict(base, status="differs", user=[{"defaultSupplier.type": dtype}]))
+            trade["local_kept"].append({"island": to, "productGUID": product, "reason": reason, "local_factories": locals_})
+            rec(to, "tradeRoutes:%d" % product, dtype, json.dumps(dsum), "unchanged", "tradeRoutes", reason + "; derived import not applied")
+            continue
+        ddef = next(x for x in derived if x["isDefaultSupplier"])
+        if would_cycle(ddef["from"], to, product):
+            trade["skipped"].append(dict(base, reason="default supplier %s -> %s closes a cycle in the supplier chain" % (ddef["from"], to)))
+            continue
+        flag_ok = True
+        for g in locals_:
+            fk = "%d.buildings.fullyUtilizeConstructed" % g
+            if fk in stores[to] and str(stores[to][fk]) != "1":
+                trade["local_kept"].append({"island": to, "productGUID": product, "reason": "fullyUtilizeConstructed of factory %d is set to %s by the user" % (g, stores[to][fk]), "local_factories": locals_})
+                rec(to, fk, stores[to][fk], "1", "unchanged", "local producers", "R51 would set fully utilized; user value kept")
+                flag_ok = False
         trade["agreement"].append(dict(base, status="not entered", user=[]))
+        default_from[(to, product)] = ddef["from"]
+        for g in locals_:
+            fk = "%d.buildings.fullyUtilizeConstructed" % g
+            if fk in stores[to] and str(stores[to][fk]) != "1":
+                continue
+            setkey(to, stores[to], fk, "1", "derived by rule", "local producers",
+                   "R51: island produces product %d itself (%d built) and imports the rest; local producer fully utilized" % (product, island_info[to]["area"]["counts"][g]),
+                   default=(1 if (FAC[g]["outputs"][0]["product"] in CM_PRODUCTS) else 0))
+            trade["flags_set"].append({"island": to, "factory": g, "product": product})
         for x in derived:
-            key3 = (x["sid"], rcv, product)
-            m_ = measured.get(key3, 0.0)
-            if m_ > 0:
-                amt, basis = m_, "measured from recorded visits" + (" (roles from recorded net signs, route has no pure source)" if key3 in meas_only_pairs else "")
-            else:
-                amt, basis = capacity.get(key3, 0.0), "capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
-            amt = round(amt, 4)
-            if amt <= 0:
-                amt, basis = 0.0001, "minimum placeholder (no record and no capacity)"
-            entry = {"productGUID": product, "from": x["from"], "to": to, "userSetAmount": amt, "isDefaultSupplier": False}
+            entry = {"productGUID": product, "from": x["from"], "to": to, "userSetAmount": 0, "isDefaultSupplier": x["isDefaultSupplier"]}
             new_tr.append(entry)
             trade["added"].append(entry)
-            trade["ordinary_added"].append(dict(entry, basis=basis, why=why))
-            if key3 in meas_only_pairs:
-                trade["measured_only_added"].append(entry)
+            trade["ordinary_added"].append(dict(entry, basis="R51: no amount; default import covers demand minus the fully utilized local production", why="local producer"))
             rec(to, "tradeRoutes:%d:%s>%s" % (product, entry["from"], entry["to"]), None, json.dumps(entry), "derived by rule", "tradeRoutes",
-                "R37 ordinary route; %s; minimum %s t/min: %s" % (why, amt, basis))
+                "R51 local-producer pair; %s; no minimum amount" % ("default supplier (import of the remaining demand)" if entry["isDefaultSupplier"] else "ordinary route, minimum 0"))
         continue
     # cycle check on the default edge, in file order
     ddef = next(x for x in derived if x["isDefaultSupplier"])

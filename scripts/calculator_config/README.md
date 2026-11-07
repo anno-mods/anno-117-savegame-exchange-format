@@ -2,7 +2,7 @@
 
 Merges the state of a savegame into a calculator config dump (`Marcia 69.json`, the calculator's `localStorage`
 export) and reports every change. Result for Marcia 69: `data/processed/calculator_configs/Marcia 69 updated.json`
-with `.changes.json` and `.changes.csv` (1127 report rows, 901 changes, 331 added trade routes).
+with `.changes.json` and `.changes.csv` (1156 report rows, 928 changes, 329 added trade routes, 369 in total).
 
 All Python files take their paths from `common.py`. Environment variables (defaults relative to the repository root):
 
@@ -56,7 +56,9 @@ Without a decoded save, `build_config.py` still needs `save_data.pkl`; it is the
 - `build_config.py`: the update itself, per island: `buildings.constructed` (construction-material factories are updated too, their
   `fullyUtilizeConstructed` is kept), patron, devotion, fertilities, items and building effects as `scaling` slots, aqueduct and module
   switches, banned needs; globally: discoveries (researched techs, repeat counts), volcano and Nile season effects; trade routes: derived
-  suppliers added with measured minimum amounts, existing user routes kept; every change goes to the report with source and note.
+  suppliers added (default supplier plus ordinary routes), existing user routes kept; for a good the island produces itself the local
+  producer is set fully utilized and the largest supplier is the default import route (R51, no amounts); every change goes to the
+  report with source and note.
 - `cm_overview.py`: per-island table of construction-material factories (old versus new count) appended to the report.
 - `validate_out.py`: keys and order identical to the original, selected keys byte-identical, every new key fits a persist pattern with a GUID known to the
   calculator data, per-island change counts equal the report, trade-route invariants (no duplicates, one default supplier, no cycle), CSV rows equal report rows.

@@ -113,6 +113,47 @@ def test_routes_connect_known_islands_and_no_self_route(routes, new_config):
     assert all(r["from"] in names and r["to"] in names and r["from"] != r["to"] for r in new)
 
 
+def test_report_counts_of_the_shipped_config():
+    report = json.loads(NEW_REPORT.read_text(encoding="utf-8"))
+    assert report["summary"]["changes"] == 928
+    assert report["summary"]["by_category"]["local producers"] == 29
+    assert report["summary"]["by_category"]["tradeRoutes"] == len(report["trade"]["added"]) == 329
+    assert len(report["changes"]) == 1156
+
+
+def test_total_trade_entries(routes):
+    old, new = routes
+    assert len(old) == 40
+    assert len(new) == 369
+
+
+def test_local_producer_pairs_import_without_minimum(routes, new_config):
+    """R51: an island that produces a good itself has the local producer fully utilized; routes carry no amount."""
+    report = json.loads(NEW_REPORT.read_text(encoding="utf-8"))
+    flags = report["trade"]["flags_set"]
+    assert len(flags) == 33
+    _, stores = _stores(new_config)
+    cm_factories = {r["factory"] for r in report["construction_materials_overview"]}
+    for flag in flags:
+        value = stores[flag["island"]].get("%d.buildings.fullyUtilizeConstructed" % flag["factory"])
+        assert value == "1" or (value is None and flag["factory"] in cm_factories), flag
+    _, new = routes
+    pairs = {(f["island"], f["product"]) for f in flags}
+    assert len(pairs) == 33
+    for r in new[40:]:
+        if (r["to"], r["productGUID"]) in pairs:
+            assert r["userSetAmount"] == 0, r
+    for pair in pairs:
+        defaults = [r for r in new if (r["to"], r["productGUID"]) == pair and r["isDefaultSupplier"]]
+        assert len(defaults) == 1, pair
+
+
+def test_user_default_supplier_kept_for_pairs_listed_as_differences():
+    report = json.loads(NEW_REPORT.read_text(encoding="utf-8"))
+    kept = {(k["island"], k["productGUID"]) for k in report["trade"]["local_kept"]}
+    assert kept == {("Cinis", 31695), ("Juliana", 31700)}
+
+
 def test_report_totals_match_csv():
     report = json.loads(NEW_REPORT.read_text(encoding="utf-8"))
     rows = list(csv.DictReader(NEW_CSV.open(encoding="utf-8", newline="")))
