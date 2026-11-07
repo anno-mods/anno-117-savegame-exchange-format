@@ -1,0 +1,5580 @@
+{
+ "name": "Marcia 69",
+ "islands": [
+  {
+   "name": "Juliana",
+   "session": 3245,
+   "id": "a8513",
+   "residences": {
+    "1496": 141,
+    "1499": 131,
+    "1498": 161,
+    "1497": 80
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2078": {
+     "a10241": -1.0
+    },
+    "2115": {
+     "a10241": -1.0
+    },
+    "2121": {
+     "a10177": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2140": {
+     "a10177": -1.0
+    },
+    "2141": {
+     "a10177": -1.0
+    },
+    "2145": {
+     "a10177": -1.0
+    },
+    "2146": {
+     "a10177": -1.0
+    },
+    "2147": {
+     "a10177": -1.0
+    },
+    "2151": {
+     "a10177": -1.0
+    },
+    "2153": {
+     "a9603": -1.0
+    },
+    "2154": {
+     "a9795": -1.0
+    },
+    "2155": {
+     "a8515": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "2161": {
+     "a8451": -1.0
+    },
+    "2162": {
+     "a9603": -1.0
+    },
+    "2163": {
+     "a9603": -1.0
+    },
+    "2166": {
+     "a10177": -1.0
+    },
+    "31700": {
+     "a8899": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "31768": {
+     "a8451": -1.0
+    },
+    "145102": {
+     "a10241": -1.0
+    },
+    "151691": {
+     "a10177": -1.0
+    },
+    "151694": {
+     "a10177": -1.0
+    },
+    "151698": {
+     "a10177": 0.3807,
+     "a25668": -1.0
+    },
+    "151701": {
+     "a10177": -1.0
+    },
+    "151703": {
+     "a10177": -1.0
+    }
+   },
+   "existing": {
+    "3089": 5,
+    "2955": 8,
+    "3171": 17,
+    "3188": 10,
+    "2878": 2,
+    "2970": 1,
+    "3091": 4,
+    "2880": 3,
+    "3168": 2,
+    "31750": 1,
+    "3169": 1,
+    "2786": 5,
+    "3174": 33,
+    "3075": 7,
+    "3189": 13,
+    "2958": 6,
+    "3129": 12,
+    "4831": 2,
+    "3177": 11,
+    "3190": 4,
+    "31755": 4,
+    "2694": 8,
+    "2795": 14,
+    "2698": 8,
+    "50280": 5,
+    "2693": 11,
+    "2200": 7,
+    "31756": 6,
+    "2793": 2,
+    "2794": 1
+   },
+   "factories": {
+    "3174": {
+     "items": [
+      {
+       "item": 51635,
+       "boosted": false
+      },
+      {
+       "item": 51336,
+       "boosted": false
+      },
+      {
+       "item": 160522,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3177": {
+     "items": [
+      {
+       "item": 44112,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2694": {
+     "items": [
+      {
+       "item": 44112,
+       "boosted": false
+      },
+      {
+       "item": 156696,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2698": {
+     "items": [
+      {
+       "item": 156696,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2786": {
+     "items": [
+      {
+       "item": 160072,
+       "boosted": false
+      },
+      {
+       "item": 50665,
+       "boosted": false
+      },
+      {
+       "item": 51324,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "2794": {
+     "items": [
+      {
+       "item": 51324,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      174824
+     ],
+     "building_effects": []
+    },
+    "2200": {
+     "items": [
+      {
+       "item": 51282,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2693": {
+     "items": [
+      {
+       "item": 51282,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3089": {
+     "items": [
+      {
+       "item": 156677,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3091": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2970": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "4831": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2795": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2793": {
+     "items": [],
+     "aqueduct": false,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 43594,
+   "devotion": 15256.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 64963,
+     "boosted": false
+    },
+    {
+     "item": 51843,
+     "boosted": false
+    },
+    {
+     "item": 91417,
+     "boosted": true
+    },
+    {
+     "item": 51833,
+     "boosted": false
+    },
+    {
+     "item": 64964,
+     "boosted": false
+    },
+    {
+     "item": 51885,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2210,
+    4051,
+    4052,
+    4053,
+    4062,
+    8577,
+    51212
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": 3406,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Nusquam",
+   "session": 3245,
+   "id": "a8897",
+   "residences": {
+    "1498": 756,
+    "1497": 40,
+    "1499": 32,
+    "1496": 64
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2071": {
+     "a8513": -1.0
+    },
+    "2073": {
+     "a8513": -1.0
+    },
+    "2132": {
+     "a8513": -1.0
+    },
+    "2136": {
+     "a8513": -1.0
+    },
+    "2137": {
+     "a8513": -1.0
+    },
+    "2138": {
+     "a8708": 5.0148,
+     "a8513": -1.0
+    },
+    "2141": {
+     "a10177": -1.0
+    },
+    "2144": {
+     "a10497": -1.0
+    },
+    "2145": {
+     "a10177": -1.0
+    },
+    "2147": {
+     "a10177": -1.0
+    },
+    "2149": {
+     "a10177": -1.0
+    },
+    "2150": {
+     "a10177": -1.0
+    },
+    "2151": {
+     "a10177": -1.0
+    },
+    "2153": {
+     "a8451": -1.0
+    },
+    "2154": {
+     "a25668": 4.9251,
+     "a9795": -1.0
+    },
+    "2155": {
+     "a8515": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "2161": {
+     "a8451": -1.0
+    },
+    "2162": {
+     "a9603": -1.0
+    },
+    "2163": {
+     "a9603": -1.0
+    },
+    "2166": {
+     "a10177": -1.0
+    },
+    "2171": {
+     "a8513": -1.0
+    },
+    "2172": {
+     "a8513": -1.0
+    },
+    "2174": {
+     "a8513": -1.0
+    },
+    "2176": {
+     "a8513": -1.0
+    },
+    "8405": {
+     "a8515": -1.0
+    },
+    "31700": {
+     "a8899": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "31768": {
+     "a8451": -1.0
+    },
+    "55954": {
+     "a8451": -1.0
+    },
+    "151680": {
+     "a41796": -1.0
+    },
+    "151691": {
+     "a10177": -1.0
+    },
+    "151694": {
+     "a10177": -1.0
+    },
+    "151698": {
+     "a10177": 0.9833,
+     "a25668": -1.0
+    },
+    "151701": {
+     "a10177": -1.0
+    },
+    "151703": {
+     "a10177": -1.0
+    }
+   },
+   "existing": {
+    "2971": 10,
+    "2954": 4,
+    "3188": 9,
+    "3189": 9,
+    "2955": 5,
+    "145229": 5,
+    "3192": 2,
+    "2916": 2,
+    "2958": 12,
+    "3129": 14,
+    "3185": 25,
+    "2956": 17,
+    "3186": 8,
+    "8586": 15,
+    "8893": 5,
+    "2957": 13,
+    "3138": 4
+   },
+   "factories": {
+    "8586": {
+     "items": [
+      {
+       "item": 51292,
+       "boosted": false
+      },
+      {
+       "item": 145246,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3185": {
+     "items": [
+      {
+       "item": 44085,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "145229": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3186": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3188": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3189": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2971": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "8893": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 27899,
+   "devotion": 30471.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 51835,
+     "boosted": false
+    },
+    {
+     "item": 51843,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2205,
+    2208,
+    2209,
+    2210,
+    4049,
+    32027,
+    51212
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": 3406,
+   "piers": 3,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Zycada",
+   "session": 3245,
+   "id": "a9025",
+   "residences": {},
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {},
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": null,
+   "devotion": 0.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2205,
+    2208,
+    2209,
+    2210,
+    4049,
+    4051,
+    51212
+   ],
+   "island_size": "Medium",
+   "map_slot": null,
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Cinis",
+   "session": 3245,
+   "id": "a10177",
+   "residences": {
+    "1498": 1190,
+    "1497": 264,
+    "1499": 7,
+    "1496": 131
+   },
+   "disabled_needs": {
+    "1497": [
+     2780,
+     145223,
+     174983
+    ],
+    "1496": [
+     2770
+    ],
+    "1498": [
+     2773,
+     2774,
+     2776,
+     2780,
+     145223
+    ]
+   },
+   "producers": {},
+   "supplied_by": {
+    "2087": {
+     "a8897": 3.563,
+     "a10433": -1.0
+    },
+    "2115": {
+     "a10241": -1.0
+    },
+    "2136": {
+     "a8513": -1.0
+    },
+    "2137": {
+     "a8513": -1.0
+    },
+    "2139": {
+     "a8897": 3.0885,
+     "a8513": -1.0
+    },
+    "2153": {
+     "a9603": -1.0
+    },
+    "2154": {
+     "a9795": 6.1217,
+     "a25668": -1.0
+    },
+    "2155": {
+     "a8515": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "2161": {
+     "a8451": -1.0
+    },
+    "2162": {
+     "a9603": -1.0
+    },
+    "2163": {
+     "a9603": -1.0
+    },
+    "2176": {
+     "a8513": -1.0
+    },
+    "8563": {
+     "a10433": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "31768": {
+     "a8451": -1.0
+    },
+    "145102": {
+     "a10241": 0.6611,
+     "a8897": 1.5425,
+     "a8513": 2.4239,
+     "a10433": -1.0
+    },
+    "151680": {
+     "a41796": -1.0
+    },
+    "151691": {
+     "a41796": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151698": {
+     "a25668": -1.0
+    },
+    "151701": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "2878": 3,
+    "3089": 4,
+    "3187": 15,
+    "3188": 14,
+    "2955": 21,
+    "145229": 9,
+    "3138": 3,
+    "2970": 6,
+    "3199": 18,
+    "145230": 8,
+    "2786": 7,
+    "2698": 2,
+    "2795": 7,
+    "8580": 19,
+    "3191": 12,
+    "2669": 18,
+    "3079": 43,
+    "2957": 5,
+    "2793": 10,
+    "3190": 14,
+    "2699": 15,
+    "4831": 21,
+    "31750": 9,
+    "2694": 8,
+    "3177": 4,
+    "3082": 5,
+    "3203": 4,
+    "3202": 14,
+    "3074": 5,
+    "2958": 7,
+    "2994": 7,
+    "2999": 36,
+    "8579": 24,
+    "8887": 9,
+    "3198": 13,
+    "3201": 19,
+    "8586": 21,
+    "8893": 10,
+    "3186": 12,
+    "3081": 10,
+    "4832": 5,
+    "5481": 6,
+    "50280": 13,
+    "2880": 5,
+    "31753": 9,
+    "31755": 10,
+    "31752": 5,
+    "3170": 1,
+    "3169": 2,
+    "2794": 4,
+    "2954": 1,
+    "3192": 3,
+    "2693": 1
+   },
+   "factories": {
+    "2694": {
+     "items": [
+      {
+       "item": 144852,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "2699": {
+     "items": [
+      {
+       "item": 144900,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "8579": {
+     "items": [
+      {
+       "item": 54052,
+       "boosted": false
+      },
+      {
+       "item": 44149,
+       "boosted": false
+      },
+      {
+       "item": 44114,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "8887": {
+     "items": [
+      {
+       "item": 44149,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "4832": {
+     "items": [
+      {
+       "item": 44114,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3081": {
+     "items": [
+      {
+       "item": 44114,
+       "boosted": false
+      },
+      {
+       "item": 147974,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5481": {
+     "items": [
+      {
+       "item": 44114,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "2999": {
+     "items": [
+      {
+       "item": 51330,
+       "boosted": false
+      },
+      {
+       "item": 44118,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3079": {
+     "items": [
+      {
+       "item": 44118,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "2669": {
+     "items": [
+      {
+       "item": 44118,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "145229": {
+     "items": [
+      {
+       "item": 145271,
+       "boosted": false
+      },
+      {
+       "item": 156688,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "8580": {
+     "items": [
+      {
+       "item": 106640,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31752": {
+     "items": [
+      {
+       "item": 144862,
+       "boosted": false
+      },
+      {
+       "item": 144864,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3192": {
+     "items": [
+      {
+       "item": 51607,
+       "boosted": false
+      },
+      {
+       "item": 44089,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "50280": {
+     "items": [
+      {
+       "item": 144876,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "145230": {
+     "items": [
+      {
+       "item": 147974,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31755": {
+     "items": [
+      {
+       "item": 44089,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3201": {
+     "items": [
+      {
+       "item": 160066,
+       "boosted": false
+      },
+      {
+       "item": 51332,
+       "boosted": false
+      },
+      {
+       "item": 156685,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2795": {
+     "items": [
+      {
+       "item": 44112,
+       "boosted": false
+      },
+      {
+       "item": 44115,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "2794": {
+     "items": [
+      {
+       "item": 156679,
+       "boosted": false
+      },
+      {
+       "item": 50287,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      174824
+     ],
+     "building_effects": []
+    },
+    "3202": {
+     "items": [
+      {
+       "item": 160500,
+       "boosted": true
+      },
+      {
+       "item": 44120,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "3074": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2957": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2970": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2994": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "4831": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3169": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2786": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2793": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3177": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3186": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3187": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3188": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3190": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3191": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3198": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3082": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      174824
+     ],
+     "building_effects": []
+    },
+    "2693": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      174824
+     ],
+     "building_effects": []
+    },
+    "2698": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31750": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 27900,
+   "devotion": 64980.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 140388,
+     "boosted": false
+    },
+    {
+     "item": 51835,
+     "boosted": false
+    },
+    {
+     "item": 51877,
+     "boosted": false
+    },
+    {
+     "item": 140338,
+     "boosted": false
+    },
+    {
+     "item": 140344,
+     "boosted": false
+    },
+    {
+     "item": 51833,
+     "boosted": false
+    },
+    {
+     "item": 64965,
+     "boosted": false
+    },
+    {
+     "item": 41352,
+     "boosted": true
+    },
+    {
+     "item": 51833,
+     "boosted": false
+    },
+    {
+     "item": 92874,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2205,
+    2206,
+    2210,
+    4052,
+    4053,
+    8577,
+    51212
+   ],
+   "island_size": "Continental",
+   "map_slot": "Cinis",
+   "harbour": 3406,
+   "piers": 4,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Tiberia",
+   "session": 3245,
+   "id": "a10241",
+   "residences": {},
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {
+    "2916": 4,
+    "2880": 1,
+    "3070": 2,
+    "2918": 1
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": 50242,
+   "devotion": 0.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2205,
+    2209,
+    2210,
+    4051,
+    4062,
+    8577,
+    32027,
+    51212
+   ],
+   "island_size": "Medium",
+   "map_slot": null,
+   "harbour": 3403,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Valerium",
+   "session": 3245,
+   "id": "a10433",
+   "residences": {},
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {
+    "2920": 6,
+    "2971": 7,
+    "8579": 6
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": 153803,
+   "devotion": 0.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2205,
+    2206,
+    2208,
+    2210,
+    4049,
+    4051,
+    51212
+   ],
+   "island_size": "Medium",
+   "map_slot": null,
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Aeterna",
+   "session": 3245,
+   "id": "a10497",
+   "residences": {
+    "1496": 164,
+    "1497": 47,
+    "1499": 36
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2137": {
+     "a8513": -1.0
+    },
+    "2138": {
+     "a8513": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2143": {
+     "a8513": -1.0
+    },
+    "151691": {
+     "a10177": -1.0
+    },
+    "151694": {
+     "a10177": -1.0
+    },
+    "151698": {
+     "a10177": -1.0
+    }
+   },
+   "existing": {
+    "2793": 12,
+    "2994": 12,
+    "31756": 35,
+    "2693": 1,
+    "2880": 4,
+    "2957": 8,
+    "3190": 28,
+    "2955": 2,
+    "3171": 2,
+    "2200": 2,
+    "3188": 2,
+    "2786": 1
+   },
+   "factories": {
+    "2793": {
+     "items": [
+      {
+       "item": 106640,
+       "boosted": false
+      },
+      {
+       "item": 50291,
+       "boosted": false
+      },
+      {
+       "item": 44142,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2994": {
+     "items": [
+      {
+       "item": 50291,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "31756": {
+     "items": [
+      {
+       "item": 44142,
+       "boosted": false
+      },
+      {
+       "item": 51330,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2880": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "2693": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3188": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "3190": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 80562,
+   "devotion": 3945.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2208,
+    2209,
+    2210,
+    4062,
+    8577,
+    32027,
+    51212
+   ],
+   "island_size": "Medium",
+   "map_slot": null,
+   "harbour": 3406,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Cudslip",
+   "session": 6627,
+   "id": "a8451",
+   "residences": {
+    "1502": 66,
+    "1501": 50,
+    "1500": 94,
+    "1503": 15
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2100": {
+     "a9667": 0.1005,
+     "a8899": -1.0
+    },
+    "2101": {
+     "a8899": -1.0
+    },
+    "2138": {
+     "a8708": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2154": {
+     "a9795": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "8405": {
+     "a8515": -1.0
+    },
+    "31702": {
+     "a8899": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "5278": 4,
+    "5299": 3,
+    "5976": 1,
+    "5945": 2,
+    "5958": 5,
+    "31762": 4,
+    "5848": 2,
+    "5849": 1,
+    "5935": 1,
+    "5847": 10,
+    "6586": 10,
+    "5973": 4,
+    "5608": 3,
+    "2800": 8,
+    "55963": 9,
+    "41811": 3,
+    "2796": 4,
+    "31767": 3,
+    "5470": 7,
+    "31773": 5,
+    "5609": 4,
+    "5290": 5,
+    "5469": 11,
+    "5614": 8,
+    "55962": 2,
+    "5977": 2,
+    "5980": 3,
+    "5472": 6,
+    "31772": 2,
+    "31770": 4
+   },
+   "factories": {
+    "2800": {
+     "items": [
+      {
+       "item": 50665,
+       "boosted": false
+      },
+      {
+       "item": 144844,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5469": {
+     "items": [
+      {
+       "item": 50665,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5608": {
+     "items": [
+      {
+       "item": 51338,
+       "boosted": false
+      },
+      {
+       "item": 44087,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "2796": {
+     "items": [
+      {
+       "item": 44081,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31767": {
+     "items": [
+      {
+       "item": 44081,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31762": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5290": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5980": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 27900,
+   "devotion": 7373.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 51839,
+     "boosted": false
+    },
+    {
+     "item": 91419,
+     "boosted": false
+    },
+    {
+     "item": 71441,
+     "boosted": false
+    },
+    {
+     "item": 64965,
+     "boosted": false
+    },
+    {
+     "item": 51861,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2211,
+    2214,
+    2219,
+    4064,
+    4066,
+    4082,
+    8432,
+    51212
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Cragmore",
+   "session": 6627,
+   "id": "a8515",
+   "residences": {
+    "1504": 78,
+    "1503": 34,
+    "1500": 34
+   },
+   "disabled_needs": {
+    "1504": [
+     6436
+    ]
+   },
+   "producers": {},
+   "supplied_by": {
+    "2138": {
+     "a8708": 0.3871,
+     "a10177": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2141": {
+     "a8451": -1.0
+    },
+    "2145": {
+     "a10177": -1.0
+    },
+    "2153": {
+     "a8451": -1.0
+    },
+    "2154": {
+     "a9795": -1.0
+    },
+    "2158": {
+     "a8451": -1.0
+    },
+    "2162": {
+     "a9603": -1.0
+    },
+    "31700": {
+     "a8899": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "31708": {
+     "a9603": -1.0
+    },
+    "55954": {
+     "a8451": -1.0
+    },
+    "151692": {
+     "a25668": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "5278": 2,
+    "5299": 6,
+    "5980": 1,
+    "5472": 2,
+    "5977": 2,
+    "5605": 3,
+    "5974": 5,
+    "5475": 9,
+    "5851": 8,
+    "5477": 12,
+    "5604": 10,
+    "5959": 3,
+    "31764": 3,
+    "5848": 13,
+    "5976": 1,
+    "5945": 1,
+    "5609": 9,
+    "5849": 3
+   },
+   "factories": {
+    "5475": {
+     "items": [
+      {
+       "item": 44122,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5604": {
+     "items": [
+      {
+       "item": 44122,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5477": {
+     "items": [
+      {
+       "item": 44122,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5974": {
+     "items": [
+      {
+       "item": 44122,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31764": {
+     "items": [
+      {
+       "item": 44147,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5959": {
+     "items": [
+      {
+       "item": 44147,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 50242,
+   "devotion": 3955.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 140403,
+     "boosted": false
+    },
+    {
+     "item": 92884,
+     "boosted": false
+    },
+    {
+     "item": 92882,
+     "boosted": false
+    },
+    {
+     "item": 140344,
+     "boosted": false
+    },
+    {
+     "item": 51865,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2211,
+    2217,
+    2218,
+    4064,
+    4066,
+    4082,
+    8432,
+    51212
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Argantum",
+   "session": 6627,
+   "id": "a8899",
+   "residences": {
+    "1503": 18,
+    "1501": 12,
+    "1500": 34
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2102": {
+     "a8515": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2153": {
+     "a8451": -1.0
+    },
+    "2154": {
+     "a9795": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "2158": {
+     "a8451": -1.0
+    },
+    "2159": {
+     "a8515": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "55954": {
+     "a8451": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "5278": 1,
+    "5299": 1,
+    "5958": 1,
+    "31762": 1,
+    "5291": 3,
+    "5295": 1,
+    "5976": 1,
+    "5945": 1,
+    "5977": 2,
+    "5974": 1,
+    "31764": 1,
+    "5959": 1,
+    "55962": 13,
+    "31761": 3,
+    "31759": 2
+   },
+   "factories": {
+    "55962": {
+     "items": [
+      {
+       "item": 44139,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 50242,
+   "devotion": 1315.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 140388,
+     "boosted": false
+    },
+    {
+     "item": 64954,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2211,
+    2217,
+    2218,
+    2219,
+    4049,
+    4063,
+    8432,
+    8487
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": 7038,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Uxoriosum",
+   "session": 6627,
+   "id": "a9603",
+   "residences": {
+    "1504": 34,
+    "1502": 86,
+    "1503": 5,
+    "1501": 34,
+    "1500": 30
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2108": {
+     "a8515": -1.0
+    },
+    "2129": {
+     "a8451": -1.0
+    },
+    "2138": {
+     "a8708": 0.5955,
+     "a10177": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2141": {
+     "a8451": -1.0
+    },
+    "2145": {
+     "a10177": -1.0
+    },
+    "2154": {
+     "a9795": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "2158": {
+     "a8451": -1.0
+    },
+    "2159": {
+     "a8515": -1.0
+    },
+    "8405": {
+     "a8515": -1.0
+    },
+    "31700": {
+     "a8899": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "55954": {
+     "a8451": -1.0
+    },
+    "151692": {
+     "a25668": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "5278": 2,
+    "5976": 4,
+    "5945": 1,
+    "5975": 7,
+    "5616": 11,
+    "5849": 6,
+    "5611": 11,
+    "8431": 5,
+    "5615": 13,
+    "5977": 1,
+    "5290": 6,
+    "5606": 3,
+    "5847": 8,
+    "6586": 20,
+    "31769": 1
+   },
+   "factories": {
+    "5975": {
+     "items": [
+      {
+       "item": 145265,
+       "boosted": false
+      },
+      {
+       "item": 44088,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5611": {
+     "items": [
+      {
+       "item": 44088,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5616": {
+     "items": [
+      {
+       "item": 44088,
+       "boosted": false
+      },
+      {
+       "item": 156706,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5847": {
+     "items": [
+      {
+       "item": 80225,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "31769": {
+     "items": [
+      {
+       "item": 51342,
+       "boosted": false
+      },
+      {
+       "item": 44119,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5606": {
+     "items": [
+      {
+       "item": 51342,
+       "boosted": false
+      },
+      {
+       "item": 44117,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5615": {
+     "items": [
+      {
+       "item": 51342,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "6586": {
+     "items": [
+      {
+       "item": 51336,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 80861,
+   "devotion": 5949.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 51835,
+     "boosted": false
+    },
+    {
+     "item": 51891,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2214,
+    2217,
+    2218,
+    2219,
+    4064,
+    4066,
+    4082,
+    8487
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Ysbadd",
+   "session": 6627,
+   "id": "a9667",
+   "residences": {
+    "1500": 114,
+    "1501": 10
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {
+    "5977": 2,
+    "5976": 2,
+    "5945": 2,
+    "31762": 6,
+    "5291": 4,
+    "5848": 2,
+    "5299": 5,
+    "5278": 3,
+    "5958": 4,
+    "5609": 3,
+    "5849": 2,
+    "5606": 1,
+    "6586": 1,
+    "5847": 1,
+    "5935": 1
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": 50242,
+   "devotion": 559.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 91421,
+     "boosted": true
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2211,
+    2212,
+    2217,
+    2218,
+    2219,
+    4066,
+    4082,
+    8487,
+    51212
+   ],
+   "island_size": "Large",
+   "map_slot": null,
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Cantius",
+   "session": 6627,
+   "id": "a9795",
+   "residences": {
+    "1500": 15,
+    "1503": 34,
+    "1501": 40
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2108": {
+     "a8515": -1.0
+    },
+    "2139": {
+     "a8897": -1.0
+    },
+    "2153": {
+     "a9603": -1.0
+    },
+    "2158": {
+     "a8451": -1.0
+    },
+    "2159": {
+     "a8515": -1.0
+    },
+    "8405": {
+     "a8515": -1.0
+    },
+    "31700": {
+     "a8899": -1.0
+    },
+    "31706": {
+     "a8451": -1.0
+    },
+    "55954": {
+     "a8451": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "5977": 3,
+    "5958": 1,
+    "31762": 1,
+    "2799": 8,
+    "5474": 9,
+    "5570": 17,
+    "5980": 4,
+    "5972": 4,
+    "5960": 3,
+    "5967": 3,
+    "5278": 1,
+    "5472": 12,
+    "5605": 21
+   },
+   "factories": {
+    "2799": {
+     "items": [
+      {
+       "item": 144846,
+       "boosted": true
+      },
+      {
+       "item": 44146,
+       "boosted": false
+      },
+      {
+       "item": 106634,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5570": {
+     "items": [
+      {
+       "item": 44146,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5474": {
+     "items": [
+      {
+       "item": 44146,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5472": {
+     "items": [
+      {
+       "item": 44113,
+       "boosted": false
+      },
+      {
+       "item": 51334,
+       "boosted": false
+      },
+      {
+       "item": 44084,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5980": {
+     "items": [
+      {
+       "item": 44113,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5605": {
+     "items": [
+      {
+       "item": 44113,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5977": {
+     "items": [
+      {
+       "item": 51639,
+       "boosted": false
+      }
+     ],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    },
+    "5972": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 43594,
+   "devotion": 2654.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [
+    {
+     "item": 51893,
+     "boosted": false
+    },
+    {
+     "item": 42053,
+     "boosted": false
+    }
+   ],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2214,
+    2217,
+    2219,
+    4049,
+    4063,
+    4064,
+    4082,
+    8432
+   ],
+   "island_size": "Medium",
+   "map_slot": null,
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Traducta",
+   "session": 6627,
+   "id": "a9987",
+   "residences": {
+    "1500": 141
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {
+    "5976": 1,
+    "5945": 4,
+    "5848": 1,
+    "5956": 2,
+    "5278": 4,
+    "5958": 5,
+    "5609": 5,
+    "5955": 1,
+    "31762": 1,
+    "5947": 2
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": 50242,
+   "devotion": 225.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2211,
+    2212,
+    2217,
+    2218,
+    4063,
+    4064,
+    4066,
+    8432
+   ],
+   "island_size": "Medium",
+   "map_slot": null,
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Listening Weasel Nome",
+   "session": 149679,
+   "id": "a8452",
+   "residences": {
+    "150542": 58,
+    "150534": 12,
+    "149681": 19,
+    "150511": 48,
+    "150510": 56
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2071": {
+     "a41796": -1.0
+    },
+    "2121": {
+     "a10177": -1.0
+    },
+    "2132": {
+     "a10497": -1.0
+    },
+    "2136": {
+     "a8708": -1.0
+    },
+    "2137": {
+     "a8708": -1.0
+    },
+    "2138": {
+     "a8708": -1.0
+    },
+    "2144": {
+     "a25668": -1.0
+    },
+    "2147": {
+     "a25668": -1.0
+    },
+    "2151": {
+     "a25668": -1.0
+    },
+    "2153": {
+     "a25668": -1.0
+    },
+    "2154": {
+     "a25668": -1.0
+    },
+    "2155": {
+     "a25668": -1.0
+    },
+    "2156": {
+     "a25668": -1.0
+    },
+    "2161": {
+     "a25668": -1.0
+    },
+    "2162": {
+     "a25668": -1.0
+    },
+    "2176": {
+     "a26308": -1.0
+    },
+    "2178": {
+     "a25668": -1.0
+    },
+    "31709": {
+     "a26308": -1.0
+    },
+    "55954": {
+     "a25668": -1.0
+    },
+    "145220": {
+     "a25668": -1.0
+    },
+    "151680": {
+     "a41796": -1.0
+    },
+    "151689": {
+     "a25668": -1.0
+    },
+    "151690": {
+     "a41796": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151698": {
+     "a25668": -1.0
+    },
+    "151705": {
+     "a25668": -1.0
+    },
+    "151714": {
+     "a25668": -1.0
+    }
+   },
+   "existing": {
+    "151998": 2,
+    "151997": 2,
+    "152788": 2,
+    "152006": 3,
+    "152400": 1,
+    "152729": 1,
+    "152271": 5,
+    "152064": 19,
+    "152647": 8,
+    "152649": 16,
+    "152359": 8,
+    "152005": 2,
+    "152732": 17,
+    "152153": 1,
+    "152279": 1,
+    "152351": 1,
+    "152683": 7,
+    "152730": 6,
+    "152332": 9,
+    "152203": 3,
+    "152650": 1,
+    "152648": 4,
+    "155407": 1,
+    "152734": 19,
+    "152204": 8,
+    "152358": 4
+   },
+   "factories": {
+    "152005": {
+     "items": [
+      {
+       "item": 106414,
+       "boosted": false
+      }
+     ],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152203": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152332": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152204": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152730": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152732": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152351": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152358": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152359": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152647": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152648": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152649": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152279": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152153": {
+     "items": [],
+     "aqueduct": true,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152683": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 144800,
+   "devotion": 6329.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2209,
+    2210,
+    2212,
+    4049,
+    4066,
+    149818,
+    149819,
+    149820,
+    150477
+   ],
+   "island_size": "Large",
+   "map_slot": "large_08",
+   "harbour": 150645,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Rain Caller Nome",
+   "session": 149679,
+   "id": "a8644",
+   "residences": {},
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2136": {
+     "a8708": -1.0
+    },
+    "2137": {
+     "a8708": -1.0
+    },
+    "2144": {
+     "a25668": -1.0
+    },
+    "2147": {
+     "a25668": -1.0
+    },
+    "2151": {
+     "a25668": -1.0
+    },
+    "2153": {
+     "a25668": -1.0
+    },
+    "2154": {
+     "a25668": -1.0
+    },
+    "2155": {
+     "a25668": -1.0
+    },
+    "2161": {
+     "a25668": -1.0
+    },
+    "2162": {
+     "a25668": -1.0
+    },
+    "2176": {
+     "a26308": -1.0
+    },
+    "2178": {
+     "a25668": -1.0
+    },
+    "31709": {
+     "a26308": -1.0
+    },
+    "55954": {
+     "a25668": -1.0
+    },
+    "145220": {
+     "a25668": -1.0
+    },
+    "151689": {
+     "a25668": -1.0
+    },
+    "151690": {
+     "a41796": -1.0
+    },
+    "151693": {
+     "a8452": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151698": {
+     "a25668": -1.0
+    },
+    "151705": {
+     "a25668": -1.0
+    }
+   },
+   "existing": {
+    "152788": 1,
+    "151998": 1,
+    "151997": 1
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": null,
+   "devotion": 0.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2205,
+    2210,
+    4049,
+    4053,
+    4064,
+    149819,
+    149820,
+    150477
+   ],
+   "island_size": "Medium",
+   "map_slot": "medium_04",
+   "harbour": 150645,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Star-of-the-Nile Nome",
+   "session": 149679,
+   "id": "a8708",
+   "residences": {
+    "149681": 113,
+    "150534": 9,
+    "150542": 38,
+    "150510": 12
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2143": {
+     "a8452": -1.0
+    },
+    "2144": {
+     "a25668": -1.0
+    },
+    "2147": {
+     "a25668": -1.0
+    },
+    "2151": {
+     "a25668": -1.0
+    },
+    "2153": {
+     "a25668": -1.0
+    },
+    "2154": {
+     "a25668": -1.0
+    },
+    "2155": {
+     "a25668": -1.0
+    },
+    "2156": {
+     "a25668": -1.0
+    },
+    "2161": {
+     "a25668": -1.0
+    },
+    "2162": {
+     "a25668": -1.0
+    },
+    "2176": {
+     "a26308": -1.0
+    },
+    "2178": {
+     "a25668": -1.0
+    },
+    "31709": {
+     "a26308": -1.0
+    },
+    "55954": {
+     "a25668": -1.0
+    },
+    "145220": {
+     "a25668": -1.0
+    },
+    "151680": {
+     "a41796": -1.0
+    },
+    "151689": {
+     "a25668": -1.0
+    },
+    "151690": {
+     "a41796": -1.0
+    },
+    "151693": {
+     "a8452": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151695": {
+     "a8452": -1.0
+    },
+    "151696": {
+     "a8452": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151698": {
+     "a25668": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    },
+    "151701": {
+     "a8452": -1.0
+    },
+    "151703": {
+     "a8452": -1.0
+    },
+    "151704": {
+     "a26308": -1.0
+    },
+    "151705": {
+     "a25668": -1.0
+    }
+   },
+   "existing": {
+    "155409": 5,
+    "152375": 7,
+    "152279": 8,
+    "152141": 6,
+    "155407": 2,
+    "152387": 9,
+    "152153": 1,
+    "152729": 1,
+    "152383": 5,
+    "152271": 1,
+    "152351": 5
+   },
+   "factories": {
+    "152387": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152141": {
+     "items": [],
+     "aqueduct": true,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152375": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152271": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "155407": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "155409": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152383": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152279": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152153": {
+     "items": [],
+     "aqueduct": true,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152351": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 43594,
+   "devotion": 4685.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2209,
+    4063,
+    4064,
+    4066,
+    149818,
+    149819,
+    149820,
+    150477
+   ],
+   "island_size": "Large",
+   "map_slot": "large_09",
+   "harbour": 150645,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Anubis Rest Nome",
+   "session": 149679,
+   "id": "a9732",
+   "residences": {},
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {
+    "152204": 9
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": 144800,
+   "devotion": 0.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2205,
+    2209,
+    4049,
+    4053,
+    4064,
+    149818,
+    149820,
+    150477
+   ],
+   "island_size": "Large",
+   "map_slot": "large_10",
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Desert-Hawk Nome",
+   "session": 149679,
+   "id": "a18244",
+   "residences": {},
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {},
+   "existing": {
+    "151998": 1,
+    "151997": 1,
+    "152788": 1,
+    "152272": 1
+   },
+   "factories": {},
+   "island_effects": [],
+   "island_items": [],
+   "patron": null,
+   "devotion": 0.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2205,
+    2210,
+    2212,
+    4053,
+    4063,
+    4066,
+    149818,
+    149820,
+    150506
+   ],
+   "island_size": "Large",
+   "map_slot": "large_05",
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Nilopolis",
+   "session": 149679,
+   "id": "a25668",
+   "residences": {
+    "150542": 76,
+    "150534": 30,
+    "150510": 36,
+    "149681": 73
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2121": {
+     "a10177": -1.0
+    },
+    "2124": {
+     "a10177": -1.0
+    },
+    "2132": {
+     "a10497": -1.0
+    },
+    "2137": {
+     "a8708": -1.0
+    },
+    "2138": {
+     "a8708": -1.0
+    },
+    "2143": {
+     "a8452": -1.0
+    },
+    "2144": {
+     "a10497": -1.0
+    },
+    "2147": {
+     "a10177": -1.0
+    },
+    "2151": {
+     "a10177": -1.0
+    },
+    "2155": {
+     "a8515": -1.0
+    },
+    "2156": {
+     "a9795": -1.0
+    },
+    "2161": {
+     "a8451": -1.0
+    },
+    "2162": {
+     "a9603": -1.0
+    },
+    "55954": {
+     "a8451": -1.0
+    },
+    "145220": {
+     "a10177": -1.0
+    },
+    "151680": {
+     "a41796": -1.0
+    },
+    "151690": {
+     "a41796": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151695": {
+     "a8452": -1.0
+    },
+    "151696": {
+     "a8452": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    },
+    "151701": {
+     "a8452": -1.0
+    },
+    "151703": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "151997": 5,
+    "152375": 4,
+    "152064": 3,
+    "152647": 4,
+    "151998": 5,
+    "152671": 4,
+    "152144": 1,
+    "152388": 5,
+    "152729": 4,
+    "152371": 2,
+    "152733": 2,
+    "152000": 6,
+    "152279": 6,
+    "152338": 19,
+    "152391": 2,
+    "152688": 24,
+    "152210": 6,
+    "152789": 4,
+    "152352": 10,
+    "152389": 19,
+    "152390": 3,
+    "152143": 1,
+    "151999": 1,
+    "152796": 11,
+    "152203": 4,
+    "152257": 6,
+    "152145": 4,
+    "155404": 10,
+    "152788": 3,
+    "155409": 1,
+    "152153": 1
+   },
+   "factories": {
+    "155404": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": [
+      158336,
+      158337
+     ]
+    },
+    "155409": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152338": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152352": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152257": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152389": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152145": {
+     "items": [],
+     "aqueduct": true,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": [
+      158336,
+      158337
+     ]
+    },
+    "152279": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152153": {
+     "items": [],
+     "aqueduct": true,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": [
+      158336,
+      158337
+     ]
+    },
+    "152688": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [
+      153868
+     ],
+     "building_effects": []
+    },
+    "152143": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "152144": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "151997": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 153802,
+   "devotion": 6546.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2209,
+    2210,
+    4053,
+    4063,
+    4066,
+    149818,
+    149819,
+    150506
+   ],
+   "island_size": "Large",
+   "map_slot": "large_06",
+   "harbour": 150645,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Sycamore-Root Nome",
+   "session": 149679,
+   "id": "a26308",
+   "residences": {
+    "150510": 30,
+    "150534": 84,
+    "149681": 114
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2137": {
+     "a8708": -1.0
+    },
+    "2138": {
+     "a8708": -1.0
+    },
+    "2143": {
+     "a8452": -1.0
+    },
+    "2144": {
+     "a25668": -1.0
+    },
+    "2147": {
+     "a25668": -1.0
+    },
+    "2151": {
+     "a25668": -1.0
+    },
+    "2153": {
+     "a25668": -1.0
+    },
+    "2154": {
+     "a25668": -1.0
+    },
+    "2155": {
+     "a25668": -1.0
+    },
+    "2156": {
+     "a25668": -1.0
+    },
+    "2161": {
+     "a25668": -1.0
+    },
+    "2162": {
+     "a25668": -1.0
+    },
+    "2178": {
+     "a25668": -1.0
+    },
+    "2179": {
+     "a10177": -1.0
+    },
+    "55954": {
+     "a25668": -1.0
+    },
+    "145220": {
+     "a10177": 0.0156,
+     "a25668": -1.0
+    },
+    "151689": {
+     "a25668": -1.0
+    },
+    "151690": {
+     "a41796": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151695": {
+     "a8452": -1.0
+    },
+    "151696": {
+     "a8452": -1.0
+    },
+    "151697": {
+     "a41796": -1.0
+    },
+    "151698": {
+     "a25668": -1.0
+    },
+    "151699": {
+     "a8452": -1.0
+    },
+    "151701": {
+     "a8452": -1.0
+    },
+    "151703": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "152272": 2,
+    "151997": 4,
+    "151998": 6,
+    "152788": 4,
+    "152064": 2,
+    "152647": 2,
+    "152144": 1,
+    "152671": 3,
+    "152007": 2,
+    "152790": 5,
+    "152151": 1,
+    "152375": 4,
+    "152792": 5,
+    "155408": 2,
+    "152271": 1,
+    "152795": 5,
+    "155409": 1,
+    "152256": 3,
+    "152791": 9,
+    "152247": 1,
+    "152356": 1,
+    "152371": 2,
+    "152733": 2
+   },
+   "factories": {
+    "155408": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "152272": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "151997": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 153803,
+   "devotion": 5065.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2202,
+    2205,
+    2209,
+    4049,
+    4063,
+    4064,
+    149818,
+    150477,
+    150506
+   ],
+   "island_size": "Large",
+   "map_slot": "large_04",
+   "harbour": 150642,
+   "piers": 1,
+   "harbour_item": null,
+   "romanization": null
+  },
+  {
+   "name": "Falcon Cult Nome",
+   "session": 149679,
+   "id": "a41796",
+   "residences": {
+    "150511": 111,
+    "149681": 45,
+    "150510": 30
+   },
+   "disabled_needs": {},
+   "producers": {},
+   "supplied_by": {
+    "2137": {
+     "a8708": -1.0
+    },
+    "2138": {
+     "a8708": -1.0
+    },
+    "2143": {
+     "a8452": -1.0
+    },
+    "2144": {
+     "a25668": -1.0
+    },
+    "2147": {
+     "a25668": -1.0
+    },
+    "2151": {
+     "a25668": -1.0
+    },
+    "2153": {
+     "a25668": -1.0
+    },
+    "2154": {
+     "a25668": -1.0
+    },
+    "2155": {
+     "a25668": -1.0
+    },
+    "2156": {
+     "a25668": -1.0
+    },
+    "2161": {
+     "a25668": -1.0
+    },
+    "2162": {
+     "a25668": -1.0
+    },
+    "55954": {
+     "a25668": -1.0
+    },
+    "145220": {
+     "a25668": -1.0
+    },
+    "151689": {
+     "a25668": -1.0
+    },
+    "151693": {
+     "a8452": -1.0
+    },
+    "151694": {
+     "a8452": -1.0
+    },
+    "151696": {
+     "a8452": -1.0
+    },
+    "151698": {
+     "a25668": -1.0
+    },
+    "151703": {
+     "a8452": -1.0
+    }
+   },
+   "existing": {
+    "152272": 17,
+    "152375": 3,
+    "152671": 1,
+    "152361": 1,
+    "152648": 1,
+    "152006": 1,
+    "152203": 1,
+    "152332": 3,
+    "152730": 3,
+    "151998": 1,
+    "152271": 2,
+    "152279": 6,
+    "152143": 1,
+    "152351": 9,
+    "152107": 6,
+    "152370": 6,
+    "152400": 13,
+    "151994": 2,
+    "152437": 2,
+    "152651": 5,
+    "155407": 4,
+    "152152": 3
+   },
+   "factories": {
+    "155407": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "152272": {
+     "items": [],
+     "aqueduct": false,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "152143": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "152152": {
+     "items": [],
+     "aqueduct": true,
+     "silo": true,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "151994": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": [
+      158337
+     ]
+    },
+    "152107": {
+     "items": [],
+     "aqueduct": true,
+     "silo": false,
+     "manual_productivity": 0.0,
+     "effects": [],
+     "building_effects": []
+    }
+   },
+   "island_effects": [],
+   "island_items": [],
+   "patron": 153578,
+   "devotion": 5807.0,
+   "extra_demand": {},
+   "materials_on": false,
+   "materials": {},
+   "wonders": {},
+   "public_coverages": {},
+   "public_coverage": 100.0,
+   "residence_items": [],
+   "villa_coverage": 100.0,
+   "residence_effects": {},
+   "missing_fertilities": [
+    2205,
+    2210,
+    2212,
+    4049,
+    4053,
+    4064,
+    4066,
+    150477,
+    150506
+   ],
+   "island_size": "Medium",
+   "map_slot": "medium_03",
+   "harbour": 150642,
+   "piers": 2,
+   "harbour_item": null,
+   "romanization": null
+  }
+ ],
+ "difficulty": {},
+ "techs": [
+  21648,
+  23320,
+  24446,
+  24590,
+  24686,
+  24695,
+  24722,
+  24930,
+  26909,
+  26917,
+  28247,
+  28250,
+  28253,
+  28273,
+  28282,
+  28285,
+  31669,
+  31672,
+  31675,
+  32676,
+  37627,
+  37643,
+  37647,
+  37654,
+  37718,
+  37720,
+  37722,
+  37724,
+  37725,
+  37726,
+  37727,
+  37728,
+  37730,
+  37731,
+  37732,
+  37733,
+  37734,
+  37736,
+  37737,
+  37738,
+  37770,
+  37771,
+  37773,
+  37774,
+  37775,
+  37776,
+  37787,
+  37788,
+  37789,
+  37790,
+  37797,
+  37858,
+  37859,
+  37860,
+  37861,
+  37862,
+  37863,
+  37864,
+  37870,
+  37883,
+  37886,
+  37887,
+  37889,
+  37890,
+  37891,
+  37892,
+  37893,
+  37895,
+  37896,
+  37898,
+  37899,
+  37900,
+  37901,
+  37902,
+  37903,
+  37904,
+  37905,
+  37907,
+  37910,
+  37911,
+  37914,
+  37916,
+  37917,
+  37918,
+  37919,
+  38446,
+  38528,
+  38529,
+  38530,
+  38532,
+  38533,
+  38534,
+  38535,
+  38536,
+  38537,
+  38540,
+  38677,
+  38678,
+  38679,
+  38680,
+  38681,
+  38682,
+  38689,
+  38694,
+  38695,
+  38701,
+  38702,
+  38703,
+  38704,
+  38706,
+  38707,
+  38708,
+  38709,
+  38710,
+  38713,
+  38752,
+  54119,
+  68312,
+  71725,
+  71726,
+  80779,
+  81169,
+  81172,
+  81176,
+  81180,
+  81182,
+  81184,
+  81188,
+  81190,
+  81191,
+  81192,
+  81193,
+  81194,
+  81195,
+  81203,
+  81204,
+  81205,
+  81206,
+  81207,
+  81219,
+  81220,
+  81221,
+  81222,
+  81223,
+  82022,
+  82032,
+  82033,
+  82035,
+  82036,
+  82037,
+  82039,
+  94181,
+  94190,
+  94280,
+  94316,
+  94322,
+  94341,
+  94350,
+  94976,
+  94978,
+  95019,
+  95020,
+  97103,
+  145068,
+  145069,
+  145070,
+  145105,
+  145106,
+  145107,
+  145332,
+  145334,
+  145376,
+  145377,
+  145380,
+  145381,
+  145382,
+  145383,
+  145384,
+  148041,
+  151419,
+  151462,
+  151474,
+  151475,
+  151476,
+  151495,
+  151520,
+  153944,
+  153945,
+  153947,
+  153950,
+  153951,
+  153952,
+  153953,
+  153955,
+  153957,
+  153960,
+  153961,
+  153962,
+  153963,
+  153964,
+  153965,
+  154471,
+  154472,
+  154473,
+  154474,
+  154477,
+  154482,
+  154490,
+  154493,
+  154494,
+  154495,
+  154497,
+  154498,
+  154499,
+  154501,
+  154502,
+  154504,
+  154505,
+  154506,
+  157952,
+  157954,
+  157959,
+  157960,
+  157962,
+  157964,
+  157968,
+  157969,
+  157971,
+  158506,
+  159795,
+  159796,
+  185359,
+  185362
+ ],
+ "tech_counts": {
+  "145107": 7,
+  "37870": 8,
+  "81195": 6,
+  "154477": 40,
+  "157971": 1,
+  "37883": 7,
+  "37910": 7,
+  "81207": 4,
+  "154506": 24,
+  "154499": 17
+ },
+ "volcano": {
+  "enabled": false,
+  "level": 1,
+  "effects": [],
+  "phase": null,
+  "durations": {}
+ },
+ "seasons": {
+  "enabled": true,
+  "phase": null,
+  "unlocks": []
+ },
+ "dominant_patron": 27900,
+ "global_effects": [],
+ "research_queue": [
+  154477,
+  154506
+ ],
+ "knowledge_per_minute": 0.0,
+ "map": {
+  "template": "Corners",
+  "size": "Large",
+  "dlc01": true,
+  "detour": 105.0
+ },
+ "ship_templates": [
+  {
+   "name": "Trireme 1",
+   "ship": 37223,
+   "id": "t1",
+   "modules": [
+    31647
+   ],
+   "captain": 71533,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 2",
+   "ship": 37223,
+   "id": "t2",
+   "modules": [
+    31647,
+    31648,
+    31651
+   ],
+   "captain": 106714,
+   "boosted": false
+  },
+  {
+   "name": "Quinquireme 3",
+   "ship": 37224,
+   "id": "t3",
+   "modules": [],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Quinquireme 4",
+   "ship": 37224,
+   "id": "t4",
+   "modules": [],
+   "captain": 71558,
+   "boosted": false
+  },
+  {
+   "name": "Quinquireme 5",
+   "ship": 37224,
+   "id": "t5",
+   "modules": [],
+   "captain": 42618,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 6",
+   "ship": 39571,
+   "id": "t6",
+   "modules": [
+    39574
+   ],
+   "captain": 71542,
+   "boosted": false
+  },
+  {
+   "name": "Quinquireme 7",
+   "ship": 37224,
+   "id": "t7",
+   "modules": [],
+   "captain": 71548,
+   "boosted": true
+  },
+  {
+   "name": "Quinquireme 8",
+   "ship": 37224,
+   "id": "t8",
+   "modules": [],
+   "captain": 44178,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 9",
+   "ship": 37223,
+   "id": "t9",
+   "modules": [
+    31647
+   ],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Quinquireme 10",
+   "ship": 37224,
+   "id": "t10",
+   "modules": [
+    31647
+   ],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Quinquireme 11",
+   "ship": 37224,
+   "id": "t11",
+   "modules": [],
+   "captain": 71533,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 12",
+   "ship": 39571,
+   "id": "t12",
+   "modules": [
+    39574
+   ],
+   "captain": 71562,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 13",
+   "ship": 39571,
+   "id": "t13",
+   "modules": [
+    39574
+   ],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 14",
+   "ship": 39571,
+   "id": "t14",
+   "modules": [
+    39574,
+    39576,
+    39577
+   ],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 15",
+   "ship": 39571,
+   "id": "t15",
+   "modules": [
+    39574,
+    39575,
+    39576
+   ],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 16",
+   "ship": 37223,
+   "id": "t16",
+   "modules": [
+    31647,
+    31648,
+    31651
+   ],
+   "captain": 71556,
+   "boosted": false
+  },
+  {
+   "name": "Penteconter 17",
+   "ship": 39572,
+   "id": "t17",
+   "modules": [],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Epholkion (Nile Skiff) 18",
+   "ship": 154038,
+   "id": "t18",
+   "modules": [],
+   "captain": null,
+   "boosted": false
+  },
+  {
+   "name": "Trireme 19",
+   "ship": 37223,
+   "id": "t19",
+   "modules": [
+    31647
+   ],
+   "captain": 106714,
+   "boosted": false
+  },
+  {
+   "name": "Aba (Nile Galley) 20",
+   "ship": 178644,
+   "id": "t20",
+   "modules": [],
+   "captain": null,
+   "boosted": false
+  }
+ ],
+ "routes": {
+  "a10177>a10497": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a25668": {
+   "template": "t10",
+   "ships": 4,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a26308": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a8452": {
+   "template": "t10",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a8513": {
+   "template": "t3",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a8897": {
+   "template": "t3",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10177>a9603": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10241>a10177": {
+   "template": "t1",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10241>a8513": {
+   "template": "t1",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10433>a10177": {
+   "template": "t6",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10497>a25668": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10497>a8452": {
+   "template": "t10",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a10497>a8897": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a10177": {
+   "template": "t10",
+   "ships": 4,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a26308": {
+   "template": "t20",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a41796": {
+   "template": "t20",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a8452": {
+   "template": "t20",
+   "ships": 5,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a8513": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a8515": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a8644": {
+   "template": "t20",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a8708": {
+   "template": "t20",
+   "ships": 4,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a8897": {
+   "template": "t10",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a25668>a9603": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a26308>a8452": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a26308>a8644": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a26308>a8708": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a10177": {
+   "template": "t3",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a25668": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a26308": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a8452": {
+   "template": "t20",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a8515": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a8644": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a8708": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a8897": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a41796>a9603": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a10177": {
+   "template": "t3",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a25668": {
+   "template": "t10",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a8513": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a8897": {
+   "template": "t3",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a8899": {
+   "template": "t3",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a9603": {
+   "template": "t15",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8451>a9795": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a10177": {
+   "template": "t10",
+   "ships": 5,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a25668": {
+   "template": "t20",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a26308": {
+   "template": "t20",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a41796": {
+   "template": "t20",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a8451": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a8515": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a8644": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a8708": {
+   "template": "t20",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a8899": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a9603": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8452>a9795": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8513>a10177": {
+   "template": "t3",
+   "ships": 4,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8513>a10497": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8513>a8897": {
+   "template": "t3",
+   "ships": 4,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a10177": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a25668": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a8451": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a8513": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a8897": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a8899": {
+   "template": "t13",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a9603": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8515>a9795": {
+   "template": "t15",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a25668": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a26308": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a41796": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a8451": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a8452": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a8644": {
+   "template": "t20",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a8897": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8708>a9603": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a10177": {
+   "template": "t4",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a10497": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a8451": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a8513": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a8899": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a9603": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8897>a9795": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8899>a8451": {
+   "template": "t13",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8899>a8513": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8899>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8899>a8897": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8899>a9603": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a8899>a9795": {
+   "template": "t15",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9603>a10177": {
+   "template": "t3",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9603>a25668": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9603>a8513": {
+   "template": "t3",
+   "ships": 3,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9603>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9603>a8897": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9603>a9795": {
+   "template": "t14",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9667>a8451": {
+   "template": "t16",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a10177": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a25668": {
+   "template": "t10",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a8451": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a8513": {
+   "template": "t3",
+   "ships": 2,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a8515": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a8897": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a8899": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  },
+  "a9795>a9603": {
+   "template": "t3",
+   "ships": 1,
+   "detour": null,
+   "via_out": null,
+   "via_back": null,
+   "manual_minutes": null
+  }
+ },
+ "ship_effects": [],
+ "trade_detour": 100.0,
+ "trade_round_islands": 0,
+ "passive_trade": {},
+ "trader_visits": {},
+ "governor_sources": {},
+ "version": 1
+}

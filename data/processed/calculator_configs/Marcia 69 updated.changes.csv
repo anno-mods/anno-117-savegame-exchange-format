@@ -1,0 +1,1128 @@
+island,key,old,new,source,category,note
+Aeterna,devotion,3900,3945,savegame,devotion,
+Aeterna,island.fertility.51212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.4062.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.2208.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.8577.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,island.fertility.32027.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Aeterna,31756[51330].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Aeterna,2693[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,2793[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,2880[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,2994[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,3188[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,3190[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,31756[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Aeterna,2786.module[77954].checked,1,0,savegame,modules,no module on the majority
+Aeterna,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1496[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1497[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1497[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1497[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Aeterna,1497[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Aeterna,1497[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Aeterna,1498[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157040].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157041].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157042].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157043].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157044].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157045].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Aeterna,1498[157046].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cinis,3202.buildings.constructed,13,14,savegame,buildings,
+Cinis,3087.buildings.constructed,,7,savegame,buildings, (key was absent)
+Cinis,3141.buildings.constructed,129,131,savegame,buildings,
+Cinis,3142.buildings.constructed,261,264,savegame,buildings,
+Cinis,3145.buildings.constructed,1196,1190,savegame,buildings,
+Cinis,devotion,64000,64980,savegame,devotion,
+Cinis,3202[160500].scaling,1,2,savegame,items,"state from plan (0 off, 1 base, 2 boosted)"
+Cinis,31755[44114].scaling,1,0,derived by rule,items,not in the plan's applied items
+Cinis,3192[44089].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cinis,3201[160066].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cinis,31752[144862].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cinis,31752[144864].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cinis,50280[144876].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cinis,2693[174824].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,2786[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,2793[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,2794[174824].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,2957[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,2970[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,2994[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3074[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3082[174824].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3169[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3177[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3186[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3187[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3188[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3190[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3191[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3198[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,3201[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,4831[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,8579[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Cinis,1497[2780].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cinis,1497[145223].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cinis,1497[174983].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cinis,1498[2774].checked,1,0,savegame,needs,need banned in the save
+Cinis,1498[2776].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cinis,1498[2780].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cinis,1498[145223].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cinis,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cinis,1497[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cinis,1497[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1497[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1497[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1497[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cinis,1498[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[145225].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Cinis,1498[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[157043].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[157044].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[157045].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cinis,1498[157046].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,3087.buildings.constructed,132,131,savegame,buildings,
+Juliana,3141.buildings.constructed,143,141,savegame,buildings,
+Juliana,3145.buildings.constructed,163,161,savegame,buildings,
+Juliana,devotion,15600,15256,savegame,devotion,
+Juliana,2794[80225].scaling,1,0,derived by rule,items,not in the plan's applied items
+Juliana,3174[51336].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Juliana,3174[160522].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Juliana,2200[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,2694[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,2698[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,2794[174824].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,2795[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,2970[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,3091[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,3177[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,4831[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Juliana,2786.module[77954].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Juliana,2793.module[77954].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Juliana,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Juliana,1496[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1497[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Juliana,1497[145223].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Juliana,1497[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1497[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1497[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Juliana,1498[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Juliana,1498[145223].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Juliana,1498[145225].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Juliana,1498[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[157043].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[157044].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[157045].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Juliana,1498[157046].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,3192.buildings.constructed,1,2,savegame,buildings,
+Nusquam,145229.buildings.constructed,4,5,savegame,buildings,
+Nusquam,3087.buildings.constructed,,32,savegame,buildings, (key was absent)
+Nusquam,3145.buildings.constructed,768,756,savegame,buildings,
+Nusquam,devotion,5100,30471,savegame,devotion,
+Nusquam,2971[51292].scaling,1,0,derived by rule,items,not in the plan's applied items
+Nusquam,2971[156710].scaling,1,0,derived by rule,items,not in the plan's applied items
+Nusquam,2971[160054].scaling,1,0,derived by rule,items,not in the plan's applied items
+Nusquam,2971[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nusquam,3186[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nusquam,3188[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nusquam,3189[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nusquam,8893[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nusquam,145229[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nusquam,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Nusquam,1497[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1497[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1497[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157043].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157044].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157045].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Nusquam,1498[157046].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,selectedPatron,,50242,savegame,patron,
+Tiberia,8579[44114].scaling,1,0,derived by rule,items,not in the plan's applied items; factory type not built in the save
+Tiberia,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Tiberia,1496[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1497[2690].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1497[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1497[145223].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Tiberia,1497[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1497[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1497[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[2690].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[145223].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Tiberia,1498[145225].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Tiberia,1498[152717].checked,0,1,derived by rule,needs,R43: need of DLC 67903 not banned in the save (was off)
+Tiberia,1498[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[157043].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[157044].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[157045].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Tiberia,1498[157046].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,selectedPatron,153578,153803,savegame,patron,
+Valerium,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.51212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.2206.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.4051.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,island.fertility.2208.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Valerium,2920[145268].scaling,1,0,derived by rule,items,not in the plan's applied items
+Valerium,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Valerium,1496[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1497[2690].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1497[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1497[145223].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Valerium,1497[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1497[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1497[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[2690].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[2770].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[145223].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Valerium,1498[145225].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Valerium,1498[152717].checked,0,1,derived by rule,needs,R43: need of DLC 67903 not banned in the save (was off)
+Valerium,1498[157040].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[157041].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[157042].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[157043].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[157044].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[157045].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Valerium,1498[157046].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Zycada,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.51212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.4051.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,island.fertility.2208.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Zycada,1496[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1496[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1497[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1497[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1497[157040].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1497[157041].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1497[157042].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[2690].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[2770].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157040].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157041].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157042].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157043].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157044].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157045].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Zycada,1498[157046].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,devotion,1100,1315,savegame,devotion,
+Argantum,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.2217.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.4063.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.8487.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.2218.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.2219.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.2211.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,island.fertility.8432.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Argantum,5959[44147].scaling,1,0,derived by rule,items,not in the plan's applied items
+Argantum,5974[44147].scaling,1,0,derived by rule,items,not in the plan's applied items
+Argantum,31764[44147].scaling,1,0,derived by rule,items,not in the plan's applied items
+Argantum,55962[44139].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Argantum,1501[157047].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Argantum,1501[157048].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Argantum,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1502[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1502[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1502[157049].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1503[157050].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Argantum,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1504[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1504[157052].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Argantum,1504[157053].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,6475.buildings.constructed,50,34,savegame,buildings,
+Cantius,6414.buildings.constructed,,15,savegame,buildings, (key was absent)
+Cantius,6471.buildings.constructed,50,40,savegame,buildings,
+Cantius,devotion,2600,2654,savegame,devotion,
+Cantius,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.2214.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.2217.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.4063.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.2219.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.4082.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,island.fertility.8432.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cantius,2799[144846].scaling,1,2,savegame,items,"state from plan (0 off, 1 base, 2 boosted)"
+Cantius,2799[106634].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cantius,5980[44113].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cantius,1501[157047].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cantius,1501[157048].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cantius,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1502[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1502[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1502[157049].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1503[157050].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cantius,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1504[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1504[157052].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cantius,1504[157053].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,6414.buildings.constructed,35,34,savegame,buildings,
+Cragmore,devotion,3900,3955,savegame,devotion,
+Cragmore,island.fertility.51212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.2217.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.2218.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.4082.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.2211.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,island.fertility.8432.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cragmore,5851[44122].scaling,1,0,derived by rule,items,not in the plan's applied items
+Cragmore,5959[44147].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cragmore,31764[44147].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cragmore,1504[6436].checked,,0,savegame,needs,need banned in the save (key was absent; default 1)
+Cragmore,1501[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1501[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1502[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1502[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1502[157049].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1503[157050].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cragmore,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cragmore,1504[157050].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cragmore,1504[157052].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cragmore,1504[157053].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,6414.buildings.constructed,129,94,savegame,buildings,
+Cudslip,6471.buildings.constructed,51,50,savegame,buildings,
+Cudslip,devotion,3900,7373,savegame,devotion,
+Cudslip,island.fertility.51212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.2214.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.2219.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.4082.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.2211.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,island.fertility.8432.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Cudslip,5614[50665].scaling,1,0,derived by rule,items,not in the plan's applied items
+Cudslip,5614[51338].scaling,1,0,derived by rule,items,not in the plan's applied items
+Cudslip,2796[44081].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cudslip,31767[44081].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Cudslip,31762.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Cudslip,1501[157047].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,1501[157048].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cudslip,1502[145226].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Cudslip,1502[157047].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,1502[157048].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,1502[157049].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cudslip,1503[157050].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Cudslip,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cudslip,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cudslip,1504[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cudslip,1504[157052].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Cudslip,1504[157053].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,6414.buildings.constructed,,141,savegame,buildings, (key was absent)
+Traducta,selectedPatron,,50242,savegame,patron,
+Traducta,devotion,,225,savegame,devotion,key was absent
+Traducta,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.2212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.2217.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.4063.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.2218.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.2211.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,island.fertility.8432.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Traducta,1501[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1501[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1502[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1502[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1502[157049].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1503[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1504[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1504[157052].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Traducta,1504[157053].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Uxoriosum,6475.buildings.constructed,,5,savegame,buildings, (key was absent)
+Uxoriosum,devotion,5500,5949,savegame,devotion,
+Uxoriosum,5290.aqueductBuff.checked,1,0,savegame,aqueduct,no aqueduct in range of the majority
+Uxoriosum,1501[157047].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1501[157048].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Uxoriosum,1502[145226].checked,0,1,derived by rule,needs,R43: need of DLC 67902 not banned in the save (was off)
+Uxoriosum,1502[157047].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1502[157048].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1502[157049].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Uxoriosum,1503[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Uxoriosum,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Uxoriosum,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Uxoriosum,1504[157050].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1504[157052].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Uxoriosum,1504[157053].checked,0,1,derived by rule,needs,R43: need of DLC 3 not banned in the save (was off)
+Ysbadd,6414.buildings.constructed,,114,savegame,buildings, (key was absent)
+Ysbadd,6471.buildings.constructed,,10,savegame,buildings, (key was absent)
+Ysbadd,selectedPatron,,50242,savegame,patron,
+Ysbadd,devotion,,559,savegame,devotion,key was absent
+Ysbadd,island.fertility.51212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.2212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.2217.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.8487.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.2218.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.2219.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.4082.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,island.fertility.2211.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Ysbadd,1501[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1501[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1502[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1502[157047].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1502[157048].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1502[157049].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1503[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1503[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1504[6444].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1504[8423].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1504[157050].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1504[157052].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Ysbadd,1504[157053].checked,,1,derived by rule,needs,R43: DLC 3 need not banned in the save (explicit 1; key was absent)
+Anubis Rest Nome,152204.buildings.constructed,,9,savegame,buildings, (key was absent)
+Anubis Rest Nome,selectedPatron,,144800,savegame,patron,
+Anubis Rest Nome,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.4053.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.149818.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.149820.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Anubis Rest Nome,island.fertility.150477.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,152272.buildings.constructed,,1,savegame,buildings, (key was absent)
+Desert-Hawk Nome,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.4053.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.2212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.4063.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.149818.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.149820.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Desert-Hawk Nome,island.fertility.150506.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,155407.buildings.constructed,3,4,savegame,buildings,
+Falcon Cult Nome,150585.buildings.constructed,115,111,savegame,buildings,
+Falcon Cult Nome,devotion,6500,5807,savegame,devotion,
+Falcon Cult Nome,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.4053.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.2212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.150477.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,island.fertility.150506.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Falcon Cult Nome,151994[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Falcon Cult Nome,152143[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Falcon Cult Nome,152152[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Falcon Cult Nome,152272[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Falcon Cult Nome,155407[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Falcon Cult Nome,151994.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Falcon Cult Nome,152107.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Falcon Cult Nome,152143.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Falcon Cult Nome,152152.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Falcon Cult Nome,152152.module[153816].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Listening Weasel Nome,149684.buildings.constructed,38,19,savegame,buildings,
+Listening Weasel Nome,150586.buildings.constructed,51,12,savegame,buildings,
+Listening Weasel Nome,150587.buildings.constructed,,58,savegame,buildings, (key was absent)
+Listening Weasel Nome,devotion,6100,6329,savegame,devotion,
+Listening Weasel Nome,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.2212.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.149818.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.149819.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.149820.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,island.fertility.150477.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Listening Weasel Nome,152005[106414].scaling,,1,savegame,items,"state from plan (0 off, 1 base, 2 boosted) (key was absent; default 0)"
+Listening Weasel Nome,152005[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152153[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152203[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152204[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152279[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152332[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152351[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152358[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152359[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152647[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152648[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152649[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152683[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152730[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152732[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Listening Weasel Nome,152005.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Listening Weasel Nome,152153.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Listening Weasel Nome,152153.module[153816].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Nilopolis,152796.buildings.constructed,10,11,savegame,construction materials,construction-material end factory (R50: planner materials count); fullyUtilizeConstructed kept
+Nilopolis,149684.buildings.constructed,93,73,savegame,buildings,
+Nilopolis,150584.buildings.constructed,20,36,savegame,buildings,
+Nilopolis,150586.buildings.constructed,32,30,savegame,buildings,
+Nilopolis,150587.buildings.constructed,80,76,savegame,buildings,
+Nilopolis,devotion,,6546,savegame,devotion,key was absent
+Nilopolis,island.fertility.2202.checked,1,0,savegame,fertility,absent in save (planner fertility universe)
+Nilopolis,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Nilopolis,island.fertility.2210.checked,1,0,savegame,fertility,absent in save (planner fertility universe)
+Nilopolis,island.fertility.4053.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Nilopolis,island.fertility.149818.checked,1,0,savegame,fertility,absent in save (planner fertility universe)
+Nilopolis,island.fertility.149819.checked,1,0,savegame,fertility,absent in save (planner fertility universe)
+Nilopolis,152151[153868].scaling,1,0,derived by rule,buildingEffects,not applied by range in the save; factory type not built in the save
+Nilopolis,152151[158337].scaling,1,0,derived by rule,buildingEffects,not applied by range in the save; factory type not built in the save
+Nilopolis,155409[158337].scaling,1,0,derived by rule,buildingEffects,not applied by range in the save
+Nilopolis,151997[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152143[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152144[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152145[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152145[158336].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152145[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152153[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152153[158336].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152153[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152257[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152279[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152338[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152352[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152389[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152688[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Nilopolis,152143.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Nilopolis,152153.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Nilopolis,152153.module[153816].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Rain Caller Nome,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.2210.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.4053.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.149819.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.149820.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Rain Caller Nome,island.fertility.150477.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,149684.buildings.constructed,117,113,savegame,buildings,
+Star-of-the-Nile Nome,devotion,4600,4685,savegame,devotion,
+Star-of-the-Nile Nome,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.4063.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.4066.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.149818.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.149819.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.149820.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,island.fertility.150477.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Star-of-the-Nile Nome,152141[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152153[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152271[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152279[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152351[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152375[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152383[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152387[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,155407[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,155409[153868].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Star-of-the-Nile Nome,152141.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Star-of-the-Nile Nome,152141.module[153816].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Star-of-the-Nile Nome,152153.aqueductBuff.checked,,1,savegame,aqueduct,aqueduct distributor in range of the majority (key was absent; default 0)
+Star-of-the-Nile Nome,152153.module[153816].checked,,1,savegame,modules,module owner effect on the majority (key was absent; default 0)
+Sycamore-Root Nome,152791.buildings.constructed,8,9,savegame,construction materials,construction-material end factory (R50: planner materials count); fullyUtilizeConstructed kept
+Sycamore-Root Nome,149684.buildings.constructed,,114,savegame,buildings, (key was absent)
+Sycamore-Root Nome,150584.buildings.constructed,,30,savegame,buildings, (key was absent)
+Sycamore-Root Nome,150586.buildings.constructed,,84,savegame,buildings, (key was absent)
+Sycamore-Root Nome,devotion,5000,5065,savegame,devotion,
+Sycamore-Root Nome,island.fertility.4049.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.2202.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.2209.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.2205.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.4064.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.4063.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.149818.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.150477.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,island.fertility.150506.checked,,0,savegame,fertility,absent in save (planner fertility universe) (key was absent; default 1)
+Sycamore-Root Nome,151997[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Sycamore-Root Nome,152272[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+Sycamore-Root Nome,155408[158337].scaling,,1,savegame,buildingEffects,applied by range (plan building_effects/effects) (key was absent; default 0)
+(global),globalEffects/82017.scaling,7,8,savegame,discoveries,Tech Economy -10 6 Repeat Buff Productivity Mining: repeat count 8
+Cinis,tradeRoutes:2084,"[{""productGUID"": 2084, ""from"": ""Valerium"", ""to"": ""Cinis"", ""userSetAmount"": 3, ""isDefaultSupplier"": false}]","[{""productGUID"": 2084, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:2087,"[{""productGUID"": 2087, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2087, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 3.563, ""isDefaultSupplier"": false}, {""productGUID"": 2087, ""from"": ""Valerium"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:2115:Tiberia>Cinis,,"{""productGUID"": 2115, ""from"": ""Tiberia"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cinis,tradeRoutes:2136,"[{""productGUID"": 2136, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2136, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Cinis,tradeRoutes:2137,"[{""productGUID"": 2137, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2137, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Cinis,tradeRoutes:2138,"[{""productGUID"": 2138, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Cinis"", ""userSetAmount"": 0.0, ""isDefaultSupplier"": false}, {""productGUID"": 2138, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:2139:Nusquam>Cinis,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 3.0885, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 350.0 of 1450.0"
+Cinis,tradeRoutes:2139:Juliana>Cinis,,"{""productGUID"": 2139, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 1450.0
+Cinis,tradeRoutes:2144:Aeterna>Cinis,,"{""productGUID"": 2144, ""from"": ""Aeterna"", ""to"": ""Cinis"", ""userSetAmount"": 1.6526, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 3190), default supplier type factory kept; minimum 1.6526 t/min: measured from recorded visits"
+Cinis,tradeRoutes:2153,"[{""productGUID"": 2153, ""from"": ""Cudslip"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2153, ""from"": ""Uxoriosum"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:2154:Cantius>Cinis,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Cinis"", ""userSetAmount"": 6.1217, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 800.0 of 2300.0"
+Cinis,tradeRoutes:2154:Nilopolis>Cinis,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1500.0 of 2300.0
+Cinis,tradeRoutes:2155,"[{""productGUID"": 2155, ""from"": ""Cragmore"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2155, ""from"": ""Cragmore"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Cinis,tradeRoutes:2156:Cantius>Cinis,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 800.0 of 800.0
+Cinis,tradeRoutes:2161,"[{""productGUID"": 2161, ""from"": ""Cudslip"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2161, ""from"": ""Cudslip"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Cinis,tradeRoutes:2162,"[{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Cinis,tradeRoutes:2163,"[{""productGUID"": 2163, ""from"": ""Uxoriosum"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2163, ""from"": ""Uxoriosum"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Cinis,tradeRoutes:2176:Juliana>Cinis,,"{""productGUID"": 2176, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 1100.0
+Cinis,tradeRoutes:8561:Valerium>Cinis,,"{""productGUID"": 8561, ""from"": ""Valerium"", ""to"": ""Cinis"", ""userSetAmount"": 0.0168, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 8579), default supplier type factory kept; minimum 0.0168 t/min: measured from recorded visits"
+Cinis,tradeRoutes:8563,"[{""productGUID"": 8563, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}, {""productGUID"": 8563, ""from"": ""Valerium"", ""to"": ""Cinis"", ""userSetAmount"": 4, ""isDefaultSupplier"": false}]","[{""productGUID"": 8563, ""from"": ""Valerium"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:31695:Juliana>Cinis,,"{""productGUID"": 31695, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 2.1989, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 31752), default supplier type null kept; minimum 2.1989 t/min: measured from recorded visits"
+Cinis,tradeRoutes:31698,"[{""productGUID"": 31698, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 2.8, ""isDefaultSupplier"": false}]","[{""productGUID"": 31698, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:31706:Cudslip>Cinis,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Cinis,tradeRoutes:31768:Cudslip>Cinis,,"{""productGUID"": 31768, ""from"": ""Cudslip"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cinis,tradeRoutes:145102,"[{""productGUID"": 145102, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 0.32, ""isDefaultSupplier"": false}, {""productGUID"": 145102, ""from"": ""Tiberia"", ""to"": ""Cinis"", ""userSetAmount"": 0.84, ""isDefaultSupplier"": false}]","[{""productGUID"": 145102, ""from"": ""Tiberia"", ""to"": ""Cinis"", ""userSetAmount"": 0.6611, ""isDefaultSupplier"": false}, {""productGUID"": 145102, ""from"": ""Nusquam"", ""to"": ""Cinis"", ""userSetAmount"": 1.5425, ""isDefaultSupplier"": false}, {""productGUID"": 145102, ""from"": ""Juliana"", ""to"": ""Cinis"", ""userSetAmount"": 2.4239, ""isDefaultSupplier"": false}, {""productGUID"": 145102, ""from"": ""Valerium"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cinis,tradeRoutes:151680:Falcon Cult Nome>Cinis,,"{""productGUID"": 151680, ""from"": ""Falcon Cult Nome"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 900.0 of 900.0
+Cinis,tradeRoutes:151691:Falcon Cult Nome>Cinis,,"{""productGUID"": 151691, ""from"": ""Falcon Cult Nome"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 2100.0 of 2100.0
+Cinis,tradeRoutes:151694:Listening Weasel Nome>Cinis,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1500.0 of 1500.0
+Cinis,tradeRoutes:151698:Nilopolis>Cinis,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1500.0 of 1500.0
+Cinis,tradeRoutes:151701:Listening Weasel Nome>Cinis,,"{""productGUID"": 151701, ""from"": ""Listening Weasel Nome"", ""to"": ""Cinis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1200.0 of 1200.0
+Aeterna,tradeRoutes:2088:Nusquam>Aeterna,,"{""productGUID"": 2088, ""from"": ""Nusquam"", ""to"": ""Aeterna"", ""userSetAmount"": 0.2021, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 2955), default supplier type factory kept; minimum 0.2021 t/min: measured from recorded visits"
+Aeterna,tradeRoutes:2136:Juliana>Aeterna,,"{""productGUID"": 2136, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 1.4653, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 3171), default supplier type factory kept; minimum 1.4653 t/min: measured from recorded visits"
+Aeterna,tradeRoutes:2137,"[{""productGUID"": 2137, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2137, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Aeterna,tradeRoutes:2138,"[{""productGUID"": 2138, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2138, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Aeterna,tradeRoutes:2139,"[{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Aeterna,tradeRoutes:2142:Juliana>Aeterna,,"{""productGUID"": 2142, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 1.5916, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 3188), default supplier type factory kept; minimum 1.5916 t/min: measured from recorded visits"
+Aeterna,tradeRoutes:2143,"[{""productGUID"": 2143, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2143, ""from"": ""Juliana"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Aeterna,tradeRoutes:151691:Cinis>Aeterna,,"{""productGUID"": 151691, ""from"": ""Cinis"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Aeterna,tradeRoutes:151694:Cinis>Aeterna,,"{""productGUID"": 151694, ""from"": ""Cinis"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Aeterna,tradeRoutes:151698:Cinis>Aeterna,,"{""productGUID"": 151698, ""from"": ""Cinis"", ""to"": ""Aeterna"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Nilopolis,tradeRoutes:2121:Cinis>Nilopolis,,"{""productGUID"": 2121, ""from"": ""Cinis"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Nilopolis,tradeRoutes:2124:Cinis>Nilopolis,,"{""productGUID"": 2124, ""from"": ""Cinis"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Nilopolis,tradeRoutes:2136:Star-of-the-Nile Nome>Nilopolis,,"{""productGUID"": 2136, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 6.6679, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152375), default supplier type factory kept; minimum 6.6679 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Nilopolis,tradeRoutes:2137:Star-of-the-Nile Nome>Nilopolis,,"{""productGUID"": 2137, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Nilopolis,tradeRoutes:2138,"[{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Nilopolis,tradeRoutes:2143:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 2143, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Nilopolis,tradeRoutes:2144:Aeterna>Nilopolis,,"{""productGUID"": 2144, ""from"": ""Aeterna"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1200.0 of 1200.0
+Nilopolis,tradeRoutes:2147:Cinis>Nilopolis,,"{""productGUID"": 2147, ""from"": ""Cinis"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1050.0 of 1050.0
+Nilopolis,tradeRoutes:2151:Cinis>Nilopolis,,"{""productGUID"": 2151, ""from"": ""Cinis"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 900.0 of 900.0
+Nilopolis,tradeRoutes:2155:Cragmore>Nilopolis,,"{""productGUID"": 2155, ""from"": ""Cragmore"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nilopolis,tradeRoutes:2156:Cantius>Nilopolis,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nilopolis,tradeRoutes:2161:Cudslip>Nilopolis,,"{""productGUID"": 2161, ""from"": ""Cudslip"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nilopolis,tradeRoutes:2162:Uxoriosum>Nilopolis,,"{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nilopolis,tradeRoutes:55954:Cudslip>Nilopolis,,"{""productGUID"": 55954, ""from"": ""Cudslip"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 900.0 of 900.0
+Nilopolis,tradeRoutes:145220:Cinis>Nilopolis,,"{""productGUID"": 145220, ""from"": ""Cinis"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nilopolis,tradeRoutes:151680:Falcon Cult Nome>Nilopolis,,"{""productGUID"": 151680, ""from"": ""Falcon Cult Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 2000.0 of 2000.0
+Nilopolis,tradeRoutes:151690:Falcon Cult Nome>Nilopolis,,"{""productGUID"": 151690, ""from"": ""Falcon Cult Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nilopolis,tradeRoutes:151693:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151693, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 8.5316, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152647), default supplier type factory kept; minimum 8.5316 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Nilopolis,tradeRoutes:151694:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Nilopolis,tradeRoutes:151695:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151695, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Nilopolis,tradeRoutes:151696:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151696, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nilopolis,tradeRoutes:151697:Falcon Cult Nome>Nilopolis,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nilopolis,tradeRoutes:151699:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Nilopolis,tradeRoutes:151701:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151701, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nilopolis,tradeRoutes:151703:Listening Weasel Nome>Nilopolis,,"{""productGUID"": 151703, ""from"": ""Listening Weasel Nome"", ""to"": ""Nilopolis"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Sycamore-Root Nome,tradeRoutes:2136:Star-of-the-Nile Nome>Sycamore-Root Nome,,"{""productGUID"": 2136, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0.0178, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152375), default supplier type factory kept; minimum 0.0178 t/min: measured from recorded visits"
+Sycamore-Root Nome,tradeRoutes:2137:Star-of-the-Nile Nome>Sycamore-Root Nome,,"{""productGUID"": 2137, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:2138:Star-of-the-Nile Nome>Sycamore-Root Nome,,"{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:2143:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 2143, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Sycamore-Root Nome,tradeRoutes:2144:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2144, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:2147:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2147, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:2151:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2151, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:2153:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2153, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Sycamore-Root Nome,tradeRoutes:2154:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:2155:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2155, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:2156:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2156, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:2161:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2161, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:2162:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2162, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:2178:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 2178, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Sycamore-Root Nome,tradeRoutes:2179:Cinis>Sycamore-Root Nome,,"{""productGUID"": 2179, ""from"": ""Cinis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Sycamore-Root Nome,tradeRoutes:55954:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 55954, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:145220:Cinis>Sycamore-Root Nome,,"{""productGUID"": 145220, ""from"": ""Cinis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0.0156, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 100.0 of 850.0"
+Sycamore-Root Nome,tradeRoutes:145220:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 145220, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 850.0
+Sycamore-Root Nome,tradeRoutes:151680:Falcon Cult Nome>Sycamore-Root Nome,,"{""productGUID"": 151680, ""from"": ""Falcon Cult Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 1.6381, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152272), default supplier type factory kept; minimum 1.6381 t/min: measured from recorded visits"
+Sycamore-Root Nome,tradeRoutes:151689:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 151689, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:151690:Falcon Cult Nome>Sycamore-Root Nome,,"{""productGUID"": 151690, ""from"": ""Falcon Cult Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:151693:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151693, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0.9982, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152647), default supplier type factory kept; minimum 0.9982 t/min: measured from recorded visits"
+Sycamore-Root Nome,tradeRoutes:151694:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:151695:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151695, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:151696:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151696, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:151697:Falcon Cult Nome>Sycamore-Root Nome,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:151698:Nilopolis>Sycamore-Root Nome,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:151699:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Sycamore-Root Nome,tradeRoutes:151701:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151701, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Sycamore-Root Nome,tradeRoutes:151703:Listening Weasel Nome>Sycamore-Root Nome,,"{""productGUID"": 151703, ""from"": ""Listening Weasel Nome"", ""to"": ""Sycamore-Root Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2136:Star-of-the-Nile Nome>Falcon Cult Nome,,"{""productGUID"": 2136, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 2.356, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152375), default supplier type factory kept; minimum 2.356 t/min: measured from recorded visits"
+Falcon Cult Nome,tradeRoutes:2137:Star-of-the-Nile Nome>Falcon Cult Nome,,"{""productGUID"": 2137, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2138:Star-of-the-Nile Nome>Falcon Cult Nome,,"{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Falcon Cult Nome,tradeRoutes:2143:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 2143, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2144:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2144, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2147:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2147, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2151,"[{""productGUID"": 2151, ""from"": ""Cinis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2151, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Falcon Cult Nome,tradeRoutes:2153:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2153, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2154:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Falcon Cult Nome,tradeRoutes:2155:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2155, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2156:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2156, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:2161:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 2161, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Falcon Cult Nome,tradeRoutes:2162,"[{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2162, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Falcon Cult Nome,tradeRoutes:55954:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 55954, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Falcon Cult Nome,tradeRoutes:145220:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 145220, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Falcon Cult Nome,tradeRoutes:151689:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 151689, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Falcon Cult Nome,tradeRoutes:151693:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 151693, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Falcon Cult Nome,tradeRoutes:151694:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Falcon Cult Nome,tradeRoutes:151695:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 151695, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0.4413, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152648), default supplier type factory kept; minimum 0.4413 t/min: measured from recorded visits"
+Falcon Cult Nome,tradeRoutes:151696:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 151696, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:151698:Nilopolis>Falcon Cult Nome,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Falcon Cult Nome,tradeRoutes:151699:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 8.4035, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152730), default supplier type factory kept; minimum 8.4035 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Falcon Cult Nome,tradeRoutes:151703:Listening Weasel Nome>Falcon Cult Nome,,"{""productGUID"": 151703, ""from"": ""Listening Weasel Nome"", ""to"": ""Falcon Cult Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Cudslip,tradeRoutes:2100,"[{""productGUID"": 2100, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 7.944600000000001, ""isDefaultSupplier"": false}]","[{""productGUID"": 2100, ""from"": ""Ysbadd"", ""to"": ""Cudslip"", ""userSetAmount"": 0.1005, ""isDefaultSupplier"": false}, {""productGUID"": 2100, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cudslip,tradeRoutes:2101,"[{""productGUID"": 2101, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 1.3333333333333333, ""isDefaultSupplier"": false}]","[{""productGUID"": 2101, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cudslip,tradeRoutes:2108:Cragmore>Cudslip,,"{""productGUID"": 2108, ""from"": ""Cragmore"", ""to"": ""Cudslip"", ""userSetAmount"": 3.0135, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5299), default supplier type factory kept; minimum 3.0135 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Cudslip,tradeRoutes:2138,"[{""productGUID"": 2138, ""from"": ""Juliana"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cudslip,tradeRoutes:2139:Nusquam>Cudslip,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Cudslip,tradeRoutes:2154:Cantius>Cudslip,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cudslip,tradeRoutes:2156:Cantius>Cudslip,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 350.0 of 350.0
+Cudslip,tradeRoutes:2157:Uxoriosum>Cudslip,,"{""productGUID"": 2157, ""from"": ""Uxoriosum"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 123.0 of 123.0
+Cudslip,tradeRoutes:2159:Cragmore>Cudslip,,"{""productGUID"": 2159, ""from"": ""Cragmore"", ""to"": ""Cudslip"", ""userSetAmount"": 0.5855, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5609), default supplier type factory kept; minimum 0.5855 t/min: measured from recorded visits"
+Cudslip,tradeRoutes:8405:Cragmore>Cudslip,,"{""productGUID"": 8405, ""from"": ""Cragmore"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 350.0 of 350.0
+Cudslip,tradeRoutes:31700:Argantum>Cudslip,,"{""productGUID"": 31700, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 3.0135, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 55962), default supplier type factory kept; minimum 3.0135 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Cudslip,tradeRoutes:31702,"[{""productGUID"": 31702, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 2.2, ""isDefaultSupplier"": false}]","[{""productGUID"": 31702, ""from"": ""Argantum"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Cudslip,tradeRoutes:151694:Listening Weasel Nome>Cudslip,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cudslip,tradeRoutes:151699:Listening Weasel Nome>Cudslip,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Cudslip"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Listening Weasel Nome,tradeRoutes:2071:Falcon Cult Nome>Listening Weasel Nome,,"{""productGUID"": 2071, ""from"": ""Falcon Cult Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1750.0 of 1750.0
+Listening Weasel Nome,tradeRoutes:2121:Cinis>Listening Weasel Nome,,"{""productGUID"": 2121, ""from"": ""Cinis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Listening Weasel Nome,tradeRoutes:2132:Aeterna>Listening Weasel Nome,,"{""productGUID"": 2132, ""from"": ""Aeterna"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1800.0 of 1800.0
+Listening Weasel Nome,tradeRoutes:2136:Star-of-the-Nile Nome>Listening Weasel Nome,,"{""productGUID"": 2136, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2137:Star-of-the-Nile Nome>Listening Weasel Nome,,"{""productGUID"": 2137, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2138:Star-of-the-Nile Nome>Listening Weasel Nome,,"{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Listening Weasel Nome,tradeRoutes:2144:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2144, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2147:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2147, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Listening Weasel Nome,tradeRoutes:2151:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2151, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2153:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2153, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2154:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2155:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2155, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2156:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2156, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2161:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2161, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2162:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2162, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:2176:Sycamore-Root Nome>Listening Weasel Nome,,"{""productGUID"": 2176, ""from"": ""Sycamore-Root Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Listening Weasel Nome,tradeRoutes:2178:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 2178, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Listening Weasel Nome,tradeRoutes:31698:Cinis>Listening Weasel Nome,,"{""productGUID"": 31698, ""from"": ""Cinis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 5.23, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152358), default supplier type factory kept; minimum 5.23 t/min: measured from recorded visits"
+Listening Weasel Nome,tradeRoutes:31709:Sycamore-Root Nome>Listening Weasel Nome,,"{""productGUID"": 31709, ""from"": ""Sycamore-Root Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Listening Weasel Nome,tradeRoutes:55954:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 55954, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Listening Weasel Nome,tradeRoutes:145220:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 145220, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:151680:Falcon Cult Nome>Listening Weasel Nome,,"{""productGUID"": 151680, ""from"": ""Falcon Cult Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 2000.0 of 2000.0
+Listening Weasel Nome,tradeRoutes:151689:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 151689, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Listening Weasel Nome,tradeRoutes:151690:Falcon Cult Nome>Listening Weasel Nome,,"{""productGUID"": 151690, ""from"": ""Falcon Cult Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:151697:Falcon Cult Nome>Listening Weasel Nome,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:151698:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Listening Weasel Nome,tradeRoutes:151704:Sycamore-Root Nome>Listening Weasel Nome,,"{""productGUID"": 151704, ""from"": ""Sycamore-Root Nome"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 1.1635, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152788), default supplier type factory kept; minimum 1.1635 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Listening Weasel Nome,tradeRoutes:151705:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 151705, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Listening Weasel Nome,tradeRoutes:151714:Nilopolis>Listening Weasel Nome,,"{""productGUID"": 151714, ""from"": ""Nilopolis"", ""to"": ""Listening Weasel Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 2000.0 of 2000.0
+Juliana,tradeRoutes:2078,"[{""productGUID"": 2078, ""from"": ""Tiberia"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2078, ""from"": ""Tiberia"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Juliana,tradeRoutes:2115:Tiberia>Juliana,,"{""productGUID"": 2115, ""from"": ""Tiberia"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Juliana,tradeRoutes:2121:Cinis>Juliana,,"{""productGUID"": 2121, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Juliana,tradeRoutes:2132:Aeterna>Juliana,,"{""productGUID"": 2132, ""from"": ""Aeterna"", ""to"": ""Juliana"", ""userSetAmount"": 8.5234, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 31756), default supplier type factory kept; minimum 8.5234 t/min: measured from recorded visits"
+Juliana,tradeRoutes:2139:Nusquam>Juliana,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1750.0 of 1750.0
+Juliana,tradeRoutes:2140:Cinis>Juliana,,"{""productGUID"": 2140, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Juliana,tradeRoutes:2141:Cinis>Juliana,,"{""productGUID"": 2141, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Juliana,tradeRoutes:2144:Aeterna>Juliana,,"{""productGUID"": 2144, ""from"": ""Aeterna"", ""to"": ""Juliana"", ""userSetAmount"": 2.5229, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 3190), default supplier type factory kept; minimum 2.5229 t/min: measured from recorded visits"
+Juliana,tradeRoutes:2145:Cinis>Juliana,,"{""productGUID"": 2145, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Juliana,tradeRoutes:2146:Cinis>Juliana,,"{""productGUID"": 2146, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Juliana,tradeRoutes:2147:Cinis>Juliana,,"{""productGUID"": 2147, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Juliana,tradeRoutes:2149,"[{""productGUID"": 2149, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]","[{""productGUID"": 2149, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (match)
+Juliana,tradeRoutes:2151:Cinis>Juliana,,"{""productGUID"": 2151, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Juliana,tradeRoutes:2153:Uxoriosum>Juliana,,"{""productGUID"": 2153, ""from"": ""Uxoriosum"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1050.0 of 1050.0
+Juliana,tradeRoutes:2154:Cantius>Juliana,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1400.0 of 1400.0
+Juliana,tradeRoutes:2155:Cragmore>Juliana,,"{""productGUID"": 2155, ""from"": ""Cragmore"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 350.0 of 350.0
+Juliana,tradeRoutes:2156:Cantius>Juliana,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1400.0 of 1400.0
+Juliana,tradeRoutes:2161:Cudslip>Juliana,,"{""productGUID"": 2161, ""from"": ""Cudslip"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1050.0 of 1050.0
+Juliana,tradeRoutes:2162:Uxoriosum>Juliana,,"{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Juliana,tradeRoutes:2163:Uxoriosum>Juliana,,"{""productGUID"": 2163, ""from"": ""Uxoriosum"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 350.0 of 350.0
+Juliana,tradeRoutes:2166:Cinis>Juliana,,"{""productGUID"": 2166, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Juliana,tradeRoutes:31700:Argantum>Juliana,,"{""productGUID"": 31700, ""from"": ""Argantum"", ""to"": ""Juliana"", ""userSetAmount"": 3.1699, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,R37 ordinary route; user default supplier type passive_trade kept; minimum 3.1699 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)
+Juliana,tradeRoutes:31706:Cudslip>Juliana,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Juliana,tradeRoutes:31768:Cudslip>Juliana,,"{""productGUID"": 31768, ""from"": ""Cudslip"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Juliana,tradeRoutes:145102:Tiberia>Juliana,,"{""productGUID"": 145102, ""from"": ""Tiberia"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Juliana,tradeRoutes:151691:Cinis>Juliana,,"{""productGUID"": 151691, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Juliana,tradeRoutes:151694:Cinis>Juliana,,"{""productGUID"": 151694, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Juliana,tradeRoutes:151698:Cinis>Juliana,,"{""productGUID"": 151698, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0.3807, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 250.0 of 550.0"
+Juliana,tradeRoutes:151698:Nilopolis>Juliana,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 550.0
+Juliana,tradeRoutes:151701:Cinis>Juliana,,"{""productGUID"": 151701, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Juliana,tradeRoutes:151703:Cinis>Juliana,,"{""productGUID"": 151703, ""from"": ""Cinis"", ""to"": ""Juliana"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Cragmore,tradeRoutes:2138:Star-of-the-Nile Nome>Cragmore,,"{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Cragmore"", ""userSetAmount"": 0.3871, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 100.0 of 325.0"
+Cragmore,tradeRoutes:2138:Cinis>Cragmore,,"{""productGUID"": 2138, ""from"": ""Cinis"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 225.0 of 325.0
+Cragmore,tradeRoutes:2139:Nusquam>Cragmore,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Cragmore,tradeRoutes:2141:Cudslip>Cragmore,,"{""productGUID"": 2141, ""from"": ""Cudslip"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Cragmore,tradeRoutes:2145:Cinis>Cragmore,,"{""productGUID"": 2145, ""from"": ""Cinis"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 225.0 of 225.0
+Cragmore,tradeRoutes:2153:Cudslip>Cragmore,,"{""productGUID"": 2153, ""from"": ""Cudslip"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Cragmore,tradeRoutes:2154:Cantius>Cragmore,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Cragmore,tradeRoutes:2156:Cantius>Cragmore,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Cragmore"", ""userSetAmount"": 3.444, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5605), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Cragmore,tradeRoutes:2158:Cudslip>Cragmore,,"{""productGUID"": 2158, ""from"": ""Cudslip"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Cragmore,tradeRoutes:2162:Uxoriosum>Cragmore,,"{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 950.0 of 950.0
+Cragmore,tradeRoutes:31700:Argantum>Cragmore,,"{""productGUID"": 31700, ""from"": ""Argantum"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Cragmore,tradeRoutes:31706:Cudslip>Cragmore,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Cragmore,tradeRoutes:31708:Uxoriosum>Cragmore,,"{""productGUID"": 31708, ""from"": ""Uxoriosum"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Cragmore,tradeRoutes:55954:Cudslip>Cragmore,,"{""productGUID"": 55954, ""from"": ""Cudslip"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Cragmore,tradeRoutes:151692:Nilopolis>Cragmore,,"{""productGUID"": 151692, ""from"": ""Nilopolis"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cragmore,tradeRoutes:151694:Listening Weasel Nome>Cragmore,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cragmore,tradeRoutes:151697:Falcon Cult Nome>Cragmore,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Cragmore,tradeRoutes:151699:Listening Weasel Nome>Cragmore,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Cragmore"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Rain Caller Nome,tradeRoutes:2136:Star-of-the-Nile Nome>Rain Caller Nome,,"{""productGUID"": 2136, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2137:Star-of-the-Nile Nome>Rain Caller Nome,,"{""productGUID"": 2137, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2144:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2144, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2147:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2147, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2151:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2151, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2153:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2153, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2154:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2155:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2155, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2161:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2161, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2162:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2162, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2176:Sycamore-Root Nome>Rain Caller Nome,,"{""productGUID"": 2176, ""from"": ""Sycamore-Root Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:2178:Nilopolis>Rain Caller Nome,,"{""productGUID"": 2178, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:31709:Sycamore-Root Nome>Rain Caller Nome,,"{""productGUID"": 31709, ""from"": ""Sycamore-Root Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:55954:Nilopolis>Rain Caller Nome,,"{""productGUID"": 55954, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:145220:Nilopolis>Rain Caller Nome,,"{""productGUID"": 145220, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:151689:Nilopolis>Rain Caller Nome,,"{""productGUID"": 151689, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 500.0 of 500.0
+Rain Caller Nome,tradeRoutes:151690:Falcon Cult Nome>Rain Caller Nome,,"{""productGUID"": 151690, ""from"": ""Falcon Cult Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:151693:Listening Weasel Nome>Rain Caller Nome,,"{""productGUID"": 151693, ""from"": ""Listening Weasel Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:151697:Falcon Cult Nome>Rain Caller Nome,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:151698:Nilopolis>Rain Caller Nome,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Rain Caller Nome,tradeRoutes:151704:Sycamore-Root Nome>Rain Caller Nome,,"{""productGUID"": 151704, ""from"": ""Sycamore-Root Nome"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 2.9087, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 152788), default supplier type factory kept; minimum 2.9087 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Rain Caller Nome,tradeRoutes:151705:Nilopolis>Rain Caller Nome,,"{""productGUID"": 151705, ""from"": ""Nilopolis"", ""to"": ""Rain Caller Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:2143:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 2143, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2144:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2144, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2147:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2147, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2151:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2151, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:2153:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2153, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2154:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2155:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2155, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2156:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2156, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:2161:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2161, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:2162:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2162, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:2176:Sycamore-Root Nome>Star-of-the-Nile Nome,,"{""productGUID"": 2176, ""from"": ""Sycamore-Root Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Star-of-the-Nile Nome,tradeRoutes:2178:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 2178, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Star-of-the-Nile Nome,tradeRoutes:31709:Sycamore-Root Nome>Star-of-the-Nile Nome,,"{""productGUID"": 31709, ""from"": ""Sycamore-Root Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Star-of-the-Nile Nome,tradeRoutes:55954:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 55954, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:145220:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 145220, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:151680:Falcon Cult Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151680, ""from"": ""Falcon Cult Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 2000.0 of 2000.0
+Star-of-the-Nile Nome,tradeRoutes:151689:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 151689, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Star-of-the-Nile Nome,tradeRoutes:151690:Falcon Cult Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151690, ""from"": ""Falcon Cult Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:151693:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151693, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:151694:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Star-of-the-Nile Nome,tradeRoutes:151695:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151695, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:151696:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151696, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1000.0 of 1000.0
+Star-of-the-Nile Nome,tradeRoutes:151697:Falcon Cult Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:151698:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:151699:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:151701:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151701, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Star-of-the-Nile Nome,tradeRoutes:151703:Listening Weasel Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151703, ""from"": ""Listening Weasel Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 750.0 of 750.0
+Star-of-the-Nile Nome,tradeRoutes:151704:Sycamore-Root Nome>Star-of-the-Nile Nome,,"{""productGUID"": 151704, ""from"": ""Sycamore-Root Nome"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Star-of-the-Nile Nome,tradeRoutes:151705:Nilopolis>Star-of-the-Nile Nome,,"{""productGUID"": 151705, ""from"": ""Nilopolis"", ""to"": ""Star-of-the-Nile Nome"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Nusquam,tradeRoutes:2071:Juliana>Nusquam,,"{""productGUID"": 2071, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 550.0 of 550.0
+Nusquam,tradeRoutes:2073:Juliana>Nusquam,,"{""productGUID"": 2073, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 1100.0
+Nusquam,tradeRoutes:2132:Juliana>Nusquam,,"{""productGUID"": 2132, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 550.0 of 550.0
+Nusquam,tradeRoutes:2136:Juliana>Nusquam,,"{""productGUID"": 2136, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 1100.0
+Nusquam,tradeRoutes:2137:Juliana>Nusquam,,"{""productGUID"": 2137, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 2200.0 of 2200.0
+Nusquam,tradeRoutes:2138:Star-of-the-Nile Nome>Nusquam,,"{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Nusquam"", ""userSetAmount"": 5.0148, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 900.0 of 2000.0"
+Nusquam,tradeRoutes:2138:Juliana>Nusquam,,"{""productGUID"": 2138, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 2000.0
+Nusquam,tradeRoutes:2141:Cinis>Nusquam,,"{""productGUID"": 2141, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 900.0 of 900.0
+Nusquam,tradeRoutes:2144:Aeterna>Nusquam,,"{""productGUID"": 2144, ""from"": ""Aeterna"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1200.0 of 1200.0
+Nusquam,tradeRoutes:2145:Cinis>Nusquam,,"{""productGUID"": 2145, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nusquam,tradeRoutes:2146:Cinis>Nusquam,,"{""productGUID"": 2146, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 1.5612, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 3192), default supplier type factory kept; minimum 1.5612 t/min: measured from recorded visits"
+Nusquam,tradeRoutes:2147:Cinis>Nusquam,,"{""productGUID"": 2147, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nusquam,tradeRoutes:2149:Cinis>Nusquam,,"{""productGUID"": 2149, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nusquam,tradeRoutes:2150:Cinis>Nusquam,,"{""productGUID"": 2150, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nusquam,tradeRoutes:2151:Cinis>Nusquam,,"{""productGUID"": 2151, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nusquam,tradeRoutes:2153:Cudslip>Nusquam,,"{""productGUID"": 2153, ""from"": ""Cudslip"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nusquam,tradeRoutes:2154:Nilopolis>Nusquam,,"{""productGUID"": 2154, ""from"": ""Nilopolis"", ""to"": ""Nusquam"", ""userSetAmount"": 4.9251, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 1200.0 of 2400.0"
+Nusquam,tradeRoutes:2154:Cantius>Nusquam,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1200.0 of 2400.0
+Nusquam,tradeRoutes:2155:Cragmore>Nusquam,,"{""productGUID"": 2155, ""from"": ""Cragmore"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Nusquam,tradeRoutes:2156:Cantius>Nusquam,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1200.0 of 1200.0
+Nusquam,tradeRoutes:2161:Cudslip>Nusquam,,"{""productGUID"": 2161, ""from"": ""Cudslip"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Nusquam,tradeRoutes:2162:Uxoriosum>Nusquam,,"{""productGUID"": 2162, ""from"": ""Uxoriosum"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Nusquam,tradeRoutes:2163:Uxoriosum>Nusquam,,"{""productGUID"": 2163, ""from"": ""Uxoriosum"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Nusquam,tradeRoutes:2166:Cinis>Nusquam,,"{""productGUID"": 2166, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Nusquam,tradeRoutes:2171:Juliana>Nusquam,,"{""productGUID"": 2171, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1950.0 of 1950.0
+Nusquam,tradeRoutes:2172:Juliana>Nusquam,,"{""productGUID"": 2172, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1950.0 of 1950.0
+Nusquam,tradeRoutes:2174:Juliana>Nusquam,,"{""productGUID"": 2174, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 1100.0
+Nusquam,tradeRoutes:2176:Juliana>Nusquam,,"{""productGUID"": 2176, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1100.0 of 1100.0
+Nusquam,tradeRoutes:2178:Juliana>Nusquam,,"{""productGUID"": 2178, ""from"": ""Juliana"", ""to"": ""Nusquam"", ""userSetAmount"": 4.6516, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 3129), default supplier type factory kept; minimum 4.6516 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Nusquam,tradeRoutes:8405:Cragmore>Nusquam,,"{""productGUID"": 8405, ""from"": ""Cragmore"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Nusquam,tradeRoutes:31700:Argantum>Nusquam,,"{""productGUID"": 31700, ""from"": ""Argantum"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Nusquam,tradeRoutes:31706:Cudslip>Nusquam,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 100.0 of 100.0
+Nusquam,tradeRoutes:31768:Cudslip>Nusquam,,"{""productGUID"": 31768, ""from"": ""Cudslip"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 150.0 of 150.0
+Nusquam,tradeRoutes:55954:Cudslip>Nusquam,,"{""productGUID"": 55954, ""from"": ""Cudslip"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 50.0 of 50.0
+Nusquam,tradeRoutes:145220:Cinis>Nusquam,,"{""productGUID"": 145220, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 1.9493, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 145229), default supplier type factory kept; minimum 1.9493 t/min: measured from recorded visits"
+Nusquam,tradeRoutes:151680:Falcon Cult Nome>Nusquam,,"{""productGUID"": 151680, ""from"": ""Falcon Cult Nome"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 1500.0 of 1500.0
+Nusquam,tradeRoutes:151691:Cinis>Nusquam,,"{""productGUID"": 151691, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Nusquam,tradeRoutes:151694:Cinis>Nusquam,,"{""productGUID"": 151694, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Nusquam,tradeRoutes:151698:Cinis>Nusquam,,"{""productGUID"": 151698, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0.9833, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 300.0 of 1200.0"
+Nusquam,tradeRoutes:151698:Nilopolis>Nusquam,,"{""productGUID"": 151698, ""from"": ""Nilopolis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 900.0 of 1200.0
+Nusquam,tradeRoutes:151701:Cinis>Nusquam,,"{""productGUID"": 151701, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Nusquam,tradeRoutes:151703:Cinis>Nusquam,,"{""productGUID"": 151703, ""from"": ""Cinis"", ""to"": ""Nusquam"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Argantum,tradeRoutes:2102,"[{""productGUID"": 2102, ""from"": ""Cragmore"", ""to"": ""Argantum"", ""userSetAmount"": 5.216680000000001, ""isDefaultSupplier"": false}]","[{""productGUID"": 2102, ""from"": ""Cragmore"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Argantum,tradeRoutes:2108:Cragmore>Argantum,,"{""productGUID"": 2108, ""from"": ""Cragmore"", ""to"": ""Argantum"", ""userSetAmount"": 3.444, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5299), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Argantum,tradeRoutes:2139:Nusquam>Argantum,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Argantum,tradeRoutes:2141:Cudslip>Argantum,,"{""productGUID"": 2141, ""from"": ""Cudslip"", ""to"": ""Argantum"", ""userSetAmount"": 0.2669, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5958), default supplier type factory kept; minimum 0.2669 t/min: measured from recorded visits"
+Argantum,tradeRoutes:2153:Cudslip>Argantum,,"{""productGUID"": 2153, ""from"": ""Cudslip"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Argantum,tradeRoutes:2154:Cantius>Argantum,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Argantum,tradeRoutes:2156:Cantius>Argantum,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Argantum,tradeRoutes:2157:Uxoriosum>Argantum,,"{""productGUID"": 2157, ""from"": ""Uxoriosum"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 123.0 of 123.0
+Argantum,tradeRoutes:2158:Cudslip>Argantum,,"{""productGUID"": 2158, ""from"": ""Cudslip"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Argantum,tradeRoutes:2159:Cragmore>Argantum,,"{""productGUID"": 2159, ""from"": ""Cragmore"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Argantum,tradeRoutes:8405:Cragmore>Argantum,,"{""productGUID"": 8405, ""from"": ""Cragmore"", ""to"": ""Argantum"", ""userSetAmount"": 3.444, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5959), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Argantum,tradeRoutes:31695:Cudslip>Argantum,,"{""productGUID"": 31695, ""from"": ""Cudslip"", ""to"": ""Argantum"", ""userSetAmount"": 0.7399, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 31761), default supplier type factory kept; minimum 0.7399 t/min: measured from recorded visits"
+Argantum,tradeRoutes:31706:Cudslip>Argantum,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Argantum,tradeRoutes:55954:Cudslip>Argantum,,"{""productGUID"": 55954, ""from"": ""Cudslip"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Argantum,tradeRoutes:151694:Listening Weasel Nome>Argantum,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Argantum,tradeRoutes:151699:Listening Weasel Nome>Argantum,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Argantum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Uxoriosum,tradeRoutes:2103:Cragmore>Uxoriosum,,"{""productGUID"": 2103, ""from"": ""Cragmore"", ""to"": ""Uxoriosum"", ""userSetAmount"": 1.1935, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5849), default supplier type factory kept; minimum 1.1935 t/min: measured from recorded visits"
+Uxoriosum,tradeRoutes:2108:Cragmore>Uxoriosum,,"{""productGUID"": 2108, ""from"": ""Cragmore"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:2129,"[{""productGUID"": 2129, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 5.901855, ""isDefaultSupplier"": false}]","[{""productGUID"": 2129, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}]",unchanged,tradeRoutes,user entries kept; derived alternative (differs)
+Uxoriosum,tradeRoutes:2138:Star-of-the-Nile Nome>Uxoriosum,,"{""productGUID"": 2138, ""from"": ""Star-of-the-Nile Nome"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0.5955, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37; ordinary route, minimum = weight share of the planner demand; weight 200.0 of 650.0"
+Uxoriosum,tradeRoutes:2138:Cinis>Uxoriosum,,"{""productGUID"": 2138, ""from"": ""Cinis"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 650.0
+Uxoriosum,tradeRoutes:2139:Nusquam>Uxoriosum,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Uxoriosum,tradeRoutes:2141:Cudslip>Uxoriosum,,"{""productGUID"": 2141, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:2145:Cinis>Uxoriosum,,"{""productGUID"": 2145, ""from"": ""Cinis"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:2154:Cantius>Uxoriosum,,"{""productGUID"": 2154, ""from"": ""Cantius"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Uxoriosum,tradeRoutes:2155:Cragmore>Uxoriosum,,"{""productGUID"": 2155, ""from"": ""Cragmore"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 35.0 of 35.0
+Uxoriosum,tradeRoutes:2156:Cantius>Uxoriosum,,"{""productGUID"": 2156, ""from"": ""Cantius"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:2158:Cudslip>Uxoriosum,,"{""productGUID"": 2158, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Uxoriosum,tradeRoutes:2159:Cragmore>Uxoriosum,,"{""productGUID"": 2159, ""from"": ""Cragmore"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:2161:Cudslip>Uxoriosum,,"{""productGUID"": 2161, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 90.0 of 90.0
+Uxoriosum,tradeRoutes:8405:Cragmore>Uxoriosum,,"{""productGUID"": 8405, ""from"": ""Cragmore"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:31700:Argantum>Uxoriosum,,"{""productGUID"": 31700, ""from"": ""Argantum"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:31706:Cudslip>Uxoriosum,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Uxoriosum,tradeRoutes:31707:Cudslip>Uxoriosum,,"{""productGUID"": 31707, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 45.0 of 45.0
+Uxoriosum,tradeRoutes:31768:Cudslip>Uxoriosum,,"{""productGUID"": 31768, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 45.0 of 45.0
+Uxoriosum,tradeRoutes:55954:Cudslip>Uxoriosum,,"{""productGUID"": 55954, ""from"": ""Cudslip"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 200.0 of 200.0
+Uxoriosum,tradeRoutes:151692:Nilopolis>Uxoriosum,,"{""productGUID"": 151692, ""from"": ""Nilopolis"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 450.0 of 450.0
+Uxoriosum,tradeRoutes:151694:Listening Weasel Nome>Uxoriosum,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Uxoriosum,tradeRoutes:151697:Falcon Cult Nome>Uxoriosum,,"{""productGUID"": 151697, ""from"": ""Falcon Cult Nome"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Uxoriosum,tradeRoutes:151699:Listening Weasel Nome>Uxoriosum,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Uxoriosum"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cantius,tradeRoutes:2085:Cragmore>Cantius,,"{""productGUID"": 2085, ""from"": ""Cragmore"", ""to"": ""Cantius"", ""userSetAmount"": 2.4813, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5977), default supplier type factory kept; minimum 2.4813 t/min: measured from recorded visits"
+Cantius,tradeRoutes:2085:Argantum>Cantius,,"{""productGUID"": 2085, ""from"": ""Argantum"", ""to"": ""Cantius"", ""userSetAmount"": 2.4813, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5977), default supplier type factory kept; minimum 2.4813 t/min: measured from recorded visits"
+Cantius,tradeRoutes:2108:Cragmore>Cantius,,"{""productGUID"": 2108, ""from"": ""Cragmore"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Cantius,tradeRoutes:2137:Uxoriosum>Cantius,,"{""productGUID"": 2137, ""from"": ""Uxoriosum"", ""to"": ""Cantius"", ""userSetAmount"": 0.4172, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5960), default supplier type factory kept; minimum 0.4172 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Cantius,tradeRoutes:2139:Nusquam>Cantius,,"{""productGUID"": 2139, ""from"": ""Nusquam"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cantius,tradeRoutes:2141:Cudslip>Cantius,,"{""productGUID"": 2141, ""from"": ""Cudslip"", ""to"": ""Cantius"", ""userSetAmount"": 3.444, ""isDefaultSupplier"": false}",derived by rule,tradeRoutes,"R37 ordinary route; local producer (factory 5958), default supplier type factory kept; minimum 3.444 t/min: capacity rate visits x unload amount / window (no usable record; planner demand cap not available)"
+Cantius,tradeRoutes:2153:Uxoriosum>Cantius,,"{""productGUID"": 2153, ""from"": ""Uxoriosum"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Cantius,tradeRoutes:2157:Uxoriosum>Cantius,,"{""productGUID"": 2157, ""from"": ""Uxoriosum"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; roles from recorded net signs (route has no pure source); default supplier; weight 123.0 of 123.0
+Cantius,tradeRoutes:2158:Cudslip>Cantius,,"{""productGUID"": 2158, ""from"": ""Cudslip"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Cantius,tradeRoutes:2159:Cragmore>Cantius,,"{""productGUID"": 2159, ""from"": ""Cragmore"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Cantius,tradeRoutes:8405:Cragmore>Cantius,,"{""productGUID"": 8405, ""from"": ""Cragmore"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Cantius,tradeRoutes:31700:Argantum>Cantius,,"{""productGUID"": 31700, ""from"": ""Argantum"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 400.0 of 400.0
+Cantius,tradeRoutes:31706:Cudslip>Cantius,,"{""productGUID"": 31706, ""from"": ""Cudslip"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Cantius,tradeRoutes:55954:Cudslip>Cantius,,"{""productGUID"": 55954, ""from"": ""Cudslip"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 250.0 of 250.0
+Cantius,tradeRoutes:151694:Listening Weasel Nome>Cantius,,"{""productGUID"": 151694, ""from"": ""Listening Weasel Nome"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 300.0 of 300.0
+Cantius,tradeRoutes:151699:Listening Weasel Nome>Cantius,,"{""productGUID"": 151699, ""from"": ""Listening Weasel Nome"", ""to"": ""Cantius"", ""userSetAmount"": 0, ""isDefaultSupplier"": true}",derived by rule,tradeRoutes,R37; default supplier; weight 600.0 of 600.0
+Cinis,1498[31758].checked,0,0,unchanged,"needs, kept off",need for a public building
+Cinis,1497[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1496[2777].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1497[2771].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1497[2772].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1497[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1497[2780].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1497[2779].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island
+Juliana,1498[2748].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1498[2749].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1498[2774].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1498[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1498[2775].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1498[2772].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1498[2780].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1498[2776].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1498[2784].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1498[2779].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island
+Juliana,1498[2785].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Juliana,1498[2781].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1497[2747].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Juliana,1499[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Nusquam,1499[2665].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Nusquam,1499[2668].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Nusquam,1499[2750].checked,0,0,unchanged,"needs, kept off",need for a public building
+Nusquam,1499[2751].checked,0,0,unchanged,"needs, kept off",need for a public building
+Nusquam,1499[2768].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Nusquam,1499[2769].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Nusquam,1499[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Nusquam,1498[2774].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Nusquam,(194 need keys of other regions' levels),0,0,unchanged,"needs, kept off",level or need not part of the island's region (no effect)
+Tiberia,1499[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1499[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1499[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1499[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1499[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1499[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1499[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1496[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1496[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1496[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1496[2689].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2746].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2753].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1496[2754].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1496[2771].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2777].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1496[2778].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1497[2689].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2746].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2753].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2754].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2771].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2777].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2778].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2747].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1497[68747].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2756].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[31758].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2772].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1497[2779].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2780].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1497[2755].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1497[2782].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[2689].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2746].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2753].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2754].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2771].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2777].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2778].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2747].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[68747].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2756].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[31758].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2772].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[2779].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2780].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2755].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2782].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2748].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2749].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[2759].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2752].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,1498[2774].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2775].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[2776].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2784].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[2785].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Tiberia,1498[2781].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Tiberia,1498[2783].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Tiberia,(194 need keys of other regions' levels),0,0,unchanged,"needs, kept off",level or need not part of the island's region (no effect)
+Valerium,1499[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1499[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1499[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1499[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1499[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1499[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1499[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1496[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1496[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1496[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1496[2689].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2746].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2753].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1496[2754].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1496[2771].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2777].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1496[2778].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1497[2689].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2746].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2753].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2754].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2771].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2777].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2778].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2747].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1497[68747].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2756].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[31758].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2772].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1497[2779].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2780].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1497[2755].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1497[2782].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2665].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2668].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2750].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2751].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2768].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2769].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[71188].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[2689].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2746].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2753].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2754].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2771].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2777].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2778].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2747].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[68747].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2756].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[31758].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2772].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2773].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[2779].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2780].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2755].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2782].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2748].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2749].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[2759].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2752].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,1498[2774].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2775].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[2776].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2784].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[2785].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island + tier has no residences on the island
+Valerium,1498[2781].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region + tier has no residences on the island
+Valerium,1498[2783].checked,0,0,unchanged,"needs, kept off",need for a public building + tier has no residences on the island
+Valerium,(194 need keys of other regions' levels),0,0,unchanged,"needs, kept off",level or need not part of the island's region (no effect)
+Cudslip,1502[6442].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Cudslip,1502[6452].checked,0,0,unchanged,"needs, kept off",good cannot be produced in the island's region
+Cudslip,1502[6454].checked,0,0,unchanged,"needs, kept off",good neither produced nor imported on the island
+Cudslip,1501[6442].checked,0,0,unchanged,"needs, kept off",switched off by the user
+Cudslip,1502[6440].checked,0,0,unchanged,"needs, kept off",switched off by the user

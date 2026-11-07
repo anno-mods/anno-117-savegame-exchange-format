@@ -1,0 +1,10088 @@
+{
+ "islands": [
+  {
+   "key": 8513,
+   "name": "Juliana",
+   "decisions": [
+    {
+     "factory": 3174,
+     "kind": "item",
+     "id": 51635,
+     "affected": 33,
+     "total": 33,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3171,
+     "kind": "item",
+     "id": 51336,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3174,
+     "kind": "item",
+     "id": 51336,
+     "affected": 33,
+     "total": 33,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3174,
+     "kind": "item",
+     "id": 160522,
+     "affected": 33,
+     "total": 33,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3177,
+     "kind": "item",
+     "id": 44112,
+     "affected": 7,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2795,
+     "kind": "item",
+     "id": 44112,
+     "affected": 2,
+     "total": 14,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2694,
+     "kind": "item",
+     "id": 44112,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2698,
+     "kind": "item",
+     "id": 156696,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2694,
+     "kind": "item",
+     "id": 156696,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "item",
+     "id": 160072,
+     "affected": 3,
+     "total": 5,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2786,
+     "kind": "item",
+     "id": 50665,
+     "affected": 3,
+     "total": 5,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2793,
+     "kind": "item",
+     "id": 51324,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2786,
+     "kind": "item",
+     "id": 51324,
+     "affected": 3,
+     "total": 5,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2794,
+     "kind": "item",
+     "id": 51324,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3091,
+     "kind": "item",
+     "id": 51366,
+     "affected": 2,
+     "total": 4,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2200,
+     "kind": "item",
+     "id": 51282,
+     "affected": 7,
+     "total": 7,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2693,
+     "kind": "item",
+     "id": 51282,
+     "affected": 10,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31750,
+     "kind": "item",
+     "id": 51282,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3089,
+     "kind": "item",
+     "id": 156677,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3075,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 7,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 2693,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 11,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 11,
+     "circle_applied": true
+    },
+    {
+     "factory": 2694,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 8,
+     "circle_applied": true
+    },
+    {
+     "factory": 31750,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2698,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 8,
+     "circle_applied": true
+    },
+    {
+     "factory": 2955,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 31755,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 31756,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2958,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 6,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": false
+    },
+    {
+     "factory": 3089,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3091,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 4,
+     "circle_applied": true
+    },
+    {
+     "factory": 2200,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 7,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 2970,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 3129,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 12,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2878,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2880,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 3,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 4831,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 3168,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3169,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2786,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 3171,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 17,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": false
+    },
+    {
+     "factory": 3174,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 33,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 50280,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3177,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 10,
+     "total": 11,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 9,
+     "circle_applied": true
+    },
+    {
+     "factory": 2793,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2795,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 13,
+     "total": 14,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 8,
+     "circle_applied": true
+    },
+    {
+     "factory": 2794,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3188,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 5,
+     "total": 10,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 4,
+     "circle_applied": false
+    },
+    {
+     "factory": 3189,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 13,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": false
+    },
+    {
+     "factory": 3190,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 4,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 3075,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2693,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 11,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2694,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31750,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2698,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2955,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31755,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31756,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2958,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3089,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3091,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2200,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2970,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3129,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 12,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2878,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2880,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 4831,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 3168,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 3169,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3171,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3174,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 33,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3177,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 11,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2793,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2795,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 14,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2794,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3188,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3189,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3190,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 3,
+     "total": 5,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2793,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2794,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31750,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2694,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2698,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2693,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 11,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2200,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 7,
+     "total": 7,
+     "applied": true,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 3406,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 8897,
+   "name": "Nusquam",
+   "decisions": [
+    {
+     "factory": 2956,
+     "kind": "item",
+     "id": 51292,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8586,
+     "kind": "item",
+     "id": 51292,
+     "affected": 9,
+     "total": 15,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2971,
+     "kind": "item",
+     "id": 51292,
+     "affected": 5,
+     "total": 10,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2955,
+     "kind": "item",
+     "id": 51292,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8586,
+     "kind": "item",
+     "id": 156710,
+     "affected": 0,
+     "total": 15,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2955,
+     "kind": "item",
+     "id": 156710,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2956,
+     "kind": "item",
+     "id": 156710,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2971,
+     "kind": "item",
+     "id": 156710,
+     "affected": 5,
+     "total": 10,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 8586,
+     "kind": "item",
+     "id": 160054,
+     "affected": 0,
+     "total": 15,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2955,
+     "kind": "item",
+     "id": 160054,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2956,
+     "kind": "item",
+     "id": 160054,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2971,
+     "kind": "item",
+     "id": 160054,
+     "affected": 5,
+     "total": 10,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2955,
+     "kind": "item",
+     "id": 106636,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2956,
+     "kind": "item",
+     "id": 106636,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2955,
+     "kind": "item",
+     "id": 44075,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8586,
+     "kind": "item",
+     "id": 145246,
+     "affected": 15,
+     "total": 15,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3185,
+     "kind": "item",
+     "id": 44085,
+     "affected": 25,
+     "total": 25,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2956,
+     "kind": "item",
+     "id": 44085,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2957,
+     "kind": "item",
+     "id": 44085,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3138,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2916,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2954,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 4,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2955,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2956,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 17,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 145229,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": true
+    },
+    {
+     "factory": 2958,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 12,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 8586,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 15,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2957,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3185,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 25,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3186,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 3188,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 7,
+     "total": 9,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 3189,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 7,
+     "total": 9,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 3192,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 3129,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 14,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2971,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 9,
+     "total": 10,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": false
+    },
+    {
+     "factory": 8893,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    }
+   ],
+   "notes": [],
+   "harbour": 3406,
+   "piers": 3,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 9025,
+   "name": "Zycada",
+   "decisions": [],
+   "notes": [],
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 10177,
+   "name": "Cinis",
+   "decisions": [
+    {
+     "factory": 2694,
+     "kind": "item",
+     "id": 144852,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2699,
+     "kind": "item",
+     "id": 144900,
+     "affected": 15,
+     "total": 15,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 54052,
+     "affected": 24,
+     "total": 24,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 44149,
+     "affected": 24,
+     "total": 24,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 8580,
+     "kind": "item",
+     "id": 44149,
+     "affected": 0,
+     "total": 19,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8887,
+     "kind": "item",
+     "id": 44149,
+     "affected": 7,
+     "total": 9,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2669,
+     "kind": "item",
+     "id": 44149,
+     "affected": 0,
+     "total": 18,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2999,
+     "kind": "item",
+     "id": 44149,
+     "affected": 0,
+     "total": 36,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3198,
+     "kind": "item",
+     "id": 44149,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 4832,
+     "kind": "item",
+     "id": 44114,
+     "affected": 3,
+     "total": 5,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2786,
+     "kind": "item",
+     "id": 44114,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 44114,
+     "affected": 24,
+     "total": 24,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 44114,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3081,
+     "kind": "item",
+     "id": 44114,
+     "affected": 8,
+     "total": 10,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5481,
+     "kind": "item",
+     "id": 44114,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31753,
+     "kind": "item",
+     "id": 44114,
+     "affected": 1,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31755,
+     "kind": "item",
+     "id": 44114,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3082,
+     "kind": "item",
+     "id": 51330,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8893,
+     "kind": "item",
+     "id": 51330,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2957,
+     "kind": "item",
+     "id": 51330,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2999,
+     "kind": "item",
+     "id": 51330,
+     "affected": 23,
+     "total": 36,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 8580,
+     "kind": "item",
+     "id": 44118,
+     "affected": 0,
+     "total": 19,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3079,
+     "kind": "item",
+     "id": 44118,
+     "affected": 36,
+     "total": 43,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2669,
+     "kind": "item",
+     "id": 44118,
+     "affected": 17,
+     "total": 18,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3191,
+     "kind": "item",
+     "id": 44118,
+     "affected": 0,
+     "total": 12,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2999,
+     "kind": "item",
+     "id": 44118,
+     "affected": 23,
+     "total": 36,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2954,
+     "kind": "item",
+     "id": 145271,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 145229,
+     "kind": "item",
+     "id": 145271,
+     "affected": 9,
+     "total": 9,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3138,
+     "kind": "item",
+     "id": 156688,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 156688,
+     "affected": 0,
+     "total": 24,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 156688,
+     "affected": 1,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3081,
+     "kind": "item",
+     "id": 156688,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31753,
+     "kind": "item",
+     "id": 156688,
+     "affected": 0,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31755,
+     "kind": "item",
+     "id": 156688,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 145229,
+     "kind": "item",
+     "id": 156688,
+     "affected": 9,
+     "total": 9,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 145230,
+     "kind": "item",
+     "id": 156688,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2793,
+     "kind": "item",
+     "id": 106640,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "item",
+     "id": 106640,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8580,
+     "kind": "item",
+     "id": 106640,
+     "affected": 10,
+     "total": 19,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 31752,
+     "kind": "item",
+     "id": 144862,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31752,
+     "kind": "item",
+     "id": 144864,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3192,
+     "kind": "item",
+     "id": 51607,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 144876,
+     "affected": 13,
+     "total": 13,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 147974,
+     "affected": 0,
+     "total": 24,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 147974,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3081,
+     "kind": "item",
+     "id": 147974,
+     "affected": 8,
+     "total": 10,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31753,
+     "kind": "item",
+     "id": 147974,
+     "affected": 1,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31755,
+     "kind": "item",
+     "id": 147974,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 145230,
+     "kind": "item",
+     "id": 147974,
+     "affected": 7,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 44089,
+     "affected": 3,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31753,
+     "kind": "item",
+     "id": 44089,
+     "affected": 2,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31755,
+     "kind": "item",
+     "id": 44089,
+     "affected": 10,
+     "total": 10,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3192,
+     "kind": "item",
+     "id": 44089,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 106414,
+     "affected": 2,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "item",
+     "id": 156717,
+     "affected": 2,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3201,
+     "kind": "item",
+     "id": 160066,
+     "affected": 17,
+     "total": 19,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 4832,
+     "kind": "item",
+     "id": 51332,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3201,
+     "kind": "item",
+     "id": 51332,
+     "affected": 17,
+     "total": 19,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3081,
+     "kind": "item",
+     "id": 51332,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 145230,
+     "kind": "item",
+     "id": 51332,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3198,
+     "kind": "item",
+     "id": 51332,
+     "affected": 6,
+     "total": 13,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 3201,
+     "kind": "item",
+     "id": 156685,
+     "affected": 17,
+     "total": 19,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2795,
+     "kind": "item",
+     "id": 156685,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 156685,
+     "affected": 0,
+     "total": 24,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3177,
+     "kind": "item",
+     "id": 44112,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2795,
+     "kind": "item",
+     "id": 44112,
+     "affected": 4,
+     "total": 7,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2694,
+     "kind": "item",
+     "id": 44112,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3201,
+     "kind": "item",
+     "id": 44115,
+     "affected": 0,
+     "total": 19,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2795,
+     "kind": "item",
+     "id": 44115,
+     "affected": 4,
+     "total": 7,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 8579,
+     "kind": "item",
+     "id": 44115,
+     "affected": 0,
+     "total": 24,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2794,
+     "kind": "item",
+     "id": 156679,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2794,
+     "kind": "item",
+     "id": 50287,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3202,
+     "kind": "item",
+     "id": 160500,
+     "affected": 14,
+     "total": 14,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3074,
+     "kind": "item",
+     "id": 44120,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3082,
+     "kind": "item",
+     "id": 44120,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2958,
+     "kind": "item",
+     "id": 44120,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3202,
+     "kind": "item",
+     "id": 44120,
+     "affected": 14,
+     "total": 14,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3201,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 18,
+     "total": 19,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 18,
+     "circle_applied": true
+    },
+    {
+     "factory": 3074,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 5,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 3202,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 14,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3203,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 8580,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 19,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 31750,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 9,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3079,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 43,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2694,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 8579,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 22,
+     "total": 24,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 24,
+     "circle_applied": true
+    },
+    {
+     "factory": 2698,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2955,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 21,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": false
+    },
+    {
+     "factory": 2699,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 15,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2957,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 5,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 3082,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2958,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 8586,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 21,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3089,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3081,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 10,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 31753,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 9,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 31755,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2954,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 2970,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 2994,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 7,
+     "total": 7,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 7,
+     "circle_applied": true
+    },
+    {
+     "factory": 2999,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 36,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 8887,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 9,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 8893,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2878,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2880,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3138,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 145229,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 9,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 145230,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 31752,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 4831,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 16,
+     "total": 21,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 10,
+     "circle_applied": false
+    },
+    {
+     "factory": 4832,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3169,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": true
+    },
+    {
+     "factory": 2786,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 6,
+     "total": 7,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 3170,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 50280,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 13,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 2793,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 10,
+     "total": 10,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 10,
+     "circle_applied": true
+    },
+    {
+     "factory": 3177,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 4,
+     "circle_applied": true
+    },
+    {
+     "factory": 2795,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 5481,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2669,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 18,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2794,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2693,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3186,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 11,
+     "total": 12,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 10,
+     "circle_applied": true
+    },
+    {
+     "factory": 3187,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 15,
+     "total": 15,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 12,
+     "circle_applied": true
+    },
+    {
+     "factory": 3188,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 14,
+     "total": 14,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 11,
+     "circle_applied": true
+    },
+    {
+     "factory": 3190,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 13,
+     "total": 14,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 10,
+     "circle_applied": true
+    },
+    {
+     "factory": 3191,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 9,
+     "circle_applied": true
+    },
+    {
+     "factory": 3192,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3198,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 13,
+     "total": 13,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 13,
+     "circle_applied": true
+    },
+    {
+     "factory": 3199,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 9,
+     "total": 18,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 9,
+     "circle_applied": false
+    },
+    {
+     "factory": 3201,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 19,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3074,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3202,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 14,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3203,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 4,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 8580,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 19,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31750,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3079,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 43,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2694,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 24,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2698,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2955,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 21,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2699,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 15,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2957,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3082,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2958,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8586,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 21,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3089,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3081,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31753,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31755,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2954,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2970,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2994,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2999,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 36,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8887,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 8893,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2878,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2880,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3138,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 145229,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 9,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 145230,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31752,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 4831,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 21,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 4832,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3169,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2786,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3170,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2793,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3177,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2795,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5481,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2669,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 18,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2794,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2693,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 3186,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 12,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3187,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 15,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3188,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 14,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3190,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 14,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3191,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 12,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3192,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3198,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 13,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 3199,
+     "kind": "effect",
+     "id": 174824,
+     "affected": 0,
+     "total": 18,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 0,
+     "total": 7,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2793,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 0,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2794,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2698,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2669,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 18,
+     "total": 18,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2699,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 15,
+     "total": 15,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31750,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 9,
+     "total": 9,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2694,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 8579,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 24,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 50280,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 12,
+     "total": 13,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2693,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 3406,
+   "piers": 4,
+   "harbour_item": null,
+   "disabled_needs": {
+    "1497": [
+     {
+      "need": 2780,
+      "name": "Need Roman Household Fine Glass"
+     },
+     {
+      "need": 145223,
+      "name": "Need Roman Household Idols"
+     },
+     {
+      "need": 174983,
+      "name": "Need Roman Household Horses"
+     }
+    ],
+    "1496": [
+     {
+      "need": 2770,
+      "name": "Need Roman Fashion Soap"
+     }
+    ],
+    "1498": [
+     {
+      "need": 2773,
+      "name": "Need Roman Fashion Brooches"
+     },
+     {
+      "need": 2774,
+      "name": "Need Roman Fashion Necklaces"
+     },
+     {
+      "need": 2776,
+      "name": "Need Roman Household Loungers"
+     },
+     {
+      "need": 2780,
+      "name": "Need Roman Household Fine Glass"
+     },
+     {
+      "need": 145223,
+      "name": "Need Roman Household Idols"
+     }
+    ]
+   }
+  },
+  {
+   "key": 10241,
+   "name": "Tiberia",
+   "decisions": [
+    {
+     "factory": 2918,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 3403,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 10433,
+   "name": "Valerium",
+   "decisions": [
+    {
+     "factory": 2920,
+     "kind": "item",
+     "id": 145268,
+     "affected": 3,
+     "total": 6,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 8579,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 10497,
+   "name": "Aeterna",
+   "decisions": [
+    {
+     "factory": 2793,
+     "kind": "item",
+     "id": 106640,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "item",
+     "id": 106640,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2793,
+     "kind": "item",
+     "id": 50291,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2994,
+     "kind": "item",
+     "id": 50291,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2957,
+     "kind": "item",
+     "id": 50291,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2793,
+     "kind": "item",
+     "id": 44142,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31756,
+     "kind": "item",
+     "id": 44142,
+     "affected": 29,
+     "total": 35,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31756,
+     "kind": "item",
+     "id": 51330,
+     "affected": 29,
+     "total": 35,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2957,
+     "kind": "item",
+     "id": 51330,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2880,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 4,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 4,
+     "circle_applied": true
+    },
+    {
+     "factory": 2786,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3171,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2693,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 2793,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 12,
+     "circle_applied": true
+    },
+    {
+     "factory": 2955,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 31756,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 35,
+     "total": 35,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 35,
+     "circle_applied": true
+    },
+    {
+     "factory": 2957,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 8,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2994,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 12,
+     "circle_applied": true
+    },
+    {
+     "factory": 3188,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 3190,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 28,
+     "total": 28,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2200,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 2793,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2786,
+     "kind": "silo",
+     "id": 77954,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2693,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2200,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    }
+   ],
+   "notes": [],
+   "harbour": 3406,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 8451,
+   "name": "Cudslip",
+   "decisions": [
+    {
+     "factory": 5290,
+     "kind": "item",
+     "id": 50665,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5614,
+     "kind": "item",
+     "id": 50665,
+     "affected": 3,
+     "total": 8,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2800,
+     "kind": "item",
+     "id": 50665,
+     "affected": 5,
+     "total": 8,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 5973,
+     "kind": "item",
+     "id": 50665,
+     "affected": 1,
+     "total": 4,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 5469,
+     "kind": "item",
+     "id": 50665,
+     "affected": 8,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5608,
+     "kind": "item",
+     "id": 51338,
+     "affected": 2,
+     "total": 3,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 5609,
+     "kind": "item",
+     "id": 51338,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5614,
+     "kind": "item",
+     "id": 51338,
+     "affected": 3,
+     "total": 8,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 5958,
+     "kind": "item",
+     "id": 51338,
+     "affected": 2,
+     "total": 5,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 2800,
+     "kind": "item",
+     "id": 144844,
+     "affected": 5,
+     "total": 8,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 2800,
+     "kind": "item",
+     "id": 44087,
+     "affected": 1,
+     "total": 8,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5973,
+     "kind": "item",
+     "id": 44087,
+     "affected": 2,
+     "total": 4,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 5608,
+     "kind": "item",
+     "id": 44087,
+     "affected": 2,
+     "total": 3,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 5958,
+     "kind": "item",
+     "id": 51446,
+     "affected": 2,
+     "total": 5,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 5847,
+     "kind": "item",
+     "id": 44081,
+     "affected": 3,
+     "total": 10,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2796,
+     "kind": "item",
+     "id": 44081,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31767,
+     "kind": "item",
+     "id": 44081,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5973,
+     "kind": "silo",
+     "id": 77955,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31762,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2800,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5290,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 4,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5980,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 8515,
+   "name": "Cragmore",
+   "decisions": [
+    {
+     "factory": 5475,
+     "kind": "item",
+     "id": 44122,
+     "affected": 9,
+     "total": 9,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5604,
+     "kind": "item",
+     "id": 44122,
+     "affected": 9,
+     "total": 10,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5477,
+     "kind": "item",
+     "id": 44122,
+     "affected": 8,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5974,
+     "kind": "item",
+     "id": 44122,
+     "affected": 4,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5851,
+     "kind": "item",
+     "id": 44122,
+     "affected": 4,
+     "total": 8,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 31764,
+     "kind": "item",
+     "id": 44147,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5974,
+     "kind": "item",
+     "id": 44147,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5959,
+     "kind": "item",
+     "id": 44147,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5974,
+     "kind": "silo",
+     "id": 77955,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5980,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31764,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {
+    "1504": [
+     {
+      "need": 6436,
+      "name": "Need Roman Celtic Food Bird Tongues"
+     }
+    ]
+   }
+  },
+  {
+   "key": 8899,
+   "name": "Argantum",
+   "decisions": [
+    {
+     "factory": 31761,
+     "kind": "item",
+     "id": 44139,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 55962,
+     "kind": "item",
+     "id": 44139,
+     "affected": 11,
+     "total": 13,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5974,
+     "kind": "silo",
+     "id": 77955,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31762,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5291,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 31764,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 7038,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 9603,
+   "name": "Uxoriosum",
+   "decisions": [
+    {
+     "factory": 5975,
+     "kind": "item",
+     "id": 145265,
+     "affected": 6,
+     "total": 7,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5611,
+     "kind": "item",
+     "id": 44088,
+     "affected": 10,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5616,
+     "kind": "item",
+     "id": 44088,
+     "affected": 10,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5975,
+     "kind": "item",
+     "id": 44088,
+     "affected": 6,
+     "total": 7,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5976,
+     "kind": "item",
+     "id": 44088,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5849,
+     "kind": "item",
+     "id": 44088,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5616,
+     "kind": "item",
+     "id": 156706,
+     "affected": 10,
+     "total": 11,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5847,
+     "kind": "item",
+     "id": 80225,
+     "affected": 5,
+     "total": 8,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 31769,
+     "kind": "item",
+     "id": 51342,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5606,
+     "kind": "item",
+     "id": 51342,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5615,
+     "kind": "item",
+     "id": 51342,
+     "affected": 13,
+     "total": 13,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 6586,
+     "kind": "item",
+     "id": 51336,
+     "affected": 20,
+     "total": 20,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5290,
+     "kind": "item",
+     "id": 44117,
+     "affected": 3,
+     "total": 6,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 5606,
+     "kind": "item",
+     "id": 44117,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31769,
+     "kind": "item",
+     "id": 44119,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5290,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 9667,
+   "name": "Ysbadd",
+   "decisions": [
+    {
+     "factory": 31762,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 5291,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 9795,
+   "name": "Cantius",
+   "decisions": [
+    {
+     "factory": 2799,
+     "kind": "item",
+     "id": 144846,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5570,
+     "kind": "item",
+     "id": 44146,
+     "affected": 17,
+     "total": 17,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5474,
+     "kind": "item",
+     "id": 44146,
+     "affected": 9,
+     "total": 9,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2799,
+     "kind": "item",
+     "id": 44146,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5472,
+     "kind": "item",
+     "id": 44113,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5980,
+     "kind": "item",
+     "id": 44113,
+     "affected": 3,
+     "total": 4,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 5605,
+     "kind": "item",
+     "id": 44113,
+     "affected": 21,
+     "total": 21,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 2799,
+     "kind": "item",
+     "id": 106634,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5472,
+     "kind": "item",
+     "id": 51334,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5472,
+     "kind": "item",
+     "id": 44084,
+     "affected": 12,
+     "total": 12,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5977,
+     "kind": "item",
+     "id": 51639,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 31762,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 2799,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 5980,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 3,
+     "total": 4,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 5972,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 7039,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 9987,
+   "name": "Traducta",
+   "decisions": [
+    {
+     "factory": 31762,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 8452,
+   "name": "Listening Weasel Nome",
+   "decisions": [
+    {
+     "factory": 152005,
+     "kind": "item",
+     "id": 106414,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 152006,
+     "kind": "item",
+     "id": 106414,
+     "affected": 1,
+     "total": 3,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 152064,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 19,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152203,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": true
+    },
+    {
+     "factory": 152332,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 9,
+     "total": 9,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 9,
+     "circle_applied": true
+    },
+    {
+     "factory": 152204,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 155407,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152730,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 152732,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 17,
+     "total": 17,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 11,
+     "circle_applied": true
+    },
+    {
+     "factory": 152351,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 152358,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152359,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 8,
+     "circle_applied": true
+    },
+    {
+     "factory": 151997,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 151998,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152005,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152006,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 3,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 152647,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152648,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152649,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 15,
+     "total": 16,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152650,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152271,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152400,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152788,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152279,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 152153,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 152683,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 7,
+     "total": 7,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 7,
+     "circle_applied": true
+    },
+    {
+     "factory": 152153,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 151997,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 155407,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152006,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 3,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 152005,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 152153,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    }
+   ],
+   "notes": [
+    "building 155407: footprint unknown, street reach replaced by the circle of the same distance"
+   ],
+   "harbour": 150645,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 8644,
+   "name": "Rain Caller Nome",
+   "decisions": [],
+   "notes": [],
+   "harbour": 150645,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 8708,
+   "name": "Star-of-the-Nile Nome",
+   "decisions": [
+    {
+     "factory": 152387,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 9,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 152141,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 152375,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 7,
+     "total": 7,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 7,
+     "circle_applied": true
+    },
+    {
+     "factory": 152271,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 155407,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": true
+    },
+    {
+     "factory": 155409,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 152383,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 152279,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 8,
+     "total": 8,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 7,
+     "circle_applied": true
+    },
+    {
+     "factory": 152153,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 152351,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 5,
+     "total": 5,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 5,
+     "circle_applied": true
+    },
+    {
+     "factory": 152141,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152141,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    }
+   ],
+   "notes": [
+    "building 155407: footprint unknown, street reach replaced by the circle of the same distance",
+    "building 155409: footprint unknown, street reach replaced by the circle of the same distance"
+   ],
+   "harbour": 150645,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 9732,
+   "name": "Anubis Rest Nome",
+   "decisions": [],
+   "notes": [],
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 18244,
+   "name": "Desert-Hawk Nome",
+   "decisions": [],
+   "notes": [],
+   "harbour": null,
+   "piers": 0,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 25668,
+   "name": "Nilopolis",
+   "decisions": [
+    {
+     "factory": 152064,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152203,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 155404,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 10,
+     "total": 10,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 10,
+     "circle_applied": true
+    },
+    {
+     "factory": 155409,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 152338,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 16,
+     "total": 19,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 152210,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152352,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 9,
+     "total": 10,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 9,
+     "circle_applied": true
+    },
+    {
+     "factory": 152371,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152375,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": false
+    },
+    {
+     "factory": 151997,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 151998,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 2,
+     "total": 5,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 151999,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152000,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152257,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 6,
+     "total": 6,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 6,
+     "circle_applied": true
+    },
+    {
+     "factory": 152388,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 5,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": true
+    },
+    {
+     "factory": 152389,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 17,
+     "total": 19,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 12,
+     "circle_applied": true
+    },
+    {
+     "factory": 152390,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152647,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 152391,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152143,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152144,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152145,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 4,
+     "circle_applied": true
+    },
+    {
+     "factory": 152788,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152789,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152279,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 4,
+     "total": 6,
+     "applied": true,
+     "near_tie": true,
+     "method": "street",
+     "circle_affected": 2,
+     "circle_applied": false
+    },
+    {
+     "factory": 152153,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 1,
+     "circle_applied": true
+    },
+    {
+     "factory": 152796,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 11,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 0,
+     "circle_applied": false
+    },
+    {
+     "factory": 152671,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 3,
+     "circle_applied": true
+    },
+    {
+     "factory": 152688,
+     "kind": "effect",
+     "id": 153868,
+     "affected": 20,
+     "total": 24,
+     "applied": true,
+     "near_tie": false,
+     "method": "street",
+     "circle_affected": 18,
+     "circle_applied": true
+    },
+    {
+     "factory": 155404,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 9,
+     "total": 10,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152143,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152144,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152145,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 155409,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 151997,
+     "kind": "building_effect",
+     "id": 158336,
+     "affected": 0,
+     "total": 5,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 155404,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 10,
+     "total": 10,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152143,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152144,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152145,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 155409,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 151997,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 4,
+     "total": 5,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152257,
+     "kind": "silo",
+     "id": 152268,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152145,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152144,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152143,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152145,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152153,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    }
+   ],
+   "notes": [
+    "building 155404: footprint unknown, street reach replaced by the circle of the same distance",
+    "building 155409: footprint unknown, street reach replaced by the circle of the same distance"
+   ],
+   "harbour": 150645,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 26308,
+   "name": "Sycamore-Root Nome",
+   "decisions": [
+    {
+     "factory": 155408,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 152144,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152272,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 155409,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152151,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 151997,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 4,
+     "total": 4,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152256,
+     "kind": "silo",
+     "id": 152268,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152144,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152151,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    }
+   ],
+   "notes": [],
+   "harbour": 150642,
+   "piers": 1,
+   "harbour_item": null,
+   "disabled_needs": {}
+  },
+  {
+   "key": 41796,
+   "name": "Falcon Cult Nome",
+   "decisions": [
+    {
+     "factory": 155407,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 3,
+     "total": 4,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 152272,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 9,
+     "total": 17,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 152143,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152152,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 2,
+     "total": 3,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 151994,
+     "kind": "building_effect",
+     "id": 158337,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 155407,
+     "kind": "building_effect",
+     "id": 158334,
+     "affected": 0,
+     "total": 4,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152272,
+     "kind": "building_effect",
+     "id": 158334,
+     "affected": 3,
+     "total": 17,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152143,
+     "kind": "building_effect",
+     "id": 158334,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152152,
+     "kind": "building_effect",
+     "id": 158334,
+     "affected": 0,
+     "total": 3,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 151994,
+     "kind": "building_effect",
+     "id": 158334,
+     "affected": 0,
+     "total": 2,
+     "applied": false,
+     "near_tie": true
+    },
+    {
+     "factory": 152107,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 0,
+     "total": 6,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152152,
+     "kind": "silo",
+     "id": 153816,
+     "affected": 3,
+     "total": 3,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152006,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 0,
+     "total": 1,
+     "applied": false,
+     "near_tie": false
+    },
+    {
+     "factory": 152143,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 1,
+     "total": 1,
+     "applied": true,
+     "near_tie": false
+    },
+    {
+     "factory": 152107,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 4,
+     "total": 6,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 151994,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 2,
+     "total": 2,
+     "applied": true,
+     "near_tie": true
+    },
+    {
+     "factory": 152152,
+     "kind": "aqueduct",
+     "id": 0,
+     "affected": 2,
+     "total": 3,
+     "applied": true,
+     "near_tie": true
+    }
+   ],
+   "notes": [],
+   "harbour": 150642,
+   "piers": 2,
+   "harbour_item": null,
+   "disabled_needs": {}
+  }
+ ],
+ "positions": {
+  "a8513": {
+   "stem": "roman_island_campaign_player_01",
+   "slot": null,
+   "size": "Large"
+  },
+  "a8897": {
+   "stem": "roman_island_large_06",
+   "slot": null,
+   "size": "Large"
+  },
+  "a9025": {
+   "stem": "roman_island_medium_04",
+   "slot": null,
+   "size": "Medium"
+  },
+  "a10177": {
+   "stem": "roman_dlc01_island_continental_01",
+   "slot": "Cinis",
+   "size": "Continental"
+  },
+  "a10241": {
+   "stem": "roman_dlc01_island_medium_02",
+   "slot": null,
+   "size": "Medium"
+  },
+  "a10433": {
+   "stem": "roman_dlc01_island_medium_01",
+   "slot": null,
+   "size": "Medium"
+  },
+  "a10497": {
+   "stem": "roman_island_medium_03",
+   "slot": null,
+   "size": "Medium"
+  },
+  "a8451": {
+   "stem": "celtic_island_campaign_player_01",
+   "slot": null,
+   "size": "Large"
+  },
+  "a8515": {
+   "stem": "celtic_island_campaign_player_02",
+   "slot": null,
+   "size": "Large"
+  },
+  "a8899": {
+   "stem": "celtic_island_campaign_player_03",
+   "slot": null,
+   "size": "Large"
+  },
+  "a9603": {
+   "stem": "celtic_island_large_04",
+   "slot": null,
+   "size": "Large"
+  },
+  "a9667": {
+   "stem": "celtic_island_large_03",
+   "slot": null,
+   "size": "Large"
+  },
+  "a9795": {
+   "stem": "celtic_island_medium_05",
+   "slot": null,
+   "size": "Medium"
+  },
+  "a9987": {
+   "stem": "celtic_island_medium_02",
+   "slot": null,
+   "size": "Medium"
+  },
+  "a8452": {
+   "stem": "egypt_dlc_03_valley_large_08",
+   "slot": "large_08",
+   "size": "Large"
+  },
+  "a8644": {
+   "stem": "egypt_dlc_03_valley_medium_04",
+   "slot": "medium_04",
+   "size": "Medium"
+  },
+  "a8708": {
+   "stem": "egypt_dlc_03_valley_large_09",
+   "slot": "large_09",
+   "size": "Large"
+  },
+  "a9732": {
+   "stem": "egypt_dlc_03_valley_large_10",
+   "slot": "large_10",
+   "size": "Large"
+  },
+  "a18244": {
+   "stem": "egypt_dlc_03_valley_large_05",
+   "slot": "large_05",
+   "size": "Large"
+  },
+  "a25668": {
+   "stem": "egypt_dlc_03_valley_large_06",
+   "slot": "large_06",
+   "size": "Large"
+  },
+  "a26308": {
+   "stem": "egypt_dlc_03_valley_large_04",
+   "slot": "large_04",
+   "size": "Large"
+  },
+  "a41796": {
+   "stem": "egypt_dlc_03_valley_medium_03",
+   "slot": "medium_03",
+   "size": "Medium"
+  }
+ },
+ "trade": {
+  "templates": [
+   {
+    "id": "t1",
+    "name": "Trireme 1",
+    "ship": 37223,
+    "modules": [
+     31647
+    ],
+    "captain": 71533,
+    "boosted": false
+   },
+   {
+    "id": "t2",
+    "name": "Trireme 2",
+    "ship": 37223,
+    "modules": [
+     31647,
+     31648,
+     31651
+    ],
+    "captain": 106714,
+    "boosted": false
+   },
+   {
+    "id": "t3",
+    "name": "Quinquireme 3",
+    "ship": 37224,
+    "modules": [],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t4",
+    "name": "Quinquireme 4",
+    "ship": 37224,
+    "modules": [],
+    "captain": 71558,
+    "boosted": false
+   },
+   {
+    "id": "t5",
+    "name": "Quinquireme 5",
+    "ship": 37224,
+    "modules": [],
+    "captain": 42618,
+    "boosted": false
+   },
+   {
+    "id": "t6",
+    "name": "Trireme 6",
+    "ship": 39571,
+    "modules": [
+     39574
+    ],
+    "captain": 71542,
+    "boosted": false
+   },
+   {
+    "id": "t7",
+    "name": "Quinquireme 7",
+    "ship": 37224,
+    "modules": [],
+    "captain": 71548,
+    "boosted": true
+   },
+   {
+    "id": "t8",
+    "name": "Quinquireme 8",
+    "ship": 37224,
+    "modules": [],
+    "captain": 44178,
+    "boosted": false
+   },
+   {
+    "id": "t9",
+    "name": "Trireme 9",
+    "ship": 37223,
+    "modules": [
+     31647
+    ],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t10",
+    "name": "Quinquireme 10",
+    "ship": 37224,
+    "modules": [
+     31647
+    ],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t11",
+    "name": "Quinquireme 11",
+    "ship": 37224,
+    "modules": [],
+    "captain": 71533,
+    "boosted": false
+   },
+   {
+    "id": "t12",
+    "name": "Trireme 12",
+    "ship": 39571,
+    "modules": [
+     39574
+    ],
+    "captain": 71562,
+    "boosted": false
+   },
+   {
+    "id": "t13",
+    "name": "Trireme 13",
+    "ship": 39571,
+    "modules": [
+     39574
+    ],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t14",
+    "name": "Trireme 14",
+    "ship": 39571,
+    "modules": [
+     39574,
+     39576,
+     39577
+    ],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t15",
+    "name": "Trireme 15",
+    "ship": 39571,
+    "modules": [
+     39574,
+     39575,
+     39576
+    ],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t16",
+    "name": "Trireme 16",
+    "ship": 37223,
+    "modules": [
+     31647,
+     31648,
+     31651
+    ],
+    "captain": 71556,
+    "boosted": false
+   },
+   {
+    "id": "t17",
+    "name": "Penteconter 17",
+    "ship": 39572,
+    "modules": [],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t18",
+    "name": "Epholkion (Nile Skiff) 18",
+    "ship": 154038,
+    "modules": [],
+    "captain": null,
+    "boosted": false
+   },
+   {
+    "id": "t19",
+    "name": "Trireme 19",
+    "ship": 37223,
+    "modules": [
+     31647
+    ],
+    "captain": 106714,
+    "boosted": false
+   },
+   {
+    "id": "t20",
+    "name": "Aba (Nile Galley) 20",
+    "ship": 178644,
+    "modules": [],
+    "captain": null,
+    "boosted": false
+   }
+  ],
+  "imports": [
+   {
+    "island": "a10177",
+    "product": 2087,
+    "demand": 11.1979,
+    "weights": {
+     "a8897": 700.0,
+     "a10433": 1500.0
+    },
+    "supplied_by": {
+     "a8897": 3.563,
+     "a10433": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2115,
+    "demand": 0.0,
+    "weights": {
+     "a10241": 300.0
+    },
+    "supplied_by": {
+     "a10241": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2136,
+    "demand": 17.5471,
+    "weights": {
+     "a8513": 1800.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2137,
+    "demand": 24.8912,
+    "weights": {
+     "a8513": 1800.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2139,
+    "demand": 12.7951,
+    "weights": {
+     "a8897": 350.0,
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8897": 3.0885,
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2153,
+    "demand": 9.0412,
+    "weights": {
+     "a9603": 1000.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2154,
+    "demand": 17.5999,
+    "weights": {
+     "a9795": 800.0,
+     "a25668": 1500.0
+    },
+    "supplied_by": {
+     "a9795": 6.1217,
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2155,
+    "demand": 8.9428,
+    "weights": {
+     "a8515": 300.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2156,
+    "demand": 1.8708,
+    "weights": {
+     "a9795": 800.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2161,
+    "demand": 12.8788,
+    "weights": {
+     "a8451": 800.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2162,
+    "demand": 6.6551,
+    "weights": {
+     "a9603": 150.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2163,
+    "demand": 6.8365,
+    "weights": {
+     "a9603": 400.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 2176,
+    "demand": 0.0,
+    "weights": {
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 8563,
+    "demand": 0.0,
+    "weights": {
+     "a10433": 1500.0
+    },
+    "supplied_by": {
+     "a10433": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 31706,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 31768,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 300.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 145102,
+    "demand": 7.9328,
+    "weights": {
+     "a10241": 300.0,
+     "a8897": 700.0,
+     "a8513": 1100.0,
+     "a10433": 1500.0
+    },
+    "supplied_by": {
+     "a10241": 0.6611,
+     "a8897": 1.5425,
+     "a8513": 2.4239,
+     "a10433": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 151680,
+    "demand": 17.738,
+    "weights": {
+     "a41796": 900.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 151691,
+    "demand": 8.3211,
+    "weights": {
+     "a41796": 2100.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 151694,
+    "demand": 9.8819,
+    "weights": {
+     "a8452": 1500.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 151698,
+    "demand": 6.191,
+    "weights": {
+     "a25668": 1500.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a10177",
+    "product": 151701,
+    "demand": 5.5484,
+    "weights": {
+     "a8452": 1200.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 2137,
+    "demand": 4.1243,
+    "weights": {
+     "a8513": 800.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 2138,
+    "demand": 0.758,
+    "weights": {
+     "a8513": 800.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 2139,
+    "demand": 2.203,
+    "weights": {
+     "a8897": 800.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 2143,
+    "demand": 3.5975,
+    "weights": {
+     "a8513": 800.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 151691,
+    "demand": 0.0,
+    "weights": {
+     "a10177": 50.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 151694,
+    "demand": 0.3584,
+    "weights": {
+     "a10177": 50.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a10497",
+    "product": 151698,
+    "demand": 0.0,
+    "weights": {
+     "a10177": 50.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2121,
+    "demand": 0.2979,
+    "weights": {
+     "a10177": 300.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2124,
+    "demand": 0.5562,
+    "weights": {
+     "a10177": 300.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2132,
+    "demand": 1.9514,
+    "weights": {
+     "a10497": 300.0
+    },
+    "supplied_by": {
+     "a10497": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2137,
+    "demand": 1.9108,
+    "weights": {
+     "a8708": 750.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2138,
+    "demand": 1.2882,
+    "weights": {
+     "a8708": 250.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2143,
+    "demand": 1.6278,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2144,
+    "demand": 0.745,
+    "weights": {
+     "a10497": 1200.0
+    },
+    "supplied_by": {
+     "a10497": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2147,
+    "demand": 0.4865,
+    "weights": {
+     "a10177": 1050.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2151,
+    "demand": 0.0,
+    "weights": {
+     "a10177": 900.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2155,
+    "demand": 0.6356,
+    "weights": {
+     "a8515": 600.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2156,
+    "demand": 0.7556,
+    "weights": {
+     "a9795": 600.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2161,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 600.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 2162,
+    "demand": 0.0,
+    "weights": {
+     "a9603": 600.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 55954,
+    "demand": 0.27,
+    "weights": {
+     "a8451": 900.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 145220,
+    "demand": 0.1588,
+    "weights": {
+     "a10177": 600.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151680,
+    "demand": 3.828,
+    "weights": {
+     "a41796": 2000.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151690,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151694,
+    "demand": 0.3236,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151695,
+    "demand": 0.2979,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151696,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151697,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151699,
+    "demand": 0.2767,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151701,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a25668",
+    "product": 151703,
+    "demand": 0.5556,
+    "weights": {
+     "a8452": 500.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2137,
+    "demand": 1.6994,
+    "weights": {
+     "a8708": 750.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2138,
+    "demand": 0.0,
+    "weights": {
+     "a8708": 250.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2143,
+    "demand": 1.4963,
+    "weights": {
+     "a8452": 1000.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2144,
+    "demand": 0.6762,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2147,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2151,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2153,
+    "demand": 0.7129,
+    "weights": {
+     "a25668": 500.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2154,
+    "demand": 0.4328,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2155,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2156,
+    "demand": 0.6872,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2161,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2162,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2178,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 150.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 2179,
+    "demand": 0.0,
+    "weights": {
+     "a10177": 500.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 55954,
+    "demand": 0.225,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 145220,
+    "demand": 0.1323,
+    "weights": {
+     "a10177": 100.0,
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a10177": 0.0156,
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151689,
+    "demand": 0.2415,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151690,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151694,
+    "demand": 0.2696,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151695,
+    "demand": 0.2482,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151696,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151697,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151698,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151699,
+    "demand": 0.2306,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151701,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a26308",
+    "product": 151703,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2137,
+    "demand": 0.0,
+    "weights": {
+     "a8708": 250.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2138,
+    "demand": 0.0,
+    "weights": {
+     "a8708": 500.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2143,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2144,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2147,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2151,
+    "demand": 0.6622,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2153,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2154,
+    "demand": 1.5983,
+    "weights": {
+     "a25668": 1000.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2155,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2156,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2161,
+    "demand": 1.092,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 2162,
+    "demand": 0.6567,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 55954,
+    "demand": 0.9518,
+    "weights": {
+     "a25668": 500.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 145220,
+    "demand": 0.5598,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 151689,
+    "demand": 0.8792,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 151693,
+    "demand": 1.5249,
+    "weights": {
+     "a8452": 1000.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 151694,
+    "demand": 1.0044,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 151696,
+    "demand": 0.77,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 151698,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a41796",
+    "product": 151703,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 500.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 2100,
+    "demand": 1.7086,
+    "weights": {
+     "a9667": 50.0,
+     "a8899": 800.0
+    },
+    "supplied_by": {
+     "a9667": 0.1005,
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 2101,
+    "demand": 0.0,
+    "weights": {
+     "a8899": 800.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 2138,
+    "demand": 1.0644,
+    "weights": {
+     "a8708": 100.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 2139,
+    "demand": 2.5122,
+    "weights": {
+     "a8897": 600.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 2154,
+    "demand": 1.5192,
+    "weights": {
+     "a9795": 300.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 2156,
+    "demand": 0.1227,
+    "weights": {
+     "a9795": 350.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 8405,
+    "demand": 0.1969,
+    "weights": {
+     "a8515": 350.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 31702,
+    "demand": 0.4389,
+    "weights": {
+     "a8899": 800.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 151694,
+    "demand": 0.9526,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8451",
+    "product": 151699,
+    "demand": 0.8243,
+    "weights": {
+     "a8452": 600.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2071,
+    "demand": 1.0482,
+    "weights": {
+     "a41796": 1750.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2121,
+    "demand": 1.1745,
+    "weights": {
+     "a10177": 600.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2132,
+    "demand": 1.9175,
+    "weights": {
+     "a10497": 1800.0
+    },
+    "supplied_by": {
+     "a10497": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2136,
+    "demand": 2.5699,
+    "weights": {
+     "a8708": 750.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2137,
+    "demand": 1.2378,
+    "weights": {
+     "a8708": 750.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2138,
+    "demand": 0.9831,
+    "weights": {
+     "a8708": 1000.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2144,
+    "demand": 0.4808,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2147,
+    "demand": 0.3713,
+    "weights": {
+     "a25668": 500.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2151,
+    "demand": 0.3182,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2153,
+    "demand": 0.5031,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2154,
+    "demand": 1.3886,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2155,
+    "demand": 0.485,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2156,
+    "demand": 0.4875,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2161,
+    "demand": 0.5247,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2162,
+    "demand": 0.3155,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2176,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 200.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 2178,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 200.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 31709,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 100.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 55954,
+    "demand": 0.78,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 145220,
+    "demand": 0.4588,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151680,
+    "demand": 3.0775,
+    "weights": {
+     "a41796": 2000.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151689,
+    "demand": 0.7688,
+    "weights": {
+     "a25668": 1000.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151690,
+    "demand": 0.4221,
+    "weights": {
+     "a41796": 750.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151697,
+    "demand": 0.3858,
+    "weights": {
+     "a41796": 750.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151698,
+    "demand": 0.3504,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151705,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 100.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8452",
+    "product": 151714,
+    "demand": 0.7925,
+    "weights": {
+     "a25668": 2000.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2078,
+    "demand": 0.0,
+    "weights": {
+     "a10241": 300.0
+    },
+    "supplied_by": {
+     "a10241": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2115,
+    "demand": 0.0,
+    "weights": {
+     "a10241": 300.0
+    },
+    "supplied_by": {
+     "a10241": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2121,
+    "demand": 2.7106,
+    "weights": {
+     "a10177": 400.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2139,
+    "demand": 3.467,
+    "weights": {
+     "a8897": 1750.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2140,
+    "demand": 1.515,
+    "weights": {
+     "a10177": 600.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2141,
+    "demand": 8.3655,
+    "weights": {
+     "a10177": 400.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2145,
+    "demand": 2.7106,
+    "weights": {
+     "a10177": 600.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2146,
+    "demand": 1.0997,
+    "weights": {
+     "a10177": 400.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2147,
+    "demand": 0.8804,
+    "weights": {
+     "a10177": 400.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2151,
+    "demand": 1.3431,
+    "weights": {
+     "a10177": 400.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2153,
+    "demand": 1.5401,
+    "weights": {
+     "a9603": 1050.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2154,
+    "demand": 7.0167,
+    "weights": {
+     "a9795": 1400.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2155,
+    "demand": 1.2099,
+    "weights": {
+     "a8515": 350.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2156,
+    "demand": 1.5265,
+    "weights": {
+     "a9795": 1400.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2161,
+    "demand": 1.7424,
+    "weights": {
+     "a8451": 1050.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2162,
+    "demand": 0.9004,
+    "weights": {
+     "a9603": 200.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2163,
+    "demand": 0.9249,
+    "weights": {
+     "a9603": 350.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 2166,
+    "demand": 1.3713,
+    "weights": {
+     "a10177": 400.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 31700,
+    "demand": 4.8156,
+    "weights": {
+     "a8899": 300.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 31706,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 100.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 31768,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 150.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 145102,
+    "demand": 2.0299,
+    "weights": {
+     "a10241": 300.0
+    },
+    "supplied_by": {
+     "a10241": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 151691,
+    "demand": 1.1258,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 151694,
+    "demand": 1.6746,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 151698,
+    "demand": 0.8376,
+    "weights": {
+     "a10177": 250.0,
+     "a25668": 300.0
+    },
+    "supplied_by": {
+     "a10177": 0.3807,
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 151701,
+    "demand": 0.7507,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8513",
+    "product": 151703,
+    "demand": 1.0268,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2138,
+    "demand": 1.2579,
+    "weights": {
+     "a8708": 100.0,
+     "a10177": 225.0
+    },
+    "supplied_by": {
+     "a8708": 0.3871,
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2139,
+    "demand": 1.4328,
+    "weights": {
+     "a8897": 600.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2141,
+    "demand": 2.4345,
+    "weights": {
+     "a8451": 400.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2145,
+    "demand": 0.975,
+    "weights": {
+     "a10177": 225.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2153,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 50.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2154,
+    "demand": 0.0,
+    "weights": {
+     "a9795": 50.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2158,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 50.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 2162,
+    "demand": 0.4563,
+    "weights": {
+     "a9603": 950.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 31700,
+    "demand": 1.4791,
+    "weights": {
+     "a8899": 400.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 31706,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 50.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 31708,
+    "demand": 0.6211,
+    "weights": {
+     "a9603": 100.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 55954,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 50.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 151692,
+    "demand": 0.4956,
+    "weights": {
+     "a25668": 300.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 151694,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 151697,
+    "demand": 0.6269,
+    "weights": {
+     "a41796": 150.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8515",
+    "product": 151699,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2136,
+    "demand": 0.0,
+    "weights": {
+     "a8708": 250.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2137,
+    "demand": 0.0,
+    "weights": {
+     "a8708": 250.0
+    },
+    "supplied_by": {
+     "a8708": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2144,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2147,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2151,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2153,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2154,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2155,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2161,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2162,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2176,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 250.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 2178,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 31709,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 250.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 55954,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 145220,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 151689,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 500.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 151690,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 151693,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 151697,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 151698,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8644",
+    "product": 151705,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2143,
+    "demand": 0.707,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2144,
+    "demand": 0.3242,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2147,
+    "demand": 0.2432,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2151,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2153,
+    "demand": 0.3393,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2154,
+    "demand": 0.1731,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2155,
+    "demand": 0.3178,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2156,
+    "demand": 0.3287,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2161,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2162,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2176,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 300.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 2178,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 150.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 31709,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 150.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 55954,
+    "demand": 0.09,
+    "weights": {
+     "a25668": 250.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 145220,
+    "demand": 0.0529,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151680,
+    "demand": 3.4145,
+    "weights": {
+     "a41796": 2000.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151689,
+    "demand": 0.0966,
+    "weights": {
+     "a25668": 1000.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151690,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151693,
+    "demand": 1.8105,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151694,
+    "demand": 0.1079,
+    "weights": {
+     "a8452": 1000.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151695,
+    "demand": 0.0993,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151696,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 1000.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151697,
+    "demand": 0.0,
+    "weights": {
+     "a41796": 250.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151698,
+    "demand": 0.2296,
+    "weights": {
+     "a25668": 750.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151699,
+    "demand": 0.0922,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151701,
+    "demand": 0.0,
+    "weights": {
+     "a8452": 250.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151703,
+    "demand": 0.2778,
+    "weights": {
+     "a8452": 750.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151704,
+    "demand": 0.0,
+    "weights": {
+     "a26308": 300.0
+    },
+    "supplied_by": {
+     "a26308": -1.0
+    }
+   },
+   {
+    "island": "a8708",
+    "product": 151705,
+    "demand": 0.0,
+    "weights": {
+     "a25668": 150.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2071,
+    "demand": 10.8442,
+    "weights": {
+     "a8513": 550.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2073,
+    "demand": 17.2741,
+    "weights": {
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2132,
+    "demand": 10.8442,
+    "weights": {
+     "a8513": 550.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2136,
+    "demand": 9.8168,
+    "weights": {
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2137,
+    "demand": 13.2332,
+    "weights": {
+     "a8513": 2200.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2138,
+    "demand": 11.1441,
+    "weights": {
+     "a8708": 900.0,
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8708": 5.0148,
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2141,
+    "demand": 11.2885,
+    "weights": {
+     "a10177": 900.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2144,
+    "demand": 5.073,
+    "weights": {
+     "a10497": 1200.0
+    },
+    "supplied_by": {
+     "a10497": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2145,
+    "demand": 8.5325,
+    "weights": {
+     "a10177": 600.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2147,
+    "demand": 4.1339,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2149,
+    "demand": 5.9784,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2150,
+    "demand": 4.3022,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2151,
+    "demand": 4.2416,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2153,
+    "demand": 4.8298,
+    "weights": {
+     "a8451": 600.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2154,
+    "demand": 9.8502,
+    "weights": {
+     "a25668": 1200.0,
+     "a9795": 1200.0
+    },
+    "supplied_by": {
+     "a25668": 4.9251,
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2155,
+    "demand": 5.6813,
+    "weights": {
+     "a8515": 400.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2156,
+    "demand": 4.7892,
+    "weights": {
+     "a9795": 1200.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2161,
+    "demand": 8.1818,
+    "weights": {
+     "a8451": 400.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2162,
+    "demand": 4.2279,
+    "weights": {
+     "a9603": 100.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2163,
+    "demand": 4.3432,
+    "weights": {
+     "a9603": 400.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2166,
+    "demand": 6.4392,
+    "weights": {
+     "a10177": 250.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2171,
+    "demand": 0.0,
+    "weights": {
+     "a8513": 1950.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2172,
+    "demand": 0.0,
+    "weights": {
+     "a8513": 1950.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2174,
+    "demand": 0.0,
+    "weights": {
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 2176,
+    "demand": 0.0,
+    "weights": {
+     "a8513": 1100.0
+    },
+    "supplied_by": {
+     "a8513": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 8405,
+    "demand": 0.0,
+    "weights": {
+     "a8515": 100.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 31700,
+    "demand": 9.4706,
+    "weights": {
+     "a8899": 600.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 31706,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 100.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 31768,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 150.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 55954,
+    "demand": 0.0,
+    "weights": {
+     "a8451": 50.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 151680,
+    "demand": 9.4808,
+    "weights": {
+     "a41796": 1500.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 151691,
+    "demand": 5.2863,
+    "weights": {
+     "a10177": 300.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 151694,
+    "demand": 5.3041,
+    "weights": {
+     "a10177": 300.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 151698,
+    "demand": 3.9331,
+    "weights": {
+     "a10177": 300.0,
+     "a25668": 900.0
+    },
+    "supplied_by": {
+     "a10177": 0.9833,
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 151701,
+    "demand": 3.5248,
+    "weights": {
+     "a10177": 300.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8897",
+    "product": 151703,
+    "demand": 4.8214,
+    "weights": {
+     "a10177": 300.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2102,
+    "demand": 0.27,
+    "weights": {
+     "a8515": 3600.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2139,
+    "demand": 0.7984,
+    "weights": {
+     "a8897": 300.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2153,
+    "demand": 0.0952,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2154,
+    "demand": 0.173,
+    "weights": {
+     "a9795": 200.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2156,
+    "demand": 0.1472,
+    "weights": {
+     "a9795": 400.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2158,
+    "demand": 0.1358,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 2159,
+    "demand": 0.6075,
+    "weights": {
+     "a8515": 400.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 31706,
+    "demand": 0.1043,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 55954,
+    "demand": 0.09,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 151694,
+    "demand": 0.1079,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a8899",
+    "product": 151699,
+    "demand": 0.0922,
+    "weights": {
+     "a8452": 600.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2108,
+    "demand": 3.02,
+    "weights": {
+     "a8515": 450.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2129,
+    "demand": 0.468,
+    "weights": {
+     "a8451": 900.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2138,
+    "demand": 1.9353,
+    "weights": {
+     "a8708": 200.0,
+     "a10177": 450.0
+    },
+    "supplied_by": {
+     "a8708": 0.5955,
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2139,
+    "demand": 1.7497,
+    "weights": {
+     "a8897": 300.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2141,
+    "demand": 3.0187,
+    "weights": {
+     "a8451": 450.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2145,
+    "demand": 0.425,
+    "weights": {
+     "a10177": 450.0
+    },
+    "supplied_by": {
+     "a10177": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2154,
+    "demand": 1.5306,
+    "weights": {
+     "a9795": 200.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2156,
+    "demand": 0.2691,
+    "weights": {
+     "a9795": 450.0
+    },
+    "supplied_by": {
+     "a9795": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2158,
+    "demand": 1.178,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 2159,
+    "demand": 1.4524,
+    "weights": {
+     "a8515": 450.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 8405,
+    "demand": 0.4439,
+    "weights": {
+     "a8515": 450.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 31700,
+    "demand": 0.4975,
+    "weights": {
+     "a8899": 450.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 31706,
+    "demand": 0.9296,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 55954,
+    "demand": 0.7925,
+    "weights": {
+     "a8451": 200.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 151692,
+    "demand": 0.216,
+    "weights": {
+     "a25668": 450.0
+    },
+    "supplied_by": {
+     "a25668": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 151694,
+    "demand": 0.9613,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 151697,
+    "demand": 0.2733,
+    "weights": {
+     "a41796": 300.0
+    },
+    "supplied_by": {
+     "a41796": -1.0
+    }
+   },
+   {
+    "island": "a9603",
+    "product": 151699,
+    "demand": 0.8347,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 2108,
+    "demand": 1.6071,
+    "weights": {
+     "a8515": 400.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 2139,
+    "demand": 1.0131,
+    "weights": {
+     "a8897": 300.0
+    },
+    "supplied_by": {
+     "a8897": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 2153,
+    "demand": 0.3175,
+    "weights": {
+     "a9603": 250.0
+    },
+    "supplied_by": {
+     "a9603": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 2158,
+    "demand": 0.4525,
+    "weights": {
+     "a8451": 250.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 2159,
+    "demand": 0.7694,
+    "weights": {
+     "a8515": 400.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 8405,
+    "demand": 0.4463,
+    "weights": {
+     "a8515": 400.0
+    },
+    "supplied_by": {
+     "a8515": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 31700,
+    "demand": 0.51,
+    "weights": {
+     "a8899": 400.0
+    },
+    "supplied_by": {
+     "a8899": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 31706,
+    "demand": 0.3475,
+    "weights": {
+     "a8451": 250.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 55954,
+    "demand": 0.3,
+    "weights": {
+     "a8451": 250.0
+    },
+    "supplied_by": {
+     "a8451": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 151694,
+    "demand": 0.3595,
+    "weights": {
+     "a8452": 300.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   },
+   {
+    "island": "a9795",
+    "product": 151699,
+    "demand": 0.3075,
+    "weights": {
+     "a8452": 600.0
+    },
+    "supplied_by": {
+     "a8452": -1.0
+    }
+   }
+  ],
+  "pairs": [
+   {
+    "pair": "a10177>a10497",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.05
+   },
+   {
+    "pair": "a10177>a25668",
+    "ships": 4,
+    "template": "t10",
+    "exact_share": 4.0
+   },
+   {
+    "pair": "a10177>a26308",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a10177>a8452",
+    "ships": 2,
+    "template": "t10",
+    "exact_share": 2.0
+   },
+   {
+    "pair": "a10177>a8513",
+    "ships": 3,
+    "template": "t3",
+    "exact_share": 2.79
+   },
+   {
+    "pair": "a10177>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.33
+   },
+   {
+    "pair": "a10177>a8897",
+    "ships": 3,
+    "template": "t3",
+    "exact_share": 2.52
+   },
+   {
+    "pair": "a10177>a9603",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.67
+   },
+   {
+    "pair": "a10241>a10177",
+    "ships": 1,
+    "template": "t1",
+    "exact_share": 0.33
+   },
+   {
+    "pair": "a10241>a8513",
+    "ships": 1,
+    "template": "t1",
+    "exact_share": 0.5
+   },
+   {
+    "pair": "a10433>a10177",
+    "ships": 1,
+    "template": "t6",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a10497>a25668",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a10497>a8452",
+    "ships": 3,
+    "template": "t10",
+    "exact_share": 3.0
+   },
+   {
+    "pair": "a10497>a8897",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.33
+   },
+   {
+    "pair": "a25668>a10177",
+    "ships": 4,
+    "template": "t10",
+    "exact_share": 4.0
+   },
+   {
+    "pair": "a25668>a26308",
+    "ships": 3,
+    "template": "t20",
+    "exact_share": 3.14
+   },
+   {
+    "pair": "a25668>a41796",
+    "ships": 3,
+    "template": "t20",
+    "exact_share": 2.7
+   },
+   {
+    "pair": "a25668>a8452",
+    "ships": 5,
+    "template": "t20",
+    "exact_share": 5.22
+   },
+   {
+    "pair": "a25668>a8513",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.25
+   },
+   {
+    "pair": "a25668>a8515",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.4
+   },
+   {
+    "pair": "a25668>a8644",
+    "ships": 2,
+    "template": "t20",
+    "exact_share": 2.25
+   },
+   {
+    "pair": "a25668>a8708",
+    "ships": 4,
+    "template": "t20",
+    "exact_share": 3.7
+   },
+   {
+    "pair": "a25668>a8897",
+    "ships": 2,
+    "template": "t10",
+    "exact_share": 1.75
+   },
+   {
+    "pair": "a25668>a9603",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.6
+   },
+   {
+    "pair": "a26308>a8452",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.62
+   },
+   {
+    "pair": "a26308>a8644",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 1.22
+   },
+   {
+    "pair": "a26308>a8708",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 1.16
+   },
+   {
+    "pair": "a41796>a10177",
+    "ships": 3,
+    "template": "t3",
+    "exact_share": 3.0
+   },
+   {
+    "pair": "a41796>a25668",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.8
+   },
+   {
+    "pair": "a41796>a26308",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.74
+   },
+   {
+    "pair": "a41796>a8452",
+    "ships": 2,
+    "template": "t20",
+    "exact_share": 2.37
+   },
+   {
+    "pair": "a41796>a8515",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.33
+   },
+   {
+    "pair": "a41796>a8644",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.29
+   },
+   {
+    "pair": "a41796>a8708",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.8
+   },
+   {
+    "pair": "a41796>a8897",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a41796>a9603",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.67
+   },
+   {
+    "pair": "a8451>a10177",
+    "ships": 2,
+    "template": "t3",
+    "exact_share": 1.71
+   },
+   {
+    "pair": "a8451>a25668",
+    "ships": 2,
+    "template": "t10",
+    "exact_share": 2.0
+   },
+   {
+    "pair": "a8451>a8513",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 1.43
+   },
+   {
+    "pair": "a8451>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.2
+   },
+   {
+    "pair": "a8451>a8897",
+    "ships": 2,
+    "template": "t3",
+    "exact_share": 2.19
+   },
+   {
+    "pair": "a8451>a8899",
+    "ships": 2,
+    "template": "t3",
+    "exact_share": 1.56
+   },
+   {
+    "pair": "a8451>a9603",
+    "ships": 1,
+    "template": "t15",
+    "exact_share": 1.12
+   },
+   {
+    "pair": "a8451>a9795",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.53
+   },
+   {
+    "pair": "a8452>a10177",
+    "ships": 5,
+    "template": "t10",
+    "exact_share": 5.0
+   },
+   {
+    "pair": "a8452>a25668",
+    "ships": 2,
+    "template": "t20",
+    "exact_share": 1.98
+   },
+   {
+    "pair": "a8452>a26308",
+    "ships": 2,
+    "template": "t20",
+    "exact_share": 1.88
+   },
+   {
+    "pair": "a8452>a41796",
+    "ships": 2,
+    "template": "t20",
+    "exact_share": 1.54
+   },
+   {
+    "pair": "a8452>a8451",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.45
+   },
+   {
+    "pair": "a8452>a8515",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.33
+   },
+   {
+    "pair": "a8452>a8644",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.07
+   },
+   {
+    "pair": "a8452>a8708",
+    "ships": 3,
+    "template": "t20",
+    "exact_share": 2.54
+   },
+   {
+    "pair": "a8452>a8899",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.45
+   },
+   {
+    "pair": "a8452>a9603",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.33
+   },
+   {
+    "pair": "a8452>a9795",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 0.45
+   },
+   {
+    "pair": "a8513>a10177",
+    "ships": 4,
+    "template": "t3",
+    "exact_share": 3.81
+   },
+   {
+    "pair": "a8513>a10497",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 1.43
+   },
+   {
+    "pair": "a8513>a8897",
+    "ships": 4,
+    "template": "t3",
+    "exact_share": 4.0
+   },
+   {
+    "pair": "a8515>a10177",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.57
+   },
+   {
+    "pair": "a8515>a25668",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a8515>a8451",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.22
+   },
+   {
+    "pair": "a8515>a8513",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.67
+   },
+   {
+    "pair": "a8515>a8897",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 1.43
+   },
+   {
+    "pair": "a8515>a8899",
+    "ships": 1,
+    "template": "t13",
+    "exact_share": 1.25
+   },
+   {
+    "pair": "a8515>a9603",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.73
+   },
+   {
+    "pair": "a8515>a9795",
+    "ships": 1,
+    "template": "t15",
+    "exact_share": 0.75
+   },
+   {
+    "pair": "a8708>a25668",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.63
+   },
+   {
+    "pair": "a8708>a26308",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.63
+   },
+   {
+    "pair": "a8708>a41796",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.57
+   },
+   {
+    "pair": "a8708>a8451",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.25
+   },
+   {
+    "pair": "a8708>a8452",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a8708>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.25
+   },
+   {
+    "pair": "a8708>a8644",
+    "ships": 1,
+    "template": "t20",
+    "exact_share": 0.17
+   },
+   {
+    "pair": "a8708>a8897",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a8708>a9603",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.5
+   },
+   {
+    "pair": "a8897>a10177",
+    "ships": 1,
+    "template": "t4",
+    "exact_share": 1.17
+   },
+   {
+    "pair": "a8897>a10497",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.57
+   },
+   {
+    "pair": "a8897>a8451",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.29
+   },
+   {
+    "pair": "a8897>a8513",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.83
+   },
+   {
+    "pair": "a8897>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.29
+   },
+   {
+    "pair": "a8897>a8899",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.14
+   },
+   {
+    "pair": "a8897>a9603",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.14
+   },
+   {
+    "pair": "a8897>a9795",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.14
+   },
+   {
+    "pair": "a8899>a8451",
+    "ships": 1,
+    "template": "t13",
+    "exact_share": 1.07
+   },
+   {
+    "pair": "a8899>a8513",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.67
+   },
+   {
+    "pair": "a8899>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.08
+   },
+   {
+    "pair": "a8899>a8897",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 1.33
+   },
+   {
+    "pair": "a8899>a9603",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.09
+   },
+   {
+    "pair": "a8899>a9795",
+    "ships": 1,
+    "template": "t15",
+    "exact_share": 0.58
+   },
+   {
+    "pair": "a9603>a10177",
+    "ships": 2,
+    "template": "t3",
+    "exact_share": 2.34
+   },
+   {
+    "pair": "a9603>a25668",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a9603>a8513",
+    "ships": 3,
+    "template": "t3",
+    "exact_share": 2.52
+   },
+   {
+    "pair": "a9603>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.88
+   },
+   {
+    "pair": "a9603>a8897",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 1.14
+   },
+   {
+    "pair": "a9603>a9795",
+    "ships": 1,
+    "template": "t14",
+    "exact_share": 1.15
+   },
+   {
+    "pair": "a9667>a8451",
+    "ships": 1,
+    "template": "t16",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a9795>a10177",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.94
+   },
+   {
+    "pair": "a9795>a25668",
+    "ships": 1,
+    "template": "t10",
+    "exact_share": 1.0
+   },
+   {
+    "pair": "a9795>a8451",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.25
+   },
+   {
+    "pair": "a9795>a8513",
+    "ships": 2,
+    "template": "t3",
+    "exact_share": 1.65
+   },
+   {
+    "pair": "a9795>a8515",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.11
+   },
+   {
+    "pair": "a9795>a8897",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 1.41
+   },
+   {
+    "pair": "a9795>a8899",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.2
+   },
+   {
+    "pair": "a9795>a9603",
+    "ships": 1,
+    "template": "t3",
+    "exact_share": 0.21
+   }
+  ],
+  "notes": [
+   "route 9: station of a non-player area 8643 skipped",
+   "route 46: station of a non-player area 9283 skipped",
+   "route 46: station of a non-player area 9283 skipped",
+   "route 46: station of a non-player area 9283 skipped",
+   "route 46: station of a non-player area 9283 skipped",
+   "route 46: station of a non-player area 9347 skipped",
+   "route 46: station of a non-player area 9347 skipped",
+   "route 51 Roast Beef Cud - Uxo: no source for product 31768",
+   "route 51 Roast Beef Cud - Uxo: no source for product 2161",
+   "route 51 Roast Beef Cud - Uxo: no source for product 31707",
+   "route 51: station of a non-player area 9347 skipped",
+   "route 53 Wine Uxo - Arg: no source for product 2155",
+   "route 61: station of a non-player area 9153 skipped",
+   "route 61: station of a non-player area 9153 skipped",
+   "route 71 Clan Shields Cud - Can: no source for product 2157",
+   "route 84: station of a non-player area 8580 skipped",
+   "route 84: station of a non-player area 8580 skipped",
+   "route 84: station of a non-player area 8580 skipped",
+   "route 84: station of a non-player area 8580 skipped",
+   "route 95: station of a non-player area 8707 skipped",
+   "route 95: station of a non-player area 8707 skipped",
+   "route 115: station of a non-player area 8580 skipped",
+   "route 115: station of a non-player area 8580 skipped",
+   "route 115: station of a non-player area 8580 skipped",
+   "route 115: station of a non-player area 8580 skipped",
+   "route 115: station of a non-player area 8580 skipped",
+   "a10177 product 2084: local production, import not written",
+   "a10177 product 2138: local production, import not written",
+   "a10177 product 2144: local production, import not written",
+   "a10177 product 8561: local production, import not written",
+   "a10177 product 31695: local production, import not written",
+   "a10177 product 31698: local production, import not written",
+   "a10497 product 2088: local production, import not written",
+   "a10497 product 2136: local production, import not written",
+   "a10497 product 2142: local production, import not written",
+   "a25668 product 2136: local production, import not written",
+   "a25668 product 151693: local production, import not written",
+   "a26308 product 2136: local production, import not written",
+   "a26308 product 151680: local production, import not written",
+   "a26308 product 151693: local production, import not written",
+   "a41796 product 2136: local production, import not written",
+   "a41796 product 151695: local production, import not written",
+   "a41796 product 151699: local production, import not written",
+   "a8451 product 2108: local production, import not written",
+   "a8451 product 2159: local production, import not written",
+   "a8451 product 31700: local production, import not written",
+   "a8452 product 31698: local production, import not written",
+   "a8452 product 151704: local production, import not written",
+   "a8513 product 2132: local production, import not written",
+   "a8513 product 2144: local production, import not written",
+   "a8513 product 2149: local production, import not written",
+   "a8515 product 2156: local production, import not written",
+   "a8644 product 151704: local production, import not written",
+   "a8897 product 2146: local production, import not written",
+   "a8897 product 2178: local production, import not written",
+   "a8897 product 145220: local production, import not written",
+   "a8899 product 2108: local production, import not written",
+   "a8899 product 2141: local production, import not written",
+   "a8899 product 8405: local production, import not written",
+   "a8899 product 31695: local production, import not written",
+   "a9603 product 2103: local production, import not written",
+   "a9795 product 2085: local production, import not written",
+   "a9795 product 2137: local production, import not written",
+   "a9795 product 2141: local production, import not written"
+  ],
+  "skipped": 38
+ },
+ "ship_effects": []
+}
