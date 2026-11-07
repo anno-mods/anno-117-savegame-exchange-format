@@ -64,5 +64,6 @@ data/ scripts/ tests/ outputs/   placeholders on main, filled on `evidence`
 
 ## Licensing
 
-No license has been chosen yet; choose one before publishing. Game data, texts and icons are (c) Ubisoft. The
-calculator is MIT; the planner and the layout tool carry their own licenses.
+MIT, see [`LICENSE`](LICENSE). It covers the documents and code written for this repo. Game data, texts and icons
+are (c) Ubisoft. The saves and configs on the `evidence` branch are one player's game state and are not part of the
+MIT grant. The calculator is MIT; the planner and the layout tool carry their own licenses.
