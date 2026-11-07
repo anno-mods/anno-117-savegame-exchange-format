@@ -1,0 +1,23 @@
+[project]
+name = "anno117-savegame-exchange-format"
+version = "0.1.0"
+description = "Savegame to calculator/planner exchange format: investigation scripts, data and checks"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 140
+extend-exclude = ["scripts/probes", "docs/analysis"]
+
+[tool.ruff.lint]
+select = ["E9", "F"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: tests that read decoded savegames (hundreds of MB)",
+    "needs_save: tests that need ANNO_DECODED, RdaConsole and FileDBReader configured",
+]
