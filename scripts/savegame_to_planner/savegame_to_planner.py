@@ -394,13 +394,12 @@ def load_texts(texts_xml: Path) -> dict[int, str]:
     return {int(a): b.strip() for a, b in re.findall(r"<LineId>(-?\d+)</LineId>\s*<Text>([^<]*)</Text>", content)}
 
 
-# --------------------------------------------------------------------------- effects applied to production buildings
+# --------------------------------------------------------------------------- production effects and modules
 
-SCOPE_RADIUS = 2  # AreaEffectManager scope id of circle effects (6 = street distance, 4 = objects in area, 1 = module owner)
+SCOPE_MODULE_OWNER = 1  # AreaEffectManager scope id: effect is attached to ModuleOwner
+SCOPE_RADIUS = 2  # AreaEffectManager scope id of circle effects
+SCOPE_STREET = 6  # AreaEffectManager scope id of street-distance effects
 NEAR_TIE = 0.1  # decisions within 10 % of the total (at least one building) of an exact half are reported as near ties
-
-
-SCOPE_STREET = 6
 STREET_TOUCH = 1.0  # a road tile (centre) touches a building when it is within this distance of the footprint (adjacent tiles: 0.5)
 
 
@@ -471,11 +470,12 @@ class StreetNet:
 
 def derive_production(area: dict[str, Any], data: Any, item_boosted: Callable[[Optional[str]], bool],
                       street_mode: str = "euclid") -> tuple[dict[int, Any], list[dict], list[str]]:
-    """Per production building type: effects applied by range, as planner FactorySettings.
+    """Derive type-level planner settings from per-instance savegame data.
 
-    An effect counts for a type when more than half of the type's buildings are affected (strict majority). A building
-    is affected by a circle effect when its centre lies within the radius of the centre of at least one source building
-    (the layout tool's rule, canvas_widget._compute_in_range_ids). Returns (settings per factory GUID, decisions, notes).
+    Range effects and module attachments are separate sources. Range effects are measured geometrically; module-owner
+    records identify the exact production-building instances carrying an attached module. The planner stores one setting
+    per factory type, so both are projected by strict majority. The report marks module projections and lists their
+    attached instance ids. Returns (settings per factory GUID, decisions, notes).
     """
     from paxplanner.model.project import FactorySettings, ItemSlot
 
@@ -532,11 +532,19 @@ def derive_production(area: dict[str, Any], data: Any, item_boosted: Callable[[O
         reached = reach_cache[(source["id"], budget)]
         return {p["id"] for p in types.get(factory, []) if tiles_of(p) & reached}
 
-    def decide(factory: int, kind: str, ident: int, affected: set[str], apply: Callable[[Any], None], circle: Optional[set[str]] = None) -> None:
+    def decide(factory: int, kind: str, ident: int, affected: set[str], apply: Callable[[Any], None],
+               circle: Optional[set[str]] = None, method: Optional[str] = None, instance_ids: Optional[set[str]] = None,
+               attachments: Optional[list[dict[str, Any]]] = None) -> None:
         total = len(types[factory])
         applied = len(affected) * 2 > total
         decision = {"factory": factory, "kind": kind, "id": ident, "affected": len(affected), "total": total, "applied": applied,
                     "near_tie": total >= 2 and abs(len(affected) - total / 2) <= max(1.0, NEAR_TIE * total)}
+        if method is not None:
+            decision["method"] = method
+        if instance_ids is not None:
+            decision["affected_instances"] = sorted(instance_ids)
+            decision["attachments"] = attachments or []
+            decision["projection"] = "factory_type_majority"
         if circle is not None:
             decision.update({"method": "street", "circle_affected": len(circle), "circle_applied": len(circle) * 2 > total})
         decisions.append(decision)
@@ -579,6 +587,8 @@ def derive_production(area: dict[str, Any], data: Any, item_boosted: Callable[[O
     effect_hits: dict[tuple[int, int], set[str]] = {}
     effect_circle: dict[tuple[int, int], set[str]] = {}
     for rec in effects:
+        if rec["scope"] == SCOPE_MODULE_OWNER:
+            continue  # attached modules are handled from ModuleOwner below, not as radius effects
         known = rec["guid"] in data.building_boosts or rec["guid"] in data.area_boosts
         source = by_id.get(rec["source"]) if rec["source"] else None
         if not known or source is None:
@@ -599,17 +609,35 @@ def derive_production(area: dict[str, Any], data: Any, item_boosted: Callable[[O
         else:
             decide(factory, "effect", guid, hits, lambda s, g=guid: s.effects.append(g), effect_circle.get((factory, guid)))
 
-    # (3) silo / dovecote modules: the module's effect record names the farm that owns it
-    modules = {m["guid"] for m in data.silo_modules}
+    # (3) attached production modules: scope 1 records the owning farm instance in ModuleOwner.
+    # Asset metadata links each farm type to the only valid additionalModule GUID and its functional buff.
+    module_data_by_guid = {m["guid"]: m for m in data.silo_modules}
     owners: dict[int, set[str]] = {}
+    attachments: dict[int, list[dict[str, Any]]] = {}
     for rec in effects:
+        if rec["scope"] != SCOPE_MODULE_OWNER:
+            continue
         source = by_id.get(rec["source"]) if rec["source"] else None
         owner = by_id.get(rec["owner"]) if rec["owner"] else None
-        if source is not None and owner is not None and source["building"] in modules and owner["building"] in types:
-            owners.setdefault(owner["building"], set()).add(owner["id"])
+        if source is None or owner is None or source["building"] not in module_data_by_guid or owner["building"] not in types:
+            continue
+        expected_module = data.factories[owner["building"]].raw.get("additionalModule")
+        module_data = module_data_by_guid[source["building"]]
+        if expected_module != source["building"]:
+            notes.append(f"module {source['building']} owner {owner['id']}: does not match factory additionalModule {expected_module}")
+            continue
+        if module_data is None or rec["guid"] not in module_data.get("functionalBuffs", []):
+            notes.append(f"module {source['building']} owner {owner['id']}: effect {rec['guid']} is not a configured functional buff")
+            continue
+        owners.setdefault(owner["building"], set()).add(owner["id"])
+        attachments.setdefault(owner["building"], []).append({
+            "instance": owner["id"], "module": source["building"], "module_instance": source["id"]})
     for factory in types:
-        if data.factories[factory].raw.get("additionalModule"):
-            decide(factory, "silo", data.factories[factory].raw["additionalModule"], owners.get(factory, set()), lambda s: setattr(s, "silo", True))
+        module = data.factories[factory].raw.get("additionalModule")
+        if module:
+            attached = owners.get(factory, set())
+            decide(factory, "module", module, attached, lambda s: setattr(s, "silo", True), method="attached",
+                   instance_ids=attached, attachments=attachments.get(factory, []))
 
     # (4) water: buildings with a distributor (aqueduct / irrigation) in range, for types with an optional water buff
     for factory, instances in types.items():

@@ -103,7 +103,7 @@ texts); in Anno 117 the id is 64 bit and the table is the game's `texts_<languag
 | `supplied_by`, `routes`, `ship_templates` | derived, see "Trade routes and fleet" | `SessionTradeRouteManager/RouteMap`, ship objects, visit history |
 | `ship_effects` | derived, see "Trade routes and fleet" | `MetaEffectManager/Effects` |
 | `dominant_patron`, `techs`, `tech_counts`, `research_queue` | derived | outer XML |
-| `factories` (`items`, `building_effects`, `effects`, `silo`, `aqueduct`) | derived by range, see "Effects applied to production buildings" | save positions + effect records |
+| `factories` (`items`, `building_effects`, `effects`, `silo`, `aqueduct`) | range effects, attached modules and distributor coverage; `silo` is a type-level projection | save positions + effect records + asset metadata |
 | `producers`, `island_effects`, `island_items`, `extra_demand`, `materials`, `wonders`, `public_coverage(s)`, `villa_coverage`, `residence_effects`, `romanization` | defaulted | not read |
 | `difficulty`, `volcano`, `seasons`, `global_effects`, `map.template`, `map.size`, `knowledge_per_minute` | defaulted | not read (the map template of this save is a campaign template) |
 | `passive_trade`, `trader_visits`, `governor_sources`, `trade_*`, route `via_*`, `detour`, `manual_minutes` | not available | not derived |
@@ -161,15 +161,15 @@ Brooches Patricians), 1 differs (Necklaces Patricians is supplied there), 7 are 
   discovery effects the Planner derives itself. In Marcia 69 the list is empty.
 - Estimates: roles are reliable, shares are estimates (mean error 0.23 against recorded flows in the trade analysis).
 
-## Effects applied to production buildings
+## Effects and modules configured on production buildings
 
 `residence_items` (above) are the items socketed in villas and officia that act on residences. The planner's
-per-factory settings (`FactorySettings`) are a different thing: what those items and other sources actually apply to
-production buildings by range. The script derives them per island and production building type:
+per-factory settings (`FactorySettings`) are type-level choices. The script derives ranged effects from geometry and
+module ownership from `ModuleOwner` records, then projects both to one setting per production building type:
 
-- Geometry: the save has the placed buildings (`Position` x/z in tiles, centre of the building) and, per effect, the
+- Geometry: the save has the placed buildings (`Position` x/z in tiles, centre of the building) and, per ranged effect, the
   source building and its radius (`AreaEffectManager/Effects`: `Guid`, `Scope/value/id`, `Source/ObjectID`, `Distance`;
-  scope 2 = circle, 6 = street distance, 4 = objects in area, 1 = module owner). A building is affected by a circle
+  scope 2 = circle, 6 = street distance). Scope 1 is `ModuleOwner`, an attachment relation handled separately below. A building is affected by a circle
   effect when its centre is within `Distance` of the centre of a source building (Euclidean, the same rule as the
   layout tool's `_compute_in_range_ids`; footprints are not used). The save lists no receivers, so this is computed.
 - Street distance (scope 6: Library effect 153868 "Thoth Libraire Area Effect", Aegyptus villa items with street scope):
@@ -190,6 +190,11 @@ production buildings by range. The script derives them per island and production
   fall out; with the layout tool's hop model no building falls out. The game's own `StreetConnectionCache` (per source
   building, the objects connected by street) separates the same way: the reached objects end at 59.1 walked length,
   the first unreached at 59.4. This is one observation on one island; the layout tool's model is not confirmed.
+- Module attachment: scope 1 records identify the exact farm object that owns the module. The module object GUID must
+  match the farm type's `additionalModule` in game data. The planner stores one `silo` boolean per factory type, so this
+  writer projects the per-instance attachments by strict majority and records `method: "attached"`, the attached owner and module instance
+  ids and `projection: "factory_type_majority"` in the report. `applied` describes that planner projection, not whether
+  the game applied the module to every building of the type.
 - Rule: an effect is applied to a building type when MORE THAN HALF of the buildings of that type are affected (strict
   majority; exactly half is not applied). `--report FILE` lists every decision with `affected`/`total` and flags near
   ties (within 10 % of half, at least one building).
@@ -200,7 +205,7 @@ production buildings by range. The script derives them per island and production
 | Item in a villa / officium (radius from its effect records, else the building's `effectRadius`) | `factories[type].items` = `ItemSlot(item, boosted)` | item effect targets and scope from the game data; `boosted` from `ItemMap` `IsBoosted` |
 | Granary-type radius effects (game data `building_boosts`) | `factories[type].building_effects` | effect GUID, circle around the granary |
 | Hippodrome splendour area effects (game data `area_boosts`), Thoth Library effect | `factories[type].effects` | circle or street reach around the source |
-| Silo, dovecote (effect record with `ModuleOwner` naming the farm) | `factories[type].silo = True` | farms that own a module of the type's `additionalModule` |
+| Silo, dovecote (`AreaEffectManager` scope 1 / `ModuleOwner`) | `factories[type].silo = True` when the attached share is a strict majority | exact owner and module instance ids are read from `ModuleOwner`; module GUID must match the factory type's `additionalModule`; this is an attachment, not range |
 | Aqueduct water (`AqueductConsumer/DistributorsInRange` not empty) | `factories[type].aqueduct = True` | for types with an optional water buff |
 
 - Irrigation: `AreaIrrigationManager` stores per irrigation area a pipe grid (`IrrigationAreas`: index, grid origin,
