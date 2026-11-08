@@ -71,5 +71,5 @@ matches the save's ship count on 7 of 20 pairs that have map positions and is wi
 
 ## Unresolved
 
-See `docs/roadmap.md`. The main open item is the mapping of game routes to calculator routes beyond the reference
-derivation (relays, order-dependent routes, the demand value used for "covers everything").
+See `docs/roadmap.md`. The main open item is the rule of the reference derivation for relays and order-dependent routes
+(layout decision LD9); the target tools take `trade.imports` as given and do not derive it.
