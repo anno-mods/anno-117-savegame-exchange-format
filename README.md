@@ -24,7 +24,7 @@ the saves, derived configs, scripts, probes, accuracy analysis and tests that re
 
 | Question | Read |
 | --- | --- |
-| What must the format and the tools do? Requirements R1-R52, key catalog, conversion rules, acceptance examples | [`docs/spec/exchange-format-requirements.md`](docs/spec/exchange-format-requirements.md) |
+| What must the format and the tools do? Requirements R1-R53, key catalog, conversion rules, acceptance examples | [`docs/spec/exchange-format-requirements.md`](docs/spec/exchange-format-requirements.md) |
 | What did the investigations find (savegame, calculator, planner, accuracy figures)? | [`docs/insights.md`](docs/insights.md) |
 | Where does each value live in the savegame? | [`docs/findings/savegame-structure.md`](docs/findings/savegame-structure.md) |
 | How accurate is the derived good flow, and why? | [`docs/analysis/derived-trade-flow-accuracy/analysis.md`](docs/analysis/derived-trade-flow-accuracy/analysis.md) |

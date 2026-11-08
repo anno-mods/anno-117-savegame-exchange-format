@@ -298,6 +298,39 @@ for n in names:
                 rec(n, key, None, "1", "derived by rule", "needs", "R43: DLC 3 need not banned in the save (explicit 1; key was absent)")
     NEEDS_DISABLED[n] = dis_set
 
+# ------------------------------------------------------------------ default supplier factory (R53)
+# A default supplier that is a factory (not a trade route) without built buildings moves to another factory of the
+# same good that is built on the island: the one with the most buildings, ties by lower GUID.
+_route_defaults = {(r["to"], r["productGUID"]) for r in json.loads(d["tradeRoutes"]) if r["isDefaultSupplier"]}
+supplier_moves = []
+for n in names:
+    info = island_info[n]
+    if not info:
+        continue
+    s = stores[n]
+    cnt = info["area"]["counts"]
+    for key in sorted(k for k in s if k.endswith(".defaultSupplier.type")):
+        product = int(key.split(".")[0])
+        if s[key] != "factory" or (n, product) in _route_defaults:
+            continue
+        try:
+            cur = int(s.get("%d.defaultSupplier.id" % product))
+        except (TypeError, ValueError):
+            continue
+        if cnt.get(cur):
+            continue
+        built = sorted(((cnt[g], g) for g in FAC if info["region"] in FAC[g]["associatedRegions"] and cnt.get(g)
+                        and any(o["product"] == product for o in FAC[g].get("outputs", []))), key=lambda t: (-t[0], t[1]))
+        if not built:
+            continue
+        new = built[0][1]
+        old_id = s.get("%d.defaultSupplier.id" % product)
+        s["%d.defaultSupplier.id" % product] = same_type(old_id, new)
+        rec(n, "%d.defaultSupplier.id" % product, old_id, s["%d.defaultSupplier.id" % product], "derived by rule", "default supplier",
+            "R53: default supplier factory %d (%s) has no buildings; factory %d (%s, %d built) produces %s"
+            % (cur, FAC[cur]["name"] if cur in FAC else "unknown", new, FAC[new]["name"], built[0][0], PROD.get(product, {}).get("name", product)))
+        supplier_moves.append({"island": n, "product": product, "from": cur, "to": new})
+
 # ------------------------------------------------------------------ discoveries
 gl = json.loads(d["globalEffects"])
 ss = json.loads(d["sessionSettings"])
@@ -447,7 +480,7 @@ old_by_pair = collections.defaultdict(list)
 for r in old_tr:
     old_by_pair[(r["to"], r["productGUID"])].append(r)
 
-trade = {"derived_pairs": 0, "added": [], "skipped": [], "agreement": [], "user_only_pairs": [], "ordinary_added": [], "measured_only_added": [], "local_kept": [], "flags_set": []}
+trade = {"derived_pairs": 0, "added": [], "skipped": [], "agreement": [], "user_only_pairs": [], "ordinary_added": [], "measured_only_added": [], "local_kept": [], "flags_set": [], "supplier_moves": supplier_moves}
 for (rcv, product), sup in sorted(weights.items(), key=lambda kv: (kv[0][0], kv[0][1])):
     if int(rcv[1:]) not in key_to_name:
         continue

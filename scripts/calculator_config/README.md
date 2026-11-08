@@ -14,6 +14,9 @@ All Python files take their paths from `common.py`. Environment variables (defau
 | `ANNO_LAYOUT_REPO` | Anno-117-Layout-Tool checkout (provides `savegame_to_planner`) | `../Anno-117-Layout-Tool` |
 | `ANNO_OUT` | working and output folder | `outputs` |
 | `ANNO_TRADE_VISITS` | `visits.json` of the trade extraction | `data/processed/reports/trade_visits.json` |
+| `ANNO_OLD_CONFIG` | calculator config dump to update | `data/raw/calculator_configs/Marcia 69.json` |
+| `ANNO_PLAN`, `ANNO_FX_REPORT` | plan and `--report` file written by `savegame_to_planner.py` for the same save | the Marcia 69 files under `data/processed/` |
+| `ANNO_OUT_STEM` | stem of the three output files | `Marcia 69 updated` |
 
 ## Inputs
 
@@ -57,7 +60,8 @@ Without a decoded save, `build_config.py` still needs `save_data.pkl`; it is the
   `fullyUtilizeConstructed` is kept), patron, devotion, fertilities, items and building effects as `scaling` slots, aqueduct and module
   switches, banned needs; globally: discoveries (researched techs, repeat counts), volcano and Nile season effects; trade routes: derived
   suppliers added (default supplier plus ordinary routes), existing user routes kept; for a good the island produces itself the local
-  producer is set fully utilized and the largest supplier is the default import route (R51, no amounts); every change goes to the
+  producer is set fully utilized and the largest supplier is the default import route (R51, no amounts); a factory default
+  supplier without buildings moves to the built factory type of the same good (R53); every change goes to the
   report with source and note.
 - `cm_overview.py`: per-island table of construction-material factories (old versus new count) appended to the report.
 - `validate_out.py`: keys and order identical to the original, selected keys byte-identical, every new key fits a persist pattern with a GUID known to the

@@ -32,17 +32,22 @@ LAYOUT_REPO = _env_path("ANNO_LAYOUT_REPO", ROOT.parent / "Anno-117-Layout-Tool"
 OUT = _env_path("ANNO_OUT", ROOT / "outputs")
 
 # Inputs that ship with the repository
-OLD = DATA / "raw" / "calculator_configs" / "Marcia 69.json"
-PLAN = DATA / "processed" / "planner_plans" / "marcia69.v5.plan.json"
-FX_REPORT = DATA / "processed" / "reports" / "fx_report_v5.json"
+#
+# Inputs and output name of another save: ANNO_OLD_CONFIG (calculator config dump), ANNO_PLAN (plan written by
+# savegame_to_planner.py), ANNO_FX_REPORT (its --report file), ANNO_TRADE_VISITS (visits.json of extract_trade.py),
+# ANNO_OUT_STEM (output file stem, default "Marcia 69 updated").
+OLD = _env_path("ANNO_OLD_CONFIG", DATA / "raw" / "calculator_configs" / "Marcia 69.json")
+PLAN = _env_path("ANNO_PLAN", DATA / "processed" / "planner_plans" / "marcia69.v5.plan.json")
+FX_REPORT = _env_path("ANNO_FX_REPORT", DATA / "processed" / "reports" / "fx_report_v5.json")
 TRADE_VISITS = _env_path("ANNO_TRADE_VISITS", DATA / "processed" / "reports" / "trade_visits.json")
 
 # Intermediate and final files of the pipeline (in OUT)
+OUT_STEM = os.environ.get("ANNO_OUT_STEM") or "Marcia 69 updated"
 PARAMS = OUT / "params.json"
 SAVE_PKL = OUT / "save_data.pkl"
-NEW_JSON = OUT / "Marcia 69 updated.json"
-NEW_REPORT = OUT / "Marcia 69 updated.changes.json"
-NEW_CSV = OUT / "Marcia 69 updated.changes.csv"
+NEW_JSON = OUT / (OUT_STEM + ".json")
+NEW_REPORT = OUT / (OUT_STEM + ".changes.json")
+NEW_CSV = OUT / (OUT_STEM + ".changes.csv")
 
 REGION_CODE = {3245: 1, 6627: 3, 149679: 4}
 
