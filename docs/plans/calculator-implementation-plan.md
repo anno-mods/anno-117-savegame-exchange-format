@@ -75,8 +75,8 @@ planner-side): AE10, AE12, AE15-AE17, AE24.
 **Deferred for later**
 
 - Exporting live statistics values (`live`) and recording history; the calculator keeps imported `history` as is.
-- Mapping `effectCoverage` (per residence building) to the format's `residenceEffects` (per population level); both
-  stay preserved verbatim.
+- Mapping `effectCoverage` (per residence building) to the format's `residenceEffects.byResidence`; until then the
+  calculator's values and the file's `residenceEffects` stay preserved verbatim.
 - Showing imported history or trade routes in the interface.
 
 **Outside this work**
@@ -176,8 +176,10 @@ Settled by Nico:
   show): localStorage may hold keys that the calculator neither reads nor writes. The importer writes every listed disabled
   need as a "0" key (R43); the calculator ignores the keys it does not model, and the exporter lists every stored "0" key of the
   need-key shape, so such needs need no copy in `exchange.ext` (U5, U9).
-- `settings.dlcs`: the planner keeps its active DLCs in settings and the savegame holds them, so the layout writer derives
-  `settings.dlcs` from the save (layout LD8). When a file has none, the importer writes no DLC keys; `DLC.used` switches a
+- `settings.dlcs`: a list of DLC numbers (1 Prophecies of Ash, 2 The Hippodrome, 3 Dawn of the Delta; the calculator's `DLC.id`
+  and asset GUID per number are in the catalog). The planner keeps its active DLCs in settings and the savegame holds them, so
+  the layout writer derives `settings.dlcs` from the save (layout LD8). The exporter writes the numbers of the DLCs with
+  `checked` on. When a file has none, the importer writes no DLC keys; `DLC.used` switches a
   DLC on at load when a dependent observable is non-zero (`util.ts:424-437`, via `lockDLCIfSet` in `factories.ts:119`), U7
   adds a runtime test that confirms it, and the report names DLCs enabled this way (U7).
 - A fractional `devotion` or another non-integer value for a field the calculator loads with `persistInt` (`devotion`, `world.ts:1151`)
@@ -237,7 +239,7 @@ Key mapping (format key -> calculator storage; island scope unless marked global
 | `residencesByLevel` | `<residence building>.buildings.constructed` of the level's residence building, only when `buildings` has no count for it (R24) |
 | `materials` | `constructed` and `fullyUtilize` of the region's end factory (R50) |
 | `trade.imports` | `tradeRoutes` entries (`isDefaultSupplier`, `userSetAmount` from the supplier `amount`) and the R51 flags |
-| `settings.dlcs` | `calculatorSettings` DLC keys |
+| `settings.dlcs` (numbers 1, 2, 3) | `calculatorSettings` keys `DLC01_Prophecies_of_Ash`, `DLC02_The_Hippodrome`, `DLC03_Dawn_of_Delta`, written `"1"` for a listed number and `"0"` for an unlisted one; a number outside 1-3 is preserved in `exchange.ext` (R19, R38) |
 | `settings.difficulty` need consumption | `calculatorSettings["settings.needConsumption"]` |
 | `effects.global` / `effects.bySession` | `globalEffects` / `sessionSettings` |
 | `research` | derived effect scales (KTD10) |
@@ -365,7 +367,7 @@ factory that outputs it and `associatedRegions` (13 materials; Sawmill 3089 Lati
 `generator.name`, missing or duplicate island ids) reject the file (R4, R18); a newer minor passes. `unknown` is a list of
 `{pointer, value, scope}` for fields not in the catalog, grouped by island id or document. Catalog keys the calculator does
 not model (`itemHolders`, `moduleAttachments`, `appliedEffects`, `rangeBuffs`, `harbour`, `position`, `islandFile`,
-`islandSize`, `publicCoverage`, `islandItems`, `romanization`, `wonders`, `extraDemand`, `population`, `layout`, `dominantPatron`,
+`islandSize`, `publicCoverages`, `villaCoverage`, `residenceItems`, `residenceEffects`, `islandItems`, `romanization`, `wonders`, `extraDemand`, `population`, `layout`, `dominantPatron`,
 `fleet`, `settings.map`, `name`, `history`, `live`) are captured the same way with their original core location, so they are
 written back (R13). `computed` is kept only for the comparison of U11 and is never exported from the file's copy. Known-key values of an unexpected type are `problems` (CD4: coerced when
 numeric strings, otherwise dropped with a report line). Unknown keys inside known maps keyed by GUID (building, effect,

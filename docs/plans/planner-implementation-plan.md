@@ -211,7 +211,9 @@ Mapping (field audit of `project.py`, R47). Island scope:
 | `island_effects` | `effects` | scale 1 for listed effects |
 | `island_items`, `residence_items` | `islandItems`, `residenceItems` | |
 | `extra_demand`, `wonders`, `romanization` | `extraDemand`, `wonders`, `romanization` | |
-| `public_coverage`, `public_coverages`, `villa_coverage`, `residence_effects` | `publicCoverage`, `publicCoverages`, `villaCoverage`, `residenceEffects` | |
+| `public_coverage`, `public_coverages` | `publicCoverages.default`, `publicCoverages.byLevel` | `default` is written only when it differs from 100; `byResidence` is preserved, not modelled |
+| `villa_coverage` | `villaCoverage.default` | `byLevel` and `byResidence` are preserved, not modelled |
+| `residence_effects` | `residenceEffects.byLevel` | `byResidence` is preserved, not modelled |
 | `island_size`, `map_slot` | `islandSize`, `position` | slot on the template; campaign positions preserved |
 | `harbour`, `piers`, `harbour_item` | `harbour` | R40 |
 
@@ -389,8 +391,9 @@ carried through (AE18).
 **Approach:** For each import entry (receiving island, product, suppliers): the residual supplier is the one flagged `default`;
 with no flag and at least one `share`, the largest share, ties by the lexically smallest island id; with no flag and no share the
 entry has no residual supplier and its remainder goes to trade (so a plan whose `supplied_by` has no `-1` entry round-trips
-unchanged, R47); more than one flag is reported and the entry is preserved, not written (R54). A governor supplier is never the residual, and the choice of the residual supplier and the count of flags run over the island
-suppliers only; a `default` flag on a governor is ignored and reported. The residual's entered `amount` (the calculator's floor on
+unchanged, R47); more than one flag is reported and the entry is preserved, not written (R54). A governor supplier is residual only when flagged `default`; the share fallback and its tie rule run over the island
+suppliers only, and the count of flags runs over all suppliers. A flagged governor takes `-1` on its `governor:<guid>` key;
+the export writes `default: true` on it, so `ext.planner.governorResidual` is not needed. The residual's entered `amount` (the calculator's floor on
 its default route) is preserved on its supplier and the report says so (CP3). A supplier `amount` above the island's known demand is kept: the planner caps deliveries at demand (R54), so
 the entered amount is preserved and the report names the difference. `supplied_by[product]` lists the other island suppliers first with their entered t/min (basis entered) or 0, and
 the residual last with -1. `{governor: GUID}` suppliers become `governor:<guid>` keys; `trade.governorHarbours` become
@@ -411,7 +414,8 @@ preserved and reported (R52, R54). `trade.routes`, `visits`, `minimumStock` are 
 - A non-player island supplier is dropped and listed; a route with only non-player stations produces no import.
 - `imports` and `routes` disagree: `imports` wins and the report says so (R49).
 - A supplier `amount` above the known demand is preserved and reported, not capped in the stored value (R54).
-- A governor flagged `default` next to an island supplier that carries a `share`: the island supplier is residual, the governor flag is ignored and reported, the governor keeps its amount (R54).
+- A governor flagged `default` next to an island supplier that carries a `share`: the governor is residual (`-1`), the island supplier keeps its entered amount or 0 (R54).
+- A governor flagged `default` and an island supplier flagged `default` in one entry: more than one flag, reported and preserved (R54).
 - A file with `routes` and no `imports` writes no `supplied_by`, preserves the routes and reports them as preserved (R49).
 **Verification:** `uv run pytest -q tests/test_exchange_trade.py`.
 
