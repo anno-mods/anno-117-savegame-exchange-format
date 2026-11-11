@@ -2,8 +2,8 @@
 
 Subject: `docs/plans/calculator-implementation-plan.md` against `docs/spec/exchange-format-requirements.md` and the calculator
 source (`anno-117-calculator/src`). Each row names a decision that had to be settled for round-trip imports to work and for
-the intention of a value to be clear, with the calculator evidence and where it is settled. "Open" rows are the open
-decisions CD3, CD4, CD6, CD7 and CD10 of the plan; CD8 (per-product passive-trade storage) is a deferred storage change, not a decision of this plan.
+the intention of a value to be clear, with the calculator evidence and where it is settled. All decisions are settled;
+CD8 (per-product passive-trade storage) is a deferred storage change, not a decision of this plan.
 
 ## Meaning of an absent or default value in the calculator
 
@@ -42,18 +42,21 @@ supplier without `amount` (U9).
 | D9 | `products[p].producer` and the default supplier key | settled | KTD13, mapping row `producer` |
 | D10 | Governor suppliers and the shared passive-trade key | settled: preserved, not applied; per-product storage is a later change | R52, CD8 |
 | D11 | R46 against R52 on governors | settled | R46, R52 |
-| D12 | Restore of a preserved degraded supplier after an edit | open | CD10 |
+| D12 | Restore of a preserved degraded supplier after an edit | settled: restored only while the default and `userSetAmount` are unchanged (same as planner CP4) | CD10 |
 | D13 | Absent fertility under replacement | settled | R23, AE8, U5 |
 | D13a | Routes naming "All Islands" or an orphan island | settled | U6, U9 |
 | D13b | Cycles and two defaults for one product | settled | U6 |
 | D14 | Device preferences survive an import | settled | R5, CP10, U8 |
 | D15 | `settings.dlcs` absent | settled: the layout writer derives it from the save (field located under LD8); otherwise `DLC.used` | calculator plan, settled decisions; LD8 |
-| D16 | Island name after a collision suffix | open | CD3 |
+| D16 | Island name after a collision suffix | settled: the suffixed name is exported, the original stays in `exchange.ext` | CD3 |
 | D17 | `fullyUtilize` states and the `materials` precedence | settled: `buildings` wins | KTD13, U7, U9 |
 | D18 | Factory entries absent or partial | settled | U5 |
-| D18a | View modes and `research.basis` | open for `effects.global` content | CD6 |
-| D19 | Precedence when the same fact appears twice | open for volcano and seasons | CD7 |
-| D20 | Strictness: reject, repair or keep | open | CD4 |
+| D18a | View modes and `research.basis` | settled: Plan and Master are one-shot actions (`views.ts`), no mode is stored; every stored effect scaling is written to `effects.global`/`effects.bySession` and `research.basis` is always "applied" | CD6 |
+| D19 | Precedence when the same fact appears twice | settled for volcano and seasons: each reader uses its own model, a conflicting file only produces a report | CD7 |
+| D20 | Strictness: reject, repair or keep | settled: coerce numeric strings, drop the rest with a report line, reject only R18 envelope problems and the R4 version gate | CD4 |
 | D21 | Round-trip equality | settled | U9, CP11 |
 | D22 | Meaning of `planned` | settled: carried one to one | mapping row `planned` |
 | D23 | Fractional `devotion` is truncated at load | settled: accepted, reported as approximated | calculator plan, settled decisions |
+| D24 | Item places of R56 | settled: preserved verbatim and counted per place; a repeated `instance` id is reported and every record kept (the same item GUID may repeat freely); island deletion drops the island's `itemHolders` and `itemStorage` (R14) | KTD16 |
+| D25 | `mythicEffect` on a socketed item | settled: with `boostConditionMet: true` the island's `island.effect.<E>.scaling` is 1, other known mythical-item effects of the island are 0, the effect's DLC is switched on and reported; ship holders are reported, not applied | KTD16 |
+| D26 | Item `scaling` values | settled: number 1, or 2 only for an item with `boostBuffs`; a DLC-gated item switches its DLC on and the report names it | KTD16 |

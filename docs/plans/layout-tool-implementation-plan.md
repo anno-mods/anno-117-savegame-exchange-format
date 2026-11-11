@@ -180,7 +180,10 @@ Source to catalog mapping (document scope unless marked island):
 | fertilities, region natural set (island) | `fertilities`, `fertilitiesComplete` |
 | patron, devotion, `Residence7/ResidentCount` (island) | `patron`, `devotion`, `population` |
 | `PopulationPauseInfo` (island) | `disabledNeeds` |
-| sockets, `ItemMap`, objects, conditions (island) | `itemHolders[]` |
+| sockets, `ItemMap`, objects, conditions (island) | `itemHolders[]` (buildings and ships, with `carried` for ship item slots) |
+| `AreaItemManager/AreaSlotContainer` (island) | `itemStorage[]` |
+| `MetaItemTransfer` (`GlobalItemContainer`, `MetaItems`), `ItemRacerAttributes` (document) | `account.items`, `account.transferItems`, `account.racers`, `account.race` |
+| `ItemMap` entries without a container, socket or storage reference | `unlocatedItems[]` |
 | Ranged `AreaEffectManager` records, objects, street graph (island) | `appliedEffects[]`, `rangeBuffs` |
 | water-in-range data `AqueductConsumer/DistributorsInRange` (island) | `factories[f].aqueduct` (type-level projection by strict majority, reported) |
 | `ModuleOwner` records, source and owner objects, factory `additionalModule` metadata (island) | `moduleAttachments[]`; type-level module flag only as a reported planner projection |
@@ -304,8 +307,17 @@ them as carried through. Unknown GUIDs are written as they are (R38).
 **Approach:** From `sockets`, `ItemMap` and `objects`: `itemHolders[]` entries with building GUID, instance id,
 position `{x, z, y?}` in game tile units, rotation in radians (absent when zero), and per item `{item, slot, boosted,
 boostConditionMet}`, each only when known (`boostConditionMet` from `ConditionManager`, key
-`ItemBoost_<item>_<id>`). The coordinate system is the one `spec/format.md` names.
+`ItemBoost_<item>_<id>`). The coordinate system is the one `spec/format.md` names. Beyond sockets (R56): ships with
+`PropertyTradeRouteVehicle` become holders with `kind: "ship"`, the route id and `carried` records from their item slots
+(slot kind 2; kinds 1 and 3 are product cargo and embarked units, not items); `AreaItemManager` stacks become `itemStorage`
+records (one record per instance, instances of one stack share `slot`); `GlobalItemContainer` stacks become
+`account.items`, `MetaItems` becomes `account.transferItems`, and `ItemRacerAttributes` of the player's participant becomes
+`account.racers` and `account.race`. `MythicEffectsVector` sets `mythicEffect` on the socketed item. Every `ItemMap`
+instance id is placed in exactly one list; an instance that no container or socket references goes to `unlocatedItems`.
+Objects of other participants are skipped; the player's objects carry no `OwnerProfile` or the value 41.
 **Test scenarios:**
+- On `Marcia 69.a8s` every `ItemMap` instance referenced from the player's sockets, ships, areas or account storage, and every unreferenced instance, appears exactly once across `itemHolders[].items`, `itemHolders[].carried`,
+  `itemStorage`, `account.items` and `unlocatedItems`, and the per-place counts are reported (AE26).
 - A villa with two items, one boosted with its condition met: all fields present and read back equal (AE10).
 - An item whose condition is unresolved has no `boostConditionMet`.
 - A holder with rotation zero has no `rotation` key.

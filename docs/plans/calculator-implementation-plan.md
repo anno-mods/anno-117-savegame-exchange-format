@@ -55,7 +55,7 @@ The full text is in the origin document. This table maps each requirement to the
 | R21, R22 | Game island reference as match key; `source` and generator block on export | U2, U9 |
 | R23 | Fertilities present or missing; absent is unknown | U5 |
 | R24 | Per-building counts are the calculator's view; a per-level count maps to the level's residence building when the file has no per-building count; populations are preserved | U5, U9 |
-| R25, R26, R28, R31, R40-R42, R55 | Not modelled: preserved verbatim and written back. Type-level item, aqueduct, module and effect choices come from `factories`; exact per-instance `moduleAttachments` are preserved and reported because the calculator has no per-instance module setting | U5, U9 |
+| R25, R26, R28, R31, R40-R42, R55, R56 | Not modelled: preserved verbatim and written back. Type-level item, aqueduct, module and effect choices come from `factories`; exact per-instance `moduleAttachments` are preserved and reported because the calculator has no per-instance module setting. Item records of every R56 place (`itemHolders[].items`, `itemHolders[].carried`, `itemStorage`, `account.items`, `account.transferItems`, `account.racers`, `account.race`, `unlocatedItems`) are preserved verbatim and the report counts them per place; the one effect the calculator applies from them is the active `mythicEffect` of a socketed item (KTD16) | U4, U5, U9 |
 | R27, R32-R35, R37, R49, R54 | Imports map to routes by the residual-supplier contract; `trade.routes`, `visits`, `minimumStock` are preserved; precedence of `imports`; the calculator does not derive imports from `routes` | U6 |
 | R39, R44 | Discoveries read and written; specific effects; basis flag | U7 |
 | R43 | Disabled needs list; every other need on, including needs of DLCs newly switched on | U5 |
@@ -67,8 +67,9 @@ The full text is in the origin document. This table maps each requirement to the
 | R5, R3 (calculator form) | Full replacement-scope confirmation and report | U10 |
 
 Acceptance examples in scope, each cited by a unit: AE1-AE9, AE13, AE14, AE18, AE19, AE21-AE23, AE25. AE11 (history kept as is) and
-AE20 (minimum stock) are covered by a preserved-as-is scenario in U12. Not applicable to the calculator (writer-side or
-planner-side): AE10, AE12, AE15-AE17, AE24.
+AE20 (minimum stock) are covered by a preserved-as-is scenario in U12. AE26 is covered in its calculator half (a file with item
+records imports and exports with all records unchanged, U9 and U12); its writer half is not applicable. Not applicable to the
+calculator (writer-side or planner-side): AE10, AE12, AE15-AE17, AE24.
 
 ### Scope Boundaries
 
@@ -123,7 +124,10 @@ planner-side): AE10, AE12, AE15-AE17, AE24.
   provided and imports with every need on.
 - KTD9. **Residual supplier and local producer follow R54 and R51.** The default supplier route is the residual
   supplier of R54: the supplier flagged `default`; with no flag and at least one `share`, the largest share, ties by the
-  lexically smallest island id; with neither, there is no residual supplier. More than one flagged default is reported and the
+  lexically smallest island id (the share fallback looks at island suppliers only); with neither, there is no residual supplier. A
+governor flagged `default` is the residual supplier (R54): the calculator models no governor supplier, so it is preserved and not
+applied, the other suppliers of the entry are ordinary routes, the product's default supplier is left as it is and the report names
+the case. More than one flagged default among all suppliers, island or governor, is reported and the
   entry is preserved, not written. Every other
   supplier is an ordinary route. A `userSetAmount` comes only from an `amount` the file carries (basis entered), on
   the default route too: the calculator supplies `max(userSetAmount, amount)` (`trade.ts`), so the value is a floor
@@ -153,22 +157,41 @@ planner-side): AE10, AE12, AE15-AE17, AE24.
   attachments are dropped and the report says so (R15, R55).
 - KTD15. **Preserved document-level entries lose what names a deleted island (R14).** On export, route stations, visits, `history`
   and `live` entries and supplier references in preserved `trade.imports` that name an island id absent from `islands[]` are
-  removed from the preserved copy and counted in the report.
+  removed from the preserved copy and counted in the report. Item records name no island (`itemHolders[].route` names a trade route),
+so `account.*` and `unlocatedItems` are never pruned; a deleted island's `itemHolders` and `itemStorage` go with its store (R14), and
+`account.transferItems` may keep listing GUIDs that no remaining record holds.
+- KTD16. **Item records are preserved; only an active `mythicEffect` is applied.** Scope follows the catalog: `itemHolders` and
+  `itemStorage` live in the island's `exchange.ext`; `account` (captured whole, so unknown subkeys survive) and `unlocatedItems` live
+  in the top-level `exchange.ext`; on export all return to their core locations. An instance id is unique in the file (R56), while the same item GUID
+  may appear in many records; the reader collects `instance` values in its single pass, reports a duplicate as a `problems` entry
+  and still preserves every record verbatim. The exporter never derives item records from `factories[f].items` and
+  never derives `factories[f].items` from item records (possession is not application). For each socketed item of a building holder
+  (`kind` absent or `building`) whose record carries `mythicEffect: E` and `boostConditionMet: true`, the island gets
+  `island.effect.<E>.scaling` = 1; every other mythical-item effect (`source: "mythical-item"`) of that island that the file knows
+  is written 0; unrelated effects are left alone. An `effects[E]` entry of the island record sets the same key and the larger value
+  wins. A ship holder's `mythicEffect` is preserved and reported as not applied. When the effect's DLC is off, the importer writes
+  the DLC key and the report names it. An unknown effect GUID is kept in the record and reported (R38). The exporter writes the key
+  back as `effects[E]` and preserves the item records unchanged. `factories[f].items` are written as numbers: 1 for a listed item,
+  2 for a boosted item that has `boostBuffs`; boosted on an item without `boostBuffs` is written 1 and reported as approximated;
+  a stored 0 is exported as unlisted; item keys and effect keys share the shape `<f>[<x>].scaling` and the exporter tells them
+  apart by a GUID lookup in `params.items`. An item scaling on a DLC-gated item switches that DLC on at load (`DLC.used`), so the
+  report names DLCs enabled this way and the first re-export of such a file adds the DLC to `settings.dlcs`.
 
 ### Assumptions
 
-- The specification repo exists with a tagged `v1.0.0` before U1 starts; Taludas reviews it (U0 output) because the
-  planner implements the same schema. The reference derivation rule of the trade fixtures (layout decision LD9) and the
-  `ext.planner` rows of the planner plan (PD4) are settled before the tag, because the vendored fixtures and the schema encode
-  them.
+- The calculator is implemented as a prototype against the untagged specification (U0 output, vendored at a commit and recorded in
+  `vendor/anno117-exchange/VERSION`) before `v1.0.0` is tagged. Taludas reviews the specification because the planner implements
+  the same schema. The reference derivation rule of the trade fixtures (layout decision LD9) and the `ext.planner` rows of the
+  planner plan (PD4) are settled before the tag, because the vendored fixtures and the schema encode them; the prototype
+  re-vendors after the tag and changes only what the tag changed.
 - `params.js` of the installed calculator version is the game data; GUIDs missing from it are reported and preserved.
 - Existing first-run behavior (`versionCalculator` absent) is avoided by always writing `versionCalculator`.
 
 ### Open decisions
 
-Each blocks the unit named and every unit that depends on it. `calculator-plan-decisions.md` records the reasoning and the
-status of every decision. Settled and not repeated here: device preferences survive an import (R5, CP10; U8 merges the
-`language` key of `calculatorSettings`, `main.ts:528-534`, and restores `darkMode.checked`, `views.ts:50`).
+All decisions are settled. `calculator-plan-decisions.md` records the reasoning and the status of every decision. Device
+preferences survive an import (R5, CP10; U8 merges the `language` key of `calculatorSettings`, `main.ts:528-534`, and restores
+`darkMode.checked`, `views.ts:50`).
 
 Settled by Nico:
 
@@ -185,13 +208,21 @@ Settled by Nico:
 - A fractional `devotion` or another non-integer value for a field the calculator loads with `persistInt` (`devotion`, `world.ts:1151`)
   is written as given and truncated at load; the report lists it as approximated, because R16 is exact only for integers (U5).
 
-| ID | Question | Recommendation | Blocks |
-| --- | --- | --- | --- |
-| CD3 | Island name after a collision suffix (KTD6): which `name` does the exporter write? | The suffixed name, with the original kept in `exchange.ext` and shown in the report; round-trip tests compare after the suffix rule. | U2, U9 |
-| CD4 | Strictness: which wrong-type or out-of-range values are coerced, dropped or fatal (negative or fractional counts, strings for numbers, non-unique ids)? | Coerce numeric strings with the loaders' own `parseInt`/`parseFloat`; drop a value that cannot be coerced with a report line; reject only the envelope problems of R18 and the version gate of R4. | U1, U4 |
-| CD6 | In applied basis (Plan and Master view modes), does the exporter write discovery-derived scales to `effects.global`? | No: only effects the user set specifically; `research.basis: "applied"` then says the lists are settings (R44). | U7, U9 |
-| CD7 | When `settings.volcano` and the volcano effects in `effects.bySession` both exist and differ, who wins? | Each reader uses the representation its model carries: the calculator the specific effects (R39), the planner its setting (P6); files written by either tool agree; a conformance fixture with a disagreement expects only a report. Recorded in `spec/conversion-rules.md`. | U7 |
-| CD10 | When is a preserved governor or non-player supplier restored on export, once the user has changed the product's default supplier? | Restore it only while the product's default is still the passive-trade supplier it was degraded to and `userSetAmount` is unchanged; otherwise drop it from the export (R15) and say so in the report. | U6, U9 |
+- CD3 (U2, U9): the exporter writes the island name with its collision suffix (KTD6). The file's original display name stays in
+  the island's `exchange.ext` and is shown in the report; round-trip tests compare names after the suffix rule.
+- CD4 (U1, U4): a numeric string is coerced with the loaders' own `parseInt`/`parseFloat`; a value that cannot be coerced is
+  dropped with a report line. Only the envelope problems of R18 and the version gate of R4 reject a file.
+- CD6 (U7, U9): the calculator stores no view mode. Plan and Master (`views.ts`, `ViewMode.plan`, `ViewMode.master`) are one-shot
+  actions that switch on all DLCs and set effect scalings, and the stored values are indistinguishable from user edits. The exporter
+  writes every stored effect scaling to `effects.global` and `effects.bySession` and always writes `research.basis: "applied"`, so
+  a reader treats the lists as settings (R44).
+- CD7 (U7): when `settings.volcano` and the volcano effects in `effects.bySession` differ (likewise `settings.seasons` and effect
+  155616), each reader uses the representation its model carries: the calculator reads the specific effects (R39), the planner its
+  setting (P6). Files written by either tool agree; a conformance fixture with a disagreement expects only a report. The rule is
+  recorded in `spec/conversion-rules.md`.
+- CD10 (U6, U9): a preserved governor or non-player supplier is restored on export only while the product's default is still the
+  passive-trade supplier it was degraded to and `userSetAmount` is unchanged; otherwise it is dropped from the export (R15) and the
+  report says so. The planner's CP4 rule is the same.
 
 Deferred, not a decision of this plan (CD8): a per-product passive-trade key (`<product>.passiveTrade.userSetAmount`) would let
 the calculator apply governor rates. Governors are preserved (R52); a later storage change needs Nico's approval and a one-time
@@ -229,7 +260,7 @@ Key mapping (format key -> calculator storage; island scope unless marked global
 | `disabledNeeds`, `needNotes` | `<level>[<need>].checked` = "0"; `<level>[<need>].notes` |
 | `fertilities` | `island.fertility.<g>.checked` |
 | `patron`, `devotion` | `selectedPatron`, `devotion` (as entered) |
-| `factories[f].items` | `<f>[<item>].scaling` 1 base, 2 boosted; unlisted = off |
+| `factories[f].items` | `<f>[<item>].scaling` as number: 1 base, 2 boosted (only for an item with `boostBuffs`; otherwise 1 and reported); unlisted = off (KTD16) |
 | `factories[f].effects` | `<f>[<effect>].scaling` 1 |
 | `factories[f].aqueduct`, `.modules` | `<f>.aqueductBuff.checked`; `<f>.module[<m>].checked` |
 | `effects` | `island.effect.<g>.scaling` |
@@ -244,7 +275,7 @@ Key mapping (format key -> calculator storage; island scope unless marked global
 | `effects.global` / `effects.bySession` | `globalEffects` / `sessionSettings` |
 | `research` | derived effect scales (KTD10) |
 
-Everything else (planner fields, itemHolders, moduleAttachments, appliedEffects, harbour, position, fleet, routes, visits, history,
+Everything else (planner fields, itemHolders, itemStorage, account, unlocatedItems, moduleAttachments, appliedEffects, harbour, position, fleet, routes, visits, history,
 minimumStock, unknown fields) goes to `exchange.ext`. Calculator-only state (`collapsibleStates`, `darkMode.checked`,
 `statisticsCollections`, the "All Islands" store, shared `passiveTrade.userSetAmount`, `effectCoverage`) is written to
 `ext.calculator` on export and restored from it on import.
@@ -276,7 +307,7 @@ unit waits for a later one. U9 may be drafted after U5 with the mapping read in 
 ### U0. Specification repo: schema, text, fixtures
 
 **Goal:** Create `anno-117-exchange-format` with the contract all three tools vendor.
-**Requirements:** R8-R12, R18-R20, R35.
+**Requirements:** R8-R12, R18-R20, R25, R35, R56.
 **Dependencies:** none. Owner: Nico; Taludas reviews before the `v1.0.0` tag.
 **Files (spec repo):** `schema/anno117-exchange.schema.json`, `spec/format.md`, `spec/conversion-rules.md`,
 `fixtures/valid/*.json`, `fixtures/invalid/*.json`, `fixtures/MANIFEST.json`, `tests/validate-fixtures.*`,
@@ -292,7 +323,7 @@ unknown fields at every level, unknown region/building/effect/product/discovery 
 pairs, the Cinis sawmill island (4 sawmills, 8 t/min Wood), disabled needs with a newly switched-on DLC, the trade
 constellations of R35 (point to point, distribution circuit with relays, relay net zero, manual one-slot route,
 distribution across sessions, multi-source collection, non-player station, same sink twice, loaded never unloaded,
-bidirectional circuit, shared supply, no ships), history and live blocks. `MANIFEST.json` lists, per fixture, whether
+bidirectional circuit, shared supply, no ships), history and live blocks, and item locations (a building holder with a `mythicEffect` item, a ship holder with `carried`, `itemStorage` with a shared-slot stack and a count record, several records of one item GUID, `account.items`, `account.transferItems`, `account.racers` with `account.race`, `unlocatedItems`, per-record `ext`). `MANIFEST.json` lists, per fixture, whether
 it is valid and the expected reason when it is not.
 **Test scenarios:**
 - Every valid fixture validates against the schema; every invalid fixture fails with the reason named in the manifest.
@@ -359,14 +390,14 @@ factory that outputs it and `associatedRegions` (13 materials; Sawmill 3089 Lati
 ### U4. Reader with unknown-field capture
 
 **Goal:** Turn a file into a typed document and capture everything unknown with its location.
-**Requirements:** R4, R13, R14, R18, R19, R38.
+**Requirements:** R4, R13, R14, R18, R19, R38, R56.
 **Dependencies:** U1.
 **Files:** `src/exchange/reader.ts`, `tests/exchange/reader.spec.ts`.
 **Approach:** `readExchange(text)` makes one pass and returns `{doc, unknown, problems}` or an envelope error. Envelope errors
 (not JSON, wrong or missing `format`, `formatVersion` major above the supported one with both versions named, missing
 `generator.name`, missing or duplicate island ids) reject the file (R4, R18); a newer minor passes. `unknown` is a list of
 `{pointer, value, scope}` for fields not in the catalog, grouped by island id or document. Catalog keys the calculator does
-not model (`itemHolders`, `moduleAttachments`, `appliedEffects`, `rangeBuffs`, `harbour`, `position`, `islandFile`,
+not model (`itemHolders`, `itemStorage`, `account` (captured whole, document scope), `unlocatedItems` (document scope), `moduleAttachments`, `appliedEffects`, `rangeBuffs`, `harbour`, `position`, `islandFile`,
 `islandSize`, `publicCoverages`, `villaCoverage`, `residenceItems`, `residenceEffects`, `islandItems`, `romanization`, `wonders`, `extraDemand`, `population`, `layout`, `dominantPatron`,
 `fleet`, `settings.map`, `name`, `history`, `live`) are captured the same way with their original core location, so they are
 written back (R13). `computed` is kept only for the comparison of U11 and is never exported from the file's copy. Known-key values of an unexpected type are `problems` (CD4: coerced when
@@ -385,7 +416,7 @@ product, discovery GUIDs) are data for the importer, which reports GUIDs absent 
 ### U5. Import plan: islands, buildings, needs, fertility, items
 
 **Goal:** Map island-scope data to island stores.
-**Requirements:** R16, R23, R24, R25, R26, R43, R48, R50, R55; KTD5, KTD8, KTD14.
+**Requirements:** R16, R23, R24, R25, R26, R43, R48, R50, R55, R56; KTD5, KTD8, KTD14, KTD16.
 **Dependencies:** U2, U3, U4.
 **Files:** `src/exchange/import-islands.ts`, `tests/exchange/import-islands.spec.ts`.
 **Approach:** For each island: skip and orphan it when `session` is not in `window.view.sessions` (KTD5). Otherwise the island's
@@ -399,7 +430,7 @@ report line "not provided"), `patron` and `devotion` without rounding, and `fact
 authoritative for that factory's items (listed 1 or 2, unlisted no key), effects, aqueduct and modules; a factory without an
 entry gets no keys. Residences: the per-building count wins; for a level with no per-building count, the level count of
 `residencesByLevel` becomes `constructed` of that level's residence building (one building per level in `params`), and the
-importer reports a difference when both exist and disagree (R24). Island `effects` are written as given. GUIDs absent from
+importer reports a difference when both exist and disagree (R24). Island `effects` are written as given; the active `mythicEffect` of socketed items is applied on top of them (KTD16), and every item record is otherwise preserved and counted per place in the report. GUIDs absent from
 `params` are kept in the island's `exchange.ext` with their original core location recorded, restored to that location by the
 exporter, and listed in the report. `notes` (per residence building) become `<residence building>.notes` and `needNotes` become
 `<level>[<need>].notes`. `population`, `moduleAttachments` and every other captured catalog key the calculator does not model go to
@@ -416,7 +447,7 @@ exporter, and listed in the report. `notes` (per residence building) become `<re
 - A need of a DLC that is off: with no key in the key map it is on after the DLC toggle; with the "0" the file's `disabledNeeds` produced it is off (KTD8; the toggle itself is checked in U12).
 - `notes` on a residence building and `needNotes` land in the key map under their storage keys.
 - Three farms with a silo attachment on one: the key map has `<f>.module[<m>].checked` from `factories[f].modules` and the attachment sits unchanged in `exchange.ext`; the plan's report lists it as per-instance and not applied (KTD14, AE25).
-- Value types: boolean keys are written as the strings "1" and "0", counts as numbers, `gameConnector.*` as real numbers (`getGameConnectorIdentity` returns null for anything else, `world.ts:1344`); a `devotion` with a fraction is written as given and reported as truncated at load.
+- Value types: boolean keys are written as the strings "1" and "0", counts as numbers, `gameConnector.*` as real numbers (`getGameConnectorIdentity` returns null for anything else, `world.ts:1344`); a `devotion` with a fraction is written as given and reported as truncated at load; an item `scaling` is written as the number 1 or 2.
 - An absent `fullyUtilize` on a construction-material end factory and on a module building means on (calculator default, `factories.ts:610-611`, `factories.ts:427`) and gets no key.
 - An unknown building GUID count and an unknown effect scale are retained in the island's `exchange.ext` with their original core location recorded (AE18; the restore on export is tested in U9).
 - An island with session 99999 becomes an orphan, no store is created.
@@ -455,6 +486,7 @@ its default flag, stays as an ordinary route with its amount, and the report nam
 - An explicit `default` flag on the smaller supplier makes it the default route; two flags are reported and the entry is not written (R54).
 - A default route with `amount` 10 and demand 4: `userSetAmount` 10, import 10, surplus 6 counts as excess production (R54 floor).
 - Listening Weasel Nome Gold: local producer 152358 gets `fullyUtilizeConstructed` "1", Cinis route is default at 0, no minimum (R51); with `fullyUtilize: false` in the file the flag stays "0".
+- A governor flagged `default` next to an island supplier with a `share`: the governor is the residual, so no default route is written, the island supplier is an ordinary route with its entered amount or 0, the governor entry stays in `exchange.ext` and the report names it (R54). A governor and an island supplier both flagged `default`: reported as more than one default, nothing written for the entry.
 - Two governor goods with different rates: the suppliers and `trade.governorHarbours` sit unchanged in `exchange.ext` and the key map has no route for them (R52, R46); the reload and export half is tested in U9.
 - A non-player supplier alone becomes the passive-trade default in the key map and the original supplier is kept in `exchange.ext` (the restore on export is tested in U9, CD10).
 - A two-island cycle for one product keeps the second route as an ordinary route with its amount and reports it.
@@ -480,7 +512,7 @@ in session 149679; `settings.dlcs` -> `calculatorSettings` keys; need consumptio
 the `buildings` entry of the end factory wins over `materials` for `constructed` and `fullyUtilizeConstructed`; a `materials` count
 writes only the keys the file's `buildings` does not state (`constructed`, and "1" for `fullyUtilizeConstructed` unless a state is
 given), and a difference between the two is reported (R50). `settings.volcano` and the volcano effects in `effects.bySession`:
-the specific effects win and a difference is reported (CD7); `settings.seasons` against effect 155616 follows the same rule.
+the calculator reads the specific effects and reports a difference (CD7); `settings.seasons` against effect 155616 follows the same rule.
 Planner-only settings go to `exchange.ext`. Area-buff GUIDs are never written.
 **Test scenarios:**
 - Researched 37870 with count 5 writes `82017.scaling` 5; researched with no count writes 1 (AE19).
@@ -520,7 +552,7 @@ before the reload.
 ### U9. Exporter
 
 **Goal:** Write a valid exchange file from the live state.
-**Requirements:** R6, R7, R13, R14, R15, R16, R21, R22, R23, R43, R44, R48, R50, R51, R55; KTD13, KTD14, KTD15; CD10.
+**Requirements:** R6, R7, R13, R14, R15, R16, R21, R22, R23, R43, R44, R48, R50, R51, R55, R56; KTD13, KTD14, KTD15, KTD16; CD10.
 **Dependencies:** U2, U3, U8.
 **Files:** `src/exchange/exporter.ts`, `tests/exchange/exporter.spec.ts`.
 **Approach:** `buildDocument()` reads `localStorage` with the same lenient parsing as the app loaders
@@ -530,13 +562,13 @@ before the reload.
 `trade.imports` from `tradeRoutes`: every route of a receiving island and product is a supplier, the default route carries
 `default: true`, a route with `userSetAmount` > 0 carries `amount` with basis `entered` (on the default route too), and a
 zero-minimum ordinary route is written as a supplier without `amount`, so the alternative supplier survives a round trip;
-`research` (basis "applied") and `settings` from the effect stores, `ext.calculator` (collapsibleStates, darkMode,
+`research` (basis "applied", CD6) and `settings` from the effect stores, with every stored effect scaling written to `effects.global` and `effects.bySession`, `ext.calculator` (collapsibleStates, darkMode,
 statisticsCollections, All Islands store, routes that name the aggregate, shared `passiveTrade.userSetAmount`,
 `effectCoverage`, UI settings), then the preserved `exchange.ext` content: orphans and unknown GUID entries return to their
 original core locations; the original import entry of a cycle or an ambiguous default returns while the product's routes are
 unchanged (U6, CD10 rule); `moduleAttachments` per KTD14; preserved document-level entries are pruned per KTD15; a preserved
 governor or non-player supplier returns per CD10; a preserved `fullyUtilize`, `planned` or other sibling field inside a
-`buildings` entry stays unless the calculator's own value for it exists. `disabledNeeds` is written for every island as
+`buildings` entry stays unless the calculator's own value for it exists. Every captured catalog key the calculator does not model returns to its original core location unchanged, among them `itemHolders` (with `kind`, `route`, `carried`, `mythicEffect`, enabled socket count), `itemStorage`, `account` and `unlocatedItems` (KTD16); item records are never synthesized from `factories`. `disabledNeeds` is written for every island as
 an object per level (KTD8). The "All Islands" aggregate is never exported as an island. Export writes only keys the user set,
 with these exceptions: construction-material end factories and module buildings always carry an explicit `fullyUtilize` (R50 and KTD13), and
 `disabledNeeds` is always present. The exporter writes no export timestamp, so round-trip equality is equality of the
@@ -621,6 +653,8 @@ on every navigation and cannot be used for reload flows) and drives `#exchange-s
 - Old dump import still works unchanged (regression).
 - Round trip of the old sample dump through export and import changes no computed value.
 - History and `minimumStock` of a fixture survive import and export unchanged (AE11, AE20, preserved as is).
+- The item-locations fixture imports and exports with `itemHolders`, `itemStorage`, `account` and `unlocatedItems` unchanged, including several records of one item GUID and a count record (AE26, calculator half); a file that repeats an `instance` id imports with a report line and all records kept; a 600-record `itemStorage` survives one building edit between import and export.
+- A building holder with a `mythicEffect` item and `boostConditionMet: true` sets `island.effect.<E>.scaling` to 1 and the effect's DLC on, the report names the DLC; the same item with `boostConditionMet: false` and a ship holder item set nothing and are reported; a mythical-item effect the file does not list is written 0 (KTD16).
 - A DLC switched on after import turns the unlisted needs of that DLC on and keeps a listed need off (AE22, `world.ts:742-748`); a file without `settings.dlcs` whose island has a count for a DLC 3 building enables the DLC at load (runtime check of `DLC.used`) and the report names it.
 - Oracle for the Marcia 69 scenarios: `Marcia 69 updated.json` with `scripts/calculator_config/cmp_runtime.py` and `run_calc.js` of the repository `anno-117-savegame-exchange-format`, which already load configs into the calculator and compare computed values.
 **Verification:** full Verification Contract.
