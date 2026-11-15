@@ -146,7 +146,7 @@ street rule reproduces the Star-of-the-Nile library observation.
 | LD7 | Where do shared readers and the derivation live: the layout repo (exchange repo imports them) or the exchange repo (layout imports)? | Layout repo, because `scripts/calculator_config/extract_save.py` and `tests/test_savegame_decode.py` in the exchange repo already import it via `ANNO_LAYOUT_REPO` and the layout repo ships the script. Switch `scripts/calculator_config/*` to the shared readers and derivation and replace the reference copy `scripts/savegame_to_planner/` with a pointer. The analysis scripts keep their own `xmlstream.py` unless Nico wants them moved (they never import the layout repo today). | L2, L6 |
 | LD8 | Where in the save are the active DLCs stored, so that the writer can derive `settings.dlcs`? The planner keeps active DLCs in its settings and the save holds them; the field is not located in the script yet. | Find the field and the DLC identifiers in L7, map them to the exchange DLC keys, and write `settings.dlcs`; write nothing when the field is missing from a save (R19: absence is unknown). The calculator enables a DLC when stored counts need it (`DLC.used`); the planner reports a file DLC that its app settings have off. | L7 |
 | LD9 | The reference derivation rule. R37 and R32 say every source feeds every sink and relay and the first loader in circuit order serves first; `derive_trade` and `trade_derive.py` give each sink ONE supplier, the nearest preceding source in the circuit (`max(s for s in sources if s < r, default=sources[-1])`, `savegame_to_planner.py:746`, `trade_derive.py:57`). The two rules differ on every multi-source route, and the accuracy figures in R37 were measured with the analysis scripts, not with a stated rule. | Pick the rule in `spec/format.md` with the conformance fixtures; implement it once in `derive_imports`; change the expectations of the config updater's stored results deliberately; re-measure the mean error (0.23 and 0.27 in R37) with the final rule and update R37. Settle it before the spec tag `v1.0.0`, because the vendored fixtures encode the rule. | spec tag (calculator U0), L1, L6 |
-| LD10 | `source.savedAt`: no save-time field is documented; the analysis uses the last visit time as the end of the window. | Write `savedAt` only when a field is found; otherwise omit it (R19). | L7 |
+| LD10 | `source.saveTime`: no save-time field is documented; the analysis uses the last visit time as the end of the window. | Write `saveTime` only when a field is found; otherwise omit it (R19). | L7 |
 
 ### Decisions assigned elsewhere
 
@@ -223,7 +223,7 @@ independent of each other and add catalog keys.
 **Goal:** A pinned copy of schema and fixtures, and a test harness that validates writer output.
 **Requirements:** R8, R20; KTD8.
 **Dependencies:** specification repo tag `v1.0.0`.
-**Files:** `vendor/anno117-exchange/schema.json`, `vendor/anno117-exchange/fixtures/**`,
+**Files:** `vendor/anno117-exchange/schema/anno117-exchange.schema.json`, `vendor/anno117-exchange/fixtures/**`,
 `vendor/anno117-exchange/VERSION`, `requirements-dev.txt`, `pytest.ini` (markers `needs_save`, `slow`), `tests/conftest.py`.
 The folder is written and checked by the single vendoring script of the specification repo
 (`python <spec checkout>/scripts/vendor.py --dest vendor/anno117-exchange [--check]`, calculator unit U0), so the layout repo
@@ -414,7 +414,7 @@ ship objects (type, modules, captain item) with the number per route. `harbour {
 `ItemSlot`, and copies `optional_ship_effects` from `paxplanner/model/routes.py:274`, KTD3). `settings.map` with template or map file and expansions; per island
 `islandFile`, `islandSize` and `position` as a slot on a planner template or the map element index and `x`, `z` for a
 campaign map, with the reliability of a derived slot stated in the spec. `source {kind: "savegame", file,
-saveFormatVersion (SessionFileVersion), gameVersion?, savedAt?}`. `settings.dlcs` comes from the save's DLC field (LD8).
+savegameFormatVersion (SessionFileVersion), gameVersion?, saveTime?}`. `settings.dlcs` comes from the save's DLC field (LD8).
 **Test scenarios:**
 - `research.basis` is "researched" and a repeatable discovery researched five times has count 5 (AE19 source side).
 - A Latium island on the campaign map has `islandFile` equal to the stem and `position` as element index and

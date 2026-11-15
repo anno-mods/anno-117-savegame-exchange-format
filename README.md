@@ -5,8 +5,9 @@ Research and reference implementation for a tool-neutral exchange format between
 bundles the requirements, the investigations, the scripts, the saves and the tests needed to review the work and to
 implement the planner side.
 
-Status: requirements are settled, the format is not implemented yet. The key catalog in the requirements is a first
-draft; names are working names.
+Status: the draft schema, specification text and fixtures are available in this checkout. Consumer integration,
+planner catalog review (PD4) and the reference trade derivation decision (LD9) remain before a v1.0.0 release.
+The standalone release repository is planned as `anno-117-exchange-format`; this evidence bundle is not a release.
 
 This is the `evidence` branch. `main` carries the specification, general findings and roadmap only; this branch adds
 the saves, derived configs, scripts, probes, accuracy analysis and tests that reproduce and challenge them.
@@ -24,7 +25,9 @@ the saves, derived configs, scripts, probes, accuracy analysis and tests that re
 
 | Question | Read |
 | --- | --- |
-| What must the format and the tools do? Requirements R1-R53, key catalog, conversion rules, acceptance examples | [`docs/spec/exchange-format-requirements.md`](docs/spec/exchange-format-requirements.md) |
+| What must the format and the tools do? Requirements R1-R56 and acceptance examples | [`docs/spec/exchange-format-requirements.md`](docs/spec/exchange-format-requirements.md) |
+| What is the draft wire contract? | [`spec/format.md`](spec/format.md), [`spec/conversion-rules.md`](spec/conversion-rules.md), [`schema/anno117-exchange.schema.json`](schema/anno117-exchange.schema.json) |
+| Which examples and rejection cases must tools support? | [`fixtures/MANIFEST.json`](fixtures/MANIFEST.json) |
 | What did the investigations find (savegame, calculator, planner, accuracy figures)? | [`docs/insights.md`](docs/insights.md) |
 | Where does each value live in the savegame? | [`docs/findings/savegame-structure.md`](docs/findings/savegame-structure.md) |
 | How accurate is the derived good flow, and why? | [`docs/analysis/derived-trade-flow-accuracy/analysis.md`](docs/analysis/derived-trade-flow-accuracy/analysis.md) |
@@ -53,7 +56,8 @@ Requires [uv](https://docs.astral.sh/uv/) and Python 3.11 or newer.
 
 ```
 uv sync
-uv run pytest -q                      # offline tests on the committed data
+uv run pytest -q                      # offline tests, including schema and fixture checks
+uv run python tests/validate-fixtures.py # standalone fixture and vendoring checks
 ANNO_PLANNER_REPO=../Anno-117-Planner uv run pytest -q   # adds the planner load/engine checks
 ```
 
@@ -87,17 +91,27 @@ It needs [RdaConsole](https://github.com/anno-mods/RdaConsole) and
 ## Folder overview
 
 ```
-docs/spec/        requirements and key catalog (the contract to review)
+schema/           JSON Schema for the draft wire contract
+spec/             format semantics and tool conversion rules
+fixtures/         synthetic examples and invalid cases, indexed by MANIFEST.json
+docs/spec/        requirements and acceptance examples
 docs/findings/    how the savegame is structured, how the calculator config was updated
 docs/analysis/    derived trade-flow accuracy: document, scripts, result tables
 docs/insights.md  measured facts and decisions, with pointers
 docs/roadmap.md   remaining work per repo
 data/raw/         saves (.a8s) and the original calculator config
 data/processed/   updated calculator config, derived planner plans, reports
-scripts/          savegame_to_planner, calculator_config, probes
+scripts/          vendor.py, savegame_to_planner, calculator_config, probes
 tests/            pytest suite (offline, planner-dependent, slow/needs_save)
 outputs/          generated files (empty in git)
 ```
+
+## Vendoring the draft
+
+From the chosen specification checkout, run `python scripts/vendor.py --dest <consumer>/vendor/anno117-exchange`.
+Use the same command with `--check` to compare the copy. It copies `schema/` and `fixtures/` and writes `VERSION`;
+the schema is at `vendor/anno117-exchange/schema/anno117-exchange.schema.json`. Released consumers must pin a reviewed tag.
+The script does not copy this repository's saves, configs or research data.
 
 ## Data and licensing notes
 

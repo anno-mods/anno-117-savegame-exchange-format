@@ -1,11 +1,14 @@
 # Roadmap
 
 What remains, per repo. Requirement IDs refer to `docs/spec/exchange-format-requirements.md`, which holds the
-detail and acceptance examples (AE1-AE25). The unit lists are in `docs/plans/calculator-implementation-plan.md` (U0-U12),
+detail and acceptance examples (AE1-AE26). The unit lists are in `docs/plans/calculator-implementation-plan.md` (U0-U12),
 `planner-implementation-plan.md` (P0-P11) and `layout-tool-implementation-plan.md` (L1-L10); `docs/plans/scoping-synthesis.md`
 holds the decisions that span them.
 
-## Specification repo (new, `anno-117-exchange-format`)
+## Specification repo (`anno-117-exchange-format`)
+
+Draft artifacts are in this checkout: `schema/`, `spec/`, `fixtures/`, `tests/validate-fixtures.py` and
+`scripts/vendor.py`. The work below includes their review and release into the standalone specification repository.
 
 - JSON Schema (draft 2020-12) for the envelope and all catalog keys; no closed lists for regions, building kinds,
   effect kinds, source kinds or DLC names (R19).
@@ -70,4 +73,4 @@ holds the decisions that span them.
 - Latium and Albion campaign maps have no planner template: decide how the planner shows distances for them.
 - Spacing and order of the storage-trend buffer; whether generation and consumption are per minute.
 - Whether a hand-checked in-game list of buildings reached by a second street-distance effect agrees.
-- A save-time field for `source.savedAt` (layout decision LD10).
+- A save-time field for `source.saveTime` (layout decision LD10).

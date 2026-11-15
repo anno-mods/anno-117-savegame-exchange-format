@@ -1,0 +1,54 @@
+{
+  "format": "anno117-exchange",
+  "formatVersion": "1.0",
+  "generator": {
+    "name": "hand-written"
+  },
+  "islands": [
+    {
+      "id": "a",
+      "villaCoverage": {
+        "default": 50,
+        "byLevel": {
+          "1499": 60
+        },
+        "byResidence": {
+          "3174": 75
+        }
+      },
+      "residenceEffects": {
+        "byLevel": {
+          "1499": {
+            "999101": 50
+          }
+        },
+        "byResidence": {
+          "3174": {
+            "999101": 75
+          }
+        }
+      },
+      "publicCoverages": {
+        "default": 100,
+        "byLevel": {
+          "1499": {
+            "999102": 50
+          }
+        },
+        "byResidence": {
+          "3174": {
+            "999102": 0
+          }
+        }
+      },
+      "harbour": {
+        "warehouse": 999103,
+        "tradingSpots": "3",
+        "item": {
+          "item": 999104,
+          "boosted": false
+        }
+      }
+    }
+  ]
+}

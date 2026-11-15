@@ -337,7 +337,7 @@ it is valid and the expected reason when it is not.
 **Goal:** The calculator carries a pinned copy of schema and fixtures, hand-written types and the `window.exchange` entry point.
 **Requirements:** R8, R9, R19, R20; KTD4, KTD7, KTD11, KTD12.
 **Dependencies:** U0.
-**Files:** `vendor/anno117-exchange/schema.json`, `vendor/anno117-exchange/fixtures/**`,
+**Files:** `vendor/anno117-exchange/schema/anno117-exchange.schema.json`, `vendor/anno117-exchange/fixtures/**`,
 `vendor/anno117-exchange/VERSION`, `src/exchange/types.ts`, `src/exchange/index.ts` (installs `window.exchange`, KTD12),
 `package.json` (dev dependency `ajv` after approval).
 **Approach:** The vendored folder is written and checked by the single vendoring script of the specification repo

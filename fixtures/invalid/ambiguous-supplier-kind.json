@@ -1,0 +1,26 @@
+{
+  "format": "anno117-exchange",
+  "formatVersion": "1.0",
+  "generator": {
+    "name": "hand-written"
+  },
+  "islands": [
+    {
+      "id": "a"
+    }
+  ],
+  "trade": {
+    "imports": [
+      {
+        "island": "a",
+        "product": 1,
+        "suppliers": [
+          {
+            "island": "other",
+            "governor": 2
+          }
+        ]
+      }
+    ]
+  }
+}

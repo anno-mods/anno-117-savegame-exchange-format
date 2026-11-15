@@ -1,0 +1,18 @@
+{
+  "format": "anno117-exchange",
+  "formatVersion": "1.0",
+  "generator": {
+    "name": "hand-written"
+  },
+  "islands": [
+    {
+      "id": "a",
+      "moduleAttachments": [
+        {
+          "building": 1,
+          "instance": 2
+        }
+      ]
+    }
+  ]
+}

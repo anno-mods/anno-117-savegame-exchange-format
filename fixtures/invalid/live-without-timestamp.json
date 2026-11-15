@@ -1,0 +1,17 @@
+{
+  "format": "anno117-exchange",
+  "formatVersion": "1.0",
+  "generator": {
+    "name": "hand-written"
+  },
+  "islands": [
+    {
+      "id": "a"
+    }
+  ],
+  "live": {
+    "clock": "game",
+    "unit": "t/min",
+    "islands": {}
+  }
+}

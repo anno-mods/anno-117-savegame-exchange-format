@@ -264,7 +264,7 @@ writes them.
 **Goal:** A pinned copy of schema and fixtures; tests validate files against it.
 **Requirements:** R8, R20; KTD7.
 **Dependencies:** specification repo `v1.0.0`.
-**Files:** `vendor/anno117-exchange/schema.json`, `vendor/anno117-exchange/fixtures/**`, `vendor/anno117-exchange/VERSION`,
+**Files:** `vendor/anno117-exchange/schema/anno117-exchange.schema.json`, `vendor/anno117-exchange/fixtures/**`, `vendor/anno117-exchange/VERSION`,
 `pyproject.toml` (`jsonschema` in the dev group), `paxplanner.spec` (include the vendored folder only if the runtime reads
 it; the runtime validator is hand-written, so the folder stays out of the build).
 **Approach:** The folder is written and checked by the single vendoring script of the specification repo
