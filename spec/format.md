@@ -103,7 +103,10 @@ key makes older files invalid.
 
 All coverage values are 0 to 100. Lookup order is `byResidence`, `byLevel`, then `default` where defined.
 Each history series requires `clock`, `unit`, and either `start`, `step`, `values` or timestamped `points`.
-A live snapshot requires `clock`, `unit` and `timestamp` (R28).
+A savegame writer may omit a `kind: storage` history series when every recorded value is zero. This is lossy: an
+omitted series remains unknown under the general absence rule; readers must not infer historical zero from its absence.
+Other tools preserve a provided series unchanged. A live snapshot requires `clock`, `unit` and `timestamp` (R28), and
+keeps `storage: 0` when zero is the known latest value.
 
 ## Validation and fixture scope
 
