@@ -409,7 +409,7 @@ import-level `amount` with its basis, and a writer without a known demand omits 
 **Approach:** `research {basis: "researched", researched, counts, queue}` from `MetaTechHandler`; knowledge per minute
 is absent. `effects.global` holds the meta effects of the player that are neither discoveries nor patron-derived
 (R39). `dominantPatron`. `fleet.effects` for the optional ship effects found in `meta_effects`; `fleet.ships` from the
-ship objects (type, modules, captain item) with the number per route. `harbour {warehouse, spots, item?}` from
+ship objects (type, modules, captain item) with the number per route. `harbour {warehouse, tradingSpots, item?}` from
 `derive_harbour` (trading post GUIDs, piers; this unit refactors it to return a plain `(guid, boosted)` tuple instead of an
 `ItemSlot`, and copies `optional_ship_effects` from `paxplanner/model/routes.py:274`, KTD3). `settings.map` with template or map file and expansions; per island
 `islandFile`, `islandSize` and `position` as a slot on a planner template or the map element index and `x`, `z` for a
@@ -420,7 +420,7 @@ saveFormatVersion (SessionFileVersion), gameVersion?, savedAt?}`. `settings.dlcs
 - A Latium island on the campaign map has `islandFile` equal to the stem and `position` as element index and
   coordinates, no slot.
 - An Aegyptus island has the template slot from the stem lookup.
-- The harbour of an island with trading post and two piers records warehouse GUID and `spots`.
+- The harbour of an island with trading post and two piers records warehouse GUID and `tradingSpots`.
 - `source` has file name and save format version.
 **Verification:** pytest; `needs_save` check on `Marcia 69.a8s`.
 
